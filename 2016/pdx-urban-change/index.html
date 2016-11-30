@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  <div id="street-view"></div>
+    <script>
+      var panorama;
+      function initialize() {
+        panorama = new google.maps.StreetViewPanorama(
+            document.getElementById('street-view'),
+            {
+              position: {lat: 45.5466774, lng: -122.6666701},
+              pov: {heading: 357, pitch: 0},
+              zoom: 1,
+              addressControl: false,
+              linksControl: false,
+              // panControl: false,
+              enableCloseButton: false,
+              imageDateControl: false,
+              fullscreenControl: false
+
+            });
+      }
+    </script>
+    <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOcxmKrXoD_D9GT9kPzyfdoxY28VeTj7U&callback=initialize">
+    </script>
+
+<!-- <iframe src="https://www.google.com/maps/@45.5466864,-122.6666702,3a,75y,2.09h,87.99t/data=!3m6!1e1!3m4!1sGfa9nSSzEn_p_HAsgQ7XgA!2e0!7i3328!8i1664!6m1!1e1"> -->
+
+<!-- <img jstcache="910" class="tactile-timemachine__preview-background-thumbnail" src="//geo0.ggpht.com/cbk?cb_client=maps_sv.tactile&amp;authuser=0&amp;hl=en&amp;output=thumbnail&amp;thumb=2&amp;panoid=Gfa9nSSzEn_p_HAsgQ7XgA&amp;w=345&amp;h=170&amp;yaw=357.50959928978824&amp;pitch=4.392750034027358&amp;ll=45.54667738115625,-122.6666701194661"> -->
+
+  <script src="js/project.js"></script>
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+  </script>
+
+</body>

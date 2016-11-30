@@ -1,0 +1,85 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4, h6 {
+	font-weight: normal;
+	-webkit-margin-before: 0.125em;
+	-webkit-margin-before: 0.125em;
+	-webkit-margin-after: 0.125em;
+	color: #414243;
+}
+
+
+    .precinct {
+      fill: #e1e2e3;
+    }
+
+    .borders {
+      fill: none;
+      stroke: #fff;
+      stroke-linejoin: round;
+      stroke-width: 1px;
+    }
+
+.outline {
+  fill: none;
+  stroke: #a1a2a3;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+
+    /* Example from https://bl.ocks.org/mbostock/4060606 */
+    /*.q0-9 { fill:rgb(247,251,255); }
+    .q1-9 { fill:rgb(222,235,247); }
+    .q2-9 { fill:rgb(198,219,239); }
+    .q3-9 { fill:rgb(158,202,225); }
+    .q4-9 { fill:rgb(107,174,214); }
+    .q5-9 { fill:rgb(66,146,198); }
+    .q6-9 { fill:rgb(33,113,181); }
+    .q7-9 { fill:rgb(8,81,156); }
+    .q8-9 { fill:rgb(8,48,107); }*/
+
+				.q0-9 { fill:#a50026; }
+		    .q1-9 { fill:#d73027; }
+		    .q2-9 { fill:#f46d43; }
+		    .q3-9 { fill:#fdae61; }
+		    .q4-9 { fill:#fee08b; }
+		    .q5-9 { fill:#ffffbf; }
+		    .q6-9 { fill:#d9ef8b; }
+		    .q7-9 { fill:#a6d96a; }
+		    .q8-9 { fill:#66bd63; }
+		    /*.q8-9 { fill:#1a9850; }*/
+
+    #tooltip {
+    	position: absolute;
+    	z-index: 10;
+    	visibility: hidden;
+    	background-color: #fff;
+    	border: 1px solid #d1d2d3;
+    	padding: 6px 6px;
+    	font-size: 16px;
+    	color: #444;
+    	width: 160px;
+    	height: 70px;
+    	right:50px;
+    	bottom:50px;
+    }
+
+    #tooltip h4 {
+    	margin: 3px;
+    }
+
+
+    th {
+    	font-size: 14px;
+    	text-align: left;
+    }
+
+    td {
+    	font-size: 14px;
+    }

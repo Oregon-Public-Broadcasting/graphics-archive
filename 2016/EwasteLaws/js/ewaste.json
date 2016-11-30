@@ -1,0 +1,3823 @@
+ {"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4350758,
+          37.724061
+        ]
+      },
+      "properties": {
+        "ID": "1",
+        "City": "San Francisco",
+        "Province/State": "CA",
+        "Full Address": " 4631 Mission Street, San Francisco, CA 94112 San Francisco CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3808816,
+          37.7338406
+        ]
+      },
+      "properties": {
+        "ID": "2",
+        "City": "San Francisco",
+        "Province/State": "CA",
+        "Full Address": " 340 Harbor Way San Francisco San Francisco CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0358646,
+          32.9628232
+        ]
+      },
+      "properties": {
+        "ID": "3",
+        "City": "Poway",
+        "Province/State": "CA",
+        "Full Address": "yes 12455 Kerran St #300 Poway, CA 92064, USA Poway CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8863286,
+          37.3382082
+        ]
+      },
+      "properties": {
+        "ID": "4",
+        "City": "San Jose",
+        "Province/State": "CA",
+        "Full Address": "yes 2127 Monteray Hwy San Jose CA San Jose CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6508876,
+          34.0633443
+        ]
+      },
+      "properties": {
+        "ID": "5",
+        "City": "Ontario",
+        "Province/State": "CA",
+        "Full Address": "yes 1541 West Brooks Street Ontario CA Ontario CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0544818,
+          37.6203821
+        ]
+      },
+      "properties": {
+        "ID": "6",
+        "City": "Hayward",
+        "Province/State": "CA",
+        "Full Address": " 30502 Huntwood Ave Hayward CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9293956,
+          37.4960342
+        ]
+      },
+      "properties": {
+        "ID": "7",
+        "City": "Fremont",
+        "Province/State": "CA",
+        "Full Address": " 897 Boggs Terrace\nFremont, CA 94539 Fremont CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1597929,
+          34.0005691
+        ]
+      },
+      "properties": {
+        "ID": "8",
+        "City": "Commerce",
+        "Province/State": "CA",
+        "Full Address": "yes 2850 Tanager Ave, Commerce CA Commerce CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9034374,
+          33.7483175
+        ]
+      },
+      "properties": {
+        "ID": "9",
+        "City": "Santa Ana",
+        "Province/State": "CA",
+        "Full Address": " 2518 W 5th Street Santa Ana CA Santa Ana CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7490656,
+          33.665242
+        ]
+      },
+      "properties": {
+        "ID": "10",
+        "City": "Irvine",
+        "Province/State": "CA",
+        "Full Address": "yes The Great Park Irvine, 8065 Marine Way, Irvine, CA 92618 Irvine CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0568957,
+          37.6168926
+        ]
+      },
+      "properties": {
+        "ID": "11",
+        "City": "Hayward",
+        "Province/State": "CA",
+        "Full Address": " 1475 Crocker Avenue \nHayward, CA 94544 Hayward CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2907796,
+          37.9577016
+        ]
+      },
+      "properties": {
+        "ID": "12",
+        "City": "Stockton",
+        "Province/State": "CA",
+        "Full Address": "yes 1988 E. Alpine Ave Stockton CA Stockton CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6786847,
+          34.0120229
+        ]
+      },
+      "properties": {
+        "ID": "13",
+        "City": "Chino",
+        "Province/State": "CA",
+        "Full Address": "yes 13941 Norton Ave. Unit D\nChino, CA 91710 Chino CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.202308,
+          33.1599069
+        ]
+      },
+      "properties": {
+        "ID": "14",
+        "City": "San Marcos",
+        "Province/State": "CA",
+        "Full Address": " 2937 Norman Strasse Rd, San Marcos, CA 92069 San Marcos CA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5157535,
+          27.6648274
+        ]
+      },
+      "properties": {
+        "ID": "15",
+        "City": "Tampa, FL",
+        "Province/State": "FL",
+        "Full Address": "NO LAW 6902 7th Ave East\nTampa, FL 33619 Tampa, FL FL ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2832564,
+          33.8981579
+        ]
+      },
+      "properties": {
+        "ID": "16",
+        "City": "Doraville",
+        "Province/State": "GA",
+        "Full Address": "NO LAW 3121 Marjan Dr., Doraville, GA 30340 Doraville GA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      },
+      "properties": {
+        "ID": "17",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": "LANDFILL BAN  Chicago IL ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      },
+      "properties": {
+        "ID": "18",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": "LANDFILL BAN  Chicago IL ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.8447938,
+          42.3636331
+        ]
+      },
+      "properties": {
+        "ID": "19",
+        "City": "Waukegan",
+        "Province/State": "IL",
+        "Full Address": "LANDFILL BAN  Waukegan IL ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      },
+      "properties": {
+        "ID": "20",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": "LANDFILL BAN 4734 W. Chicago Ave. Chicago IL Chicago IL ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1522765,
+          42.4792618
+        ]
+      },
+      "properties": {
+        "ID": "21",
+        "City": "Woburn",
+        "Province/State": "MA",
+        "Full Address": "220 West Cummings Park, Woburn, MA 01801 Woburn MA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1656462,
+          42.7139972
+        ]
+      },
+      "properties": {
+        "ID": "22",
+        "City": "Lawrence",
+        "Province/State": "MA",
+        "Full Address": "25 Medford St, Lawrence, MA 01841 Lawrence MA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1611903,
+          42.7073383
+        ]
+      },
+      "properties": {
+        "ID": "23",
+        "City": "Lawrence",
+        "Province/State": "MA",
+        "Full Address": "15 Union Street, Lawrence, MA 01840 Lawrence MA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1002881,
+          42.3808757
+        ]
+      },
+      "properties": {
+        "ID": "24",
+        "City": "Somerville",
+        "Province/State": "MA",
+        "Full Address": "35 Medford Street, Somerville, MA 02143 Somerville MA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9300376,
+          42.8583925
+        ]
+      },
+      "properties": {
+        "ID": "25",
+        "City": "Amesbury",
+        "Province/State": "MA",
+        "Full Address": "23 Noel Street Amesbury, MA 01913 Amesbury MA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9903438,
+          42.0835153
+        ]
+      },
+      "properties": {
+        "ID": "26",
+        "City": "Brockton",
+        "Province/State": "MA",
+        "Full Address": "175 E Ashland St, Brockton, MA 02302 Brockton MA ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5715015,
+          42.2593625
+        ]
+      },
+      "properties": {
+        "ID": "27",
+        "City": "Kalamazoo",
+        "Province/State": "MI",
+        "Full Address": "OEM takeback law 2619 Miller Road, Kalamazoo, MI 49001 Kalamazoo MI ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6447492,
+          42.8694731
+        ]
+      },
+      "properties": {
+        "ID": "28",
+        "City": "Kentwood",
+        "Province/State": "MI",
+        "Full Address": "OEM takeback law 2929 32nd St. Kentwood, MI 49512 Kentwood MI ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4011619,
+          44.2519526
+        ]
+      },
+      "properties": {
+        "ID": "29",
+        "City": "Cadillac",
+        "Province/State": "MI",
+        "Full Address": "OEM takeback law 2025 N Mitchell St, Cadillac, MI 49601, USA Cadillac MI ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4895463,
+          42.0938577
+        ]
+      },
+      "properties": {
+        "ID": "30",
+        "City": "St Joseph",
+        "Province/State": "MI",
+        "Full Address": "OEM takeback law 3621 Tennis Court St Joseph, MI 49085 St Joseph MI ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2652254,
+          42.8247293
+        ]
+      },
+      "properties": {
+        "ID": "31",
+        "City": "Oxford",
+        "Province/State": "MI",
+        "Full Address": "OEM takeback law 190 S. Washington St., Oxford, Michigan Oxford MI ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1827051,
+          42.4594803
+        ]
+      },
+      "properties": {
+        "ID": "32",
+        "City": "Oak Park",
+        "Province/State": "MI",
+        "Full Address": "OEM takeback law 26500 Harding St, Oak Park, MI 48237, United States Oak Park MI ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.338761,
+          42.8764344
+        ]
+      },
+      "properties": {
+        "ID": "33",
+        "City": "Londonderry",
+        "Province/State": "NH",
+        "Full Address": " 113 Hillside Ave, Londonderry, NH 03053 Londonderry NH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.145421,
+          40.768434
+        ]
+      },
+      "properties": {
+        "ID": "34",
+        "City": "Kerney",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.100418,
+          40.304277
+        ]
+      },
+      "properties": {
+        "ID": "35",
+        "City": "Tinton Falls",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.172367,
+          40.735657
+        ]
+      },
+      "properties": {
+        "ID": "36",
+        "City": "Newark",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.113198,
+          40.881488
+        ]
+      },
+      "properties": {
+        "ID": "37",
+        "City": "Garfield",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.640043,
+          40.52921
+        ]
+      },
+      "properties": {
+        "ID": "38",
+        "City": "Somerset",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.143584,
+          41.088622
+        ]
+      },
+      "properties": {
+        "ID": "39",
+        "City": "Mahwah",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.209701,
+          40.082129
+        ]
+      },
+      "properties": {
+        "ID": "40",
+        "City": "Lakewood",
+        "Province/State": "NJ",
+        "Full Address": "",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1611957,
+          36.1495077
+        ]
+      },
+      "properties": {
+        "ID": "41",
+        "City": "Las Vegas",
+        "Province/State": "NV",
+        "Full Address": " 1816 Industrial Road #4\n Las Vegas, NV 89102 Las Vegas NV ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1029347,
+          36.0988805
+        ]
+      },
+      "properties": {
+        "ID": "42",
+        "City": "Las Vegas",
+        "Province/State": "NV",
+        "Full Address": " 3345 E Tropicana Ave\nLas Vegas, NV 89121\n(Might have changed to Goodwill Retail Store and Donation Center\n1390 American Pacific Dr, Henderson, NV\n re: Eric's notes) Las Vegas NV ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1255696,
+          36.1826295
+        ]
+      },
+      "properties": {
+        "ID": "43",
+        "City": "Las Vegas",
+        "Province/State": "NV",
+        "Full Address": " 1001 N. Bruce Street Las Vegas, NV 89101 Las Vegas NV ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7262906,
+          41.0531109
+        ]
+      },
+      "properties": {
+        "ID": "44",
+        "City": "Willard",
+        "Province/State": "OH",
+        "Full Address": " Goodwill, 108 Blossom Centre Boulevard, Willard, OH 44890 Willard OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.526116,
+          41.055742
+        ]
+      },
+      "properties": {
+        "ID": "45",
+        "City": "Akron",
+        "Province/State": "OH",
+        "Full Address": " 1145 Highbrook St. Suite 420 Akron, OH 44301 Akron OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8959699,
+          39.9330937
+        ]
+      },
+      "properties": {
+        "ID": "46",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 3910 Groves Road Suite C Columbus OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6380077,
+          41.5334805
+        ]
+      },
+      "properties": {
+        "ID": "47",
+        "City": "Cleveland",
+        "Province/State": "OH",
+        "Full Address": " 7510 Bittern Ave. Cleveland, OH 44103 Cleveland OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1781742,
+          40.5648986
+        ]
+      },
+      "properties": {
+        "ID": "48",
+        "City": "Wapakoneta",
+        "Province/State": "OH",
+        "Full Address": " 1240 Bellefontaine St.\nWapakoneta, OH 45895 Wapakoneta OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9411391,
+          40.8439321
+        ]
+      },
+      "properties": {
+        "ID": "49",
+        "City": "Wooster",
+        "Province/State": "OH",
+        "Full Address": " 149 W. Milltown Rd\nWooster, OH 44691 Wooster OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.451667,
+          41.205355
+        ]
+      },
+      "properties": {
+        "ID": "50",
+        "City": "Hudson",
+        "Province/State": "OH",
+        "Full Address": " 5211 Hudson Drive Hudson, OH 44236. Hudson OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1035712,
+          39.9689161
+        ]
+      },
+      "properties": {
+        "ID": "51",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 3854 Fisher Road, Columbus, Ohio Columbus OH ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7092633,
+          45.6137652
+        ]
+      },
+      "properties": {
+        "ID": "52",
+        "City": "Portland",
+        "Province/State": "OR",
+        "Full Address": " 4044 North Suttle Road\nPortland, OR 97217 Portland OR ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7884642,
+          45.4601327
+        ]
+      },
+      "properties": {
+        "ID": "53",
+        "City": "Beaverton",
+        "Province/State": "OR",
+        "Full Address": " 8240 SW Nimbus Ave, Beaverton, OR Beaverton OR ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5478862,
+          45.4204726
+        ]
+      },
+      "properties": {
+        "ID": "54",
+        "City": "Clackamas",
+        "Province/State": "OR",
+        "Full Address": " 1015 SE Mather Rd, Clackamas OR Clackamas OR ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5321382,
+          45.557852
+        ]
+      },
+      "properties": {
+        "ID": "55",
+        "City": "Portland",
+        "Province/State": "OR",
+        "Full Address": " 12820 NE Marx St, Portland, OR Portland OR ",
+        "Exported": "Yes",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.425842,
+          37.6419095
+        ]
+      },
+      "properties": {
+        "ID": "56",
+        "City": "San Francisco",
+        "Province/State": "CA",
+        "Full Address": " 225 Kenwood Way, South San Francisco, CA 94080 San Francisco CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8349586,
+          33.7743861
+        ]
+      },
+      "properties": {
+        "ID": "57",
+        "City": "Orange",
+        "Province/State": "CA",
+        "Full Address": " 849 S.. Tustin Avenue Orange, CA 92865 Orange CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2782446,
+          34.0257013
+        ]
+      },
+      "properties": {
+        "ID": "58",
+        "City": "Los Angeles",
+        "Province/State": "CA",
+        "Full Address": " 2823 S. Figueroa St. Los Angeles, CA 90007 Los Angeles CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.5507809,
+          38.5791163
+        ]
+      },
+      "properties": {
+        "ID": "59",
+        "City": "West Sacremento",
+        "Province/State": "CA",
+        "Full Address": " 3065 W. Capitol Avenue West Sacramento, CA 95691 West Sacremento CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7870224,
+          33.7047103
+        ]
+      },
+      "properties": {
+        "ID": "60",
+        "City": "Irvine",
+        "Province/State": "CA",
+        "Full Address": " 14474 Culver Drive Irvine, CA 92604 Irvine CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2047271,
+          32.7506551
+        ]
+      },
+      "properties": {
+        "ID": "61",
+        "City": "San Diego",
+        "Province/State": "CA",
+        "Full Address": " 3663 Rosecrans Street, San Diego, CA 92110 San Diego CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1182876,
+          32.9173426
+        ]
+      },
+      "properties": {
+        "ID": "62",
+        "City": "San Diego",
+        "Province/State": "CA",
+        "Full Address": " 9700 Mira Mesa Boulevard, San Diego, CA 92126 San Diego CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3557388,
+          40.5829274
+        ]
+      },
+      "properties": {
+        "ID": "63",
+        "City": "Redding",
+        "Province/State": "CA",
+        "Full Address": " 1643 Hilltop Drive Redding, CA 96002 Redding CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1336608,
+          33.9178488
+        ]
+      },
+      "properties": {
+        "ID": "64",
+        "City": "Downey",
+        "Province/State": "CA",
+        "Full Address": " 9125  Imperial Hwy Downey, CA United States Downey CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3998068,
+          38.5228825
+        ]
+      },
+      "properties": {
+        "ID": "65",
+        "City": "Sacremento",
+        "Province/State": "CA",
+        "Full Address": " 8310 Luzon Ave Unit 500 Sacremento CA Sacremento CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.5903953,
+          34.2370636
+        ]
+      },
+      "properties": {
+        "ID": "66",
+        "City": "Chatsworth",
+        "Province/State": "CA",
+        "Full Address": " 9142 Independence Ave, Chatsworth, CA Chatsworth CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8658287,
+          33.91313
+        ]
+      },
+      "properties": {
+        "ID": "67",
+        "City": "Brea",
+        "Province/State": "CA",
+        "Full Address": " 2595 E Imperial Hwy, Brea, CA Brea CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9445529,
+          37.5149693
+        ]
+      },
+      "properties": {
+        "ID": "68",
+        "City": "Fremont",
+        "Province/State": "CA",
+        "Full Address": " 3090 Osgood Ct Fremont, CA 94539 Fremont CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9516875,
+          37.5006235
+        ]
+      },
+      "properties": {
+        "ID": "69",
+        "City": "Fremont",
+        "Province/State": "CA",
+        "Full Address": " 44865 Industrial Drive Fremont, CA 94538 Fremont CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1306065,
+          33.9887406
+        ]
+      },
+      "properties": {
+        "ID": "70",
+        "City": "Commerce",
+        "Province/State": "CA",
+        "Full Address": " 2919 Tanager Ave Commerce CA Commerce CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9887818,
+          37.3720479
+        ]
+      },
+      "properties": {
+        "ID": "71",
+        "City": "Sunnyvale",
+        "Province/State": "CA",
+        "Full Address": " 1326 Kifer Rd, Sunnyvale, CA Sunnyvale CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4460842,
+          34.4274476
+        ]
+      },
+      "properties": {
+        "ID": "72",
+        "City": "Santa Clarita",
+        "Province/State": "CA",
+        "Full Address": " 17766 Sierra Hwy, Santa Clarita, CA 91351 Santa Clarita CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9328987,
+          34.1940815
+        ]
+      },
+      "properties": {
+        "ID": "73",
+        "City": "Newbury Park",
+        "Province/State": "CA",
+        "Full Address": " 2580 Azurite Circle Newbury Park, CA 91320 Newbury Park CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1789988,
+          34.0606363
+        ]
+      },
+      "properties": {
+        "ID": "74",
+        "City": "Los Angeles",
+        "Province/State": "CA",
+        "Full Address": " 4000 Medford Street Los Angeles, CA 90063 Los Angeles CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8472618,
+          33.726999
+        ]
+      },
+      "properties": {
+        "ID": "75",
+        "City": "Santa Anna",
+        "Province/State": "CA",
+        "Full Address": " 1601 East Edinger Santa Anna CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1309372,
+          34.1830337
+        ]
+      },
+      "properties": {
+        "ID": "76",
+        "City": "Altadena",
+        "Province/State": "CA",
+        "Full Address": " 2184 North Lake Avenue Altadena CA Altadena CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8564868,
+          33.7237256
+        ]
+      },
+      "properties": {
+        "ID": "77",
+        "City": "Santa Ana",
+        "Province/State": "CA",
+        "Full Address": " 1940 E. Occidental St. Santa Ana, CA 92705 Santa Ana CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1128567,
+          32.7125349
+        ]
+      },
+      "properties": {
+        "ID": "78",
+        "City": "San Diego",
+        "Province/State": "CA",
+        "Full Address": " 650 gateway Center Way San Diego CA San Diego CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.9561377,
+          32.5566875
+        ]
+      },
+      "properties": {
+        "ID": "79",
+        "City": "San Diego",
+        "Province/State": "CA",
+        "Full Address": " 8710 Avenida de la fuenta San Diego CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9188389,
+          33.8575332
+        ]
+      },
+      "properties": {
+        "ID": "80",
+        "City": "Anaheim",
+        "Province/State": "CA",
+        "Full Address": " 88 E Orangethorpe Ave, Anaheim, CA 92801 Anaheim CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2655039,
+          37.5159488
+        ]
+      },
+      "properties": {
+        "ID": "81",
+        "City": "San Carlos",
+        "Province/State": "CA",
+        "Full Address": " 520 Bragato Rd San Carlos, CA 94070 United States San Carlos CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8835005,
+          33.8791104
+        ]
+      },
+      "properties": {
+        "ID": "82",
+        "City": "Fullerton",
+        "Province/State": "CA",
+        "Full Address": " 800 N State College Blvd Fullerton CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.543365,
+          33.8621778
+        ]
+      },
+      "properties": {
+        "ID": "83",
+        "City": "Corona",
+        "Province/State": "CA",
+        "Full Address": " 1121 California Ave Corona CA Corona CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2354014,
+          33.1480656
+        ]
+      },
+      "properties": {
+        "ID": "84",
+        "City": "Vista",
+        "Province/State": "CA",
+        "Full Address": " 1390 Engineer St, Vista, CA 92081, United States Vista CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6923357,
+          33.9950726
+        ]
+      },
+      "properties": {
+        "ID": "85",
+        "City": "Chino",
+        "Province/State": "CA",
+        "Full Address": " 14225 Telephone Avenue, Unit D, Chino, CA 91710, USA Chino CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9767484,
+          37.5055381
+        ]
+      },
+      "properties": {
+        "ID": "86",
+        "City": "Fremont",
+        "Province/State": "CA",
+        "Full Address": " 42744 Boscell Road Fremont CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.073971,
+          32.5934233
+        ]
+      },
+      "properties": {
+        "ID": "87",
+        "City": "Chula VIsta",
+        "Province/State": "CA",
+        "Full Address": " 1773 Broadway, Chula Vista, CA 91911, United States Chula VIsta CA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.414931,
+          28.582998
+        ]
+      },
+      "properties": {
+        "ID": "88",
+        "City": "Orlando",
+        "Province/State": "FL",
+        "Full Address": " 2700 Hazelhurst Ave, Orlando, FL 32804 Orlando FL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.414931,
+          28.582998
+        ]
+      },
+      "properties": {
+        "ID": "89",
+        "City": "Orlando",
+        "Province/State": "FL",
+        "Full Address": " 2700 Hazelhurst Ave, Orlando, FL 32804 Orlando FL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2135309,
+          33.9412127
+        ]
+      },
+      "properties": {
+        "ID": "90",
+        "City": "Norcross",
+        "Province/State": "GA",
+        "Full Address": "  Norcross GA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2832564,
+          33.8981579
+        ]
+      },
+      "properties": {
+        "ID": "91",
+        "City": "Doraville",
+        "Province/State": "GA",
+        "Full Address": " 3121 Marjan Dr., Doraville, GA 30340 Doraville GA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2135309,
+          33.9412127
+        ]
+      },
+      "properties": {
+        "ID": "92",
+        "City": "Norcross",
+        "Province/State": "GA",
+        "Full Address": "  Norcross GA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2832564,
+          33.8981579
+        ]
+      },
+      "properties": {
+        "ID": "93",
+        "City": "Doraville",
+        "Province/State": "GA",
+        "Full Address": " 3121 Marjan Dr., Doraville, GA 30340 Doraville GA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2832564,
+          33.8981579
+        ]
+      },
+      "properties": {
+        "ID": "94",
+        "City": "Doraville",
+        "Province/State": "GA",
+        "Full Address": " 3121 Marjan Dr., Doraville, GA 30340 Doraville GA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1766063,
+          33.7087717
+        ]
+      },
+      "properties": {
+        "ID": "95",
+        "City": "",
+        "Province/State": "GA",
+        "Full Address": " 5235 Snapfinger Woods Drive, Decatur, GA 30035,  GA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.8402066,
+          41.3771148
+        ]
+      },
+      "properties": {
+        "ID": "96",
+        "City": "Ottawa",
+        "Province/State": "IL",
+        "Full Address": " 501 W Stevenson Rd, Ottawa, IL Ottawa IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.1284335,
+          41.3582125
+        ]
+      },
+      "properties": {
+        "ID": "97",
+        "City": "Peru",
+        "Province/State": "IL",
+        "Full Address": " 1650 38th St Peru IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6570119,
+          41.8828179
+        ]
+      },
+      "properties": {
+        "ID": "98",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": " 1201 West Washington Blvd Chicago IL Chicago IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7386619,
+          41.6689223
+        ]
+      },
+      "properties": {
+        "ID": "99",
+        "City": "Alsip",
+        "Province/State": "IL",
+        "Full Address": "  Alsip IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6551092,
+          41.9025685
+        ]
+      },
+      "properties": {
+        "ID": "100",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": " 1150 N. Branch St Chicago IL Chicago IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7181882,
+          41.6593951
+        ]
+      },
+      "properties": {
+        "ID": "101",
+        "City": "Alsip",
+        "Province/State": "IL",
+        "Full Address": " 12841 S. Pulaski Alsip IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9631308,
+          42.1662831
+        ]
+      },
+      "properties": {
+        "ID": "102",
+        "City": "Buffalo Grove",
+        "Province/State": "IL",
+        "Full Address": "  Buffalo Grove IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      },
+      "properties": {
+        "ID": "103",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": "  Chicago IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6297982,
+          41.8781136
+        ]
+      },
+      "properties": {
+        "ID": "104",
+        "City": "Chicago",
+        "Province/State": "IL",
+        "Full Address": "  Chicago IL ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.226764,
+          42.4593624
+        ]
+      },
+      "properties": {
+        "ID": "105",
+        "City": "Pittsfield",
+        "Province/State": "MA",
+        "Full Address": " 8457 Dalton Ave, Pittsfield, MA 01201 Pittsfield MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3406949,
+          42.1627873
+        ]
+      },
+      "properties": {
+        "ID": "106",
+        "City": "Palmer",
+        "Province/State": "MA",
+        "Full Address": " 1581 N Main St, Palmer, MA 01069 Palmer MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1100712,
+          42.6594789
+        ]
+      },
+      "properties": {
+        "ID": "107",
+        "City": "North Andover",
+        "Province/State": "MA",
+        "Full Address": " 100 Willow St., North Andover, MA 01845 North Andover MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2398138,
+          42.0145514
+        ]
+      },
+      "properties": {
+        "ID": "108",
+        "City": "Mansfield",
+        "Province/State": "MA",
+        "Full Address": " 73 Plymouth Street, PO Box 74, Mansfield, MA 02048 Mansfield MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.089401,
+          41.891356
+        ]
+      },
+      "properties": {
+        "ID": "109",
+        "City": "Taunton",
+        "Province/State": "MA",
+        "Full Address": " 336 Weir St Taunton, MA 02718 Taunton MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.759794,
+          42.5250906
+        ]
+      },
+      "properties": {
+        "ID": "110",
+        "City": "Leominster",
+        "Province/State": "MA",
+        "Full Address": " 25 Mohawk Drive, Warehouse number 2, Leominster, MA 01453 Leominster MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.07607,
+          42.4194086
+        ]
+      },
+      "properties": {
+        "ID": "111",
+        "City": "Malden",
+        "Province/State": "MA",
+        "Full Address": " 239 Commercial St, Unit B, Malden, MA 02148 Malden MA ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7176798,
+          42.8125974
+        ]
+      },
+      "properties": {
+        "ID": "112",
+        "City": "Byron Center",
+        "Province/State": "MI",
+        "Full Address": " 2185 84th St Unit G Byron Center MI Byron Center MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5758238,
+          42.2695516
+        ]
+      },
+      "properties": {
+        "ID": "113",
+        "City": "Kalamazoo",
+        "Province/State": "MI",
+        "Full Address": " 420 East Alcott Kalamazoo MI Kalamazoo MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4170588,
+          41.918534
+        ]
+      },
+      "properties": {
+        "ID": "114",
+        "City": "Monroe",
+        "Province/State": "MI",
+        "Full Address": " 255 N. Telegraph Rd. Monroe, MI, 48161 Monroe MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.149921,
+          42.2966342
+        ]
+      },
+      "properties": {
+        "ID": "115",
+        "City": "Dearborn",
+        "Province/State": "MI",
+        "Full Address": " Dearborn MI Dearborn MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2391954,
+          42.2957462
+        ]
+      },
+      "properties": {
+        "ID": "116",
+        "City": "Battle Creek",
+        "Province/State": "MI",
+        "Full Address": " 15383 S Helmer Rd Battle Creek MI Battle Creek MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0171464,
+          42.8281489
+        ]
+      },
+      "properties": {
+        "ID": "117",
+        "City": "Zeeland",
+        "Province/State": "MI",
+        "Full Address": " 9479 Riley St Zeeland MI Zeeland MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6500009,
+          42.9411779
+        ]
+      },
+      "properties": {
+        "ID": "118",
+        "City": "Grand Rapid",
+        "Province/State": "MI",
+        "Full Address": " 702 Hall Street South West Grand Rapids, MI 49503 Grand Rapid MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.70257,
+          42.2299276
+        ]
+      },
+      "properties": {
+        "ID": "119",
+        "City": "Ann Arbor",
+        "Province/State": "MI",
+        "Full Address": " 2950 E. Ellsworth Road, Ann Arbor MI Ann Arbor MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.358608,
+          42.4120101
+        ]
+      },
+      "properties": {
+        "ID": "120",
+        "City": "Livonia",
+        "Province/State": "MI",
+        "Full Address": " 31693 8 Mile Rd, Suite 105 Livonia, MI 48152 Livonia MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.034839,
+          42.4579766
+        ]
+      },
+      "properties": {
+        "ID": "121",
+        "City": "Warren",
+        "Province/State": "MI",
+        "Full Address": " 22200 Sherwood Avenue\nWarren, MI 48091 Warren MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0651487,
+          42.4757218
+        ]
+      },
+      "properties": {
+        "ID": "122",
+        "City": "Warren",
+        "Province/State": "MI",
+        "Full Address": " 24835 Ryan Rd, Warren, MI 48091, United States Warren MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2469792,
+          42.6817209
+        ]
+      },
+      "properties": {
+        "ID": "123",
+        "City": "Auburn Hills",
+        "Province/State": "MI",
+        "Full Address": " 2685 Lapeer Rd Suite 105 Auburn Hills, MI  48326 Auburn Hills MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.125527,
+          42.543751
+        ]
+      },
+      "properties": {
+        "ID": "124",
+        "City": "Troy",
+        "Province/State": "MI",
+        "Full Address": " 1101 Allen Drive Troy, MII Troy MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5983185,
+          42.907155
+        ]
+      },
+      "properties": {
+        "ID": "125",
+        "City": "Kentwood",
+        "Province/State": "MI",
+        "Full Address": " 2929 32nd St. Kentwood, MI 49512 Kentwood MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1978045,
+          42.4641644
+        ]
+      },
+      "properties": {
+        "ID": "126",
+        "City": "Oak Park",
+        "Province/State": "MI",
+        "Full Address": " 26500 Harding St, Oak Park, MI 48237, United States Oak Park MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.440705,
+          42.140559
+        ]
+      },
+      "properties": {
+        "ID": "127",
+        "City": "Benton Harbor",
+        "Province/State": "MI",
+        "Full Address": " 1410 Paw Paw Ave Benton Harbor, MI 49022 Benton Harbor MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.440705,
+          42.140559
+        ]
+      },
+      "properties": {
+        "ID": "128",
+        "City": "Benton Harbor",
+        "Province/State": "MI",
+        "Full Address": " 1410 Paw Paw Ave Benton Harbor, MI 49022 Benton Harbor MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7305304,
+          42.2239924
+        ]
+      },
+      "properties": {
+        "ID": "129",
+        "City": "Ann Arbor",
+        "Province/State": "MI",
+        "Full Address": " 4403 Concourse Dr. Suite C.\nAnn Arbor, MI 48108 Ann Arbor MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1775549,
+          42.4504412
+        ]
+      },
+      "properties": {
+        "ID": "130",
+        "City": "Oak Park",
+        "Province/State": "MI",
+        "Full Address": " 13210 Cloverdale Street Oak Park, MI. 48237 Oak Park MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.185413,
+          42.3637749
+        ]
+      },
+      "properties": {
+        "ID": "131",
+        "City": "Detroit",
+        "Province/State": "MI",
+        "Full Address": " 14451 Chicago Street Detroit, MI 48228-2316 Detroit MI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0412072,
+          40.2341603
+        ]
+      },
+      "properties": {
+        "ID": "132",
+        "City": "Ocean",
+        "Province/State": "NJ",
+        "Full Address": " 1 North Mall Dr., Ocean, NJ 07712 Ocean NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.117131,
+          40.924513
+        ]
+      },
+      "properties": {
+        "ID": "133",
+        "City": "Fair Lawn",
+        "Province/State": "NJ",
+        "Full Address": " 17-09 Zink Pl, Fair Lawn, NJ 07410 Fair Lawn NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0528,
+          40.8705624
+        ]
+      },
+      "properties": {
+        "ID": "134",
+        "City": "Hackensack",
+        "Province/State": "NJ",
+        "Full Address": " 71 Schrieffer St. South Hackensack, NJ 07606 Hackensack NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1116663,
+          39.9497778
+        ]
+      },
+      "properties": {
+        "ID": "135",
+        "City": "Camden",
+        "Province/State": "NJ",
+        "Full Address": " 602 N. 10th Street Camden, NJ 08102 Camden NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.6460323,
+          40.4875748
+        ]
+      },
+      "properties": {
+        "ID": "136",
+        "City": "Hillsborough Township",
+        "Province/State": "NJ",
+        "Full Address": " 239 Homestead Rd, Hillsborough Township, NJ 08844 Hillsborough Township NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0709717,
+          39.9289549
+        ]
+      },
+      "properties": {
+        "ID": "137",
+        "City": "Pennsauken",
+        "Province/State": "NJ",
+        "Full Address": " 5070 B Central Highway Pennsauken ,NJ 08109 Pennsauken NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.159745,
+          40.0755509
+        ]
+      },
+      "properties": {
+        "ID": "138",
+        "City": "Lakewood",
+        "Province/State": "NJ",
+        "Full Address": "1950 Rutgers Blvd, Lakewood, NJ 08701 Lakewood NJ ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.0460289,
+          36.0418405
+        ]
+      },
+      "properties": {
+        "ID": "139",
+        "City": "Henderson",
+        "Province/State": "NV",
+        "Full Address": "1390 American Pacific Dr Henderson, NV 89014 Henderson NV ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2304131,
+          36.135635
+        ]
+      },
+      "properties": {
+        "ID": "140",
+        "City": "Las Vegas",
+        "Province/State": "NV",
+        "Full Address": "4580 W Sahara Ave Las Vegas, NV 89146 Las Vegas NV ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6969235,
+          42.8693448
+        ]
+      },
+      "properties": {
+        "ID": "141",
+        "City": "Depew",
+        "Province/State": "NY",
+        "Full Address": " 4779 Transit Rd, Depew, NY 14043 Depew NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6040054,
+          43.1481499
+        ]
+      },
+      "properties": {
+        "ID": "142",
+        "City": "Rochester",
+        "Province/State": "NY",
+        "Full Address": " 451 S. Clinton Ave, Rochester NY Rochester NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7595126,
+          42.2721872
+        ]
+      },
+      "properties": {
+        "ID": "143",
+        "City": "Hudson",
+        "Province/State": "NY",
+        "Full Address": " 350 Fairview Avenue, Hudson, NY 12534 Hudson NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.146613,
+          43.109854
+        ]
+      },
+      "properties": {
+        "ID": "144",
+        "City": "Utica",
+        "Province/State": "NY",
+        "Full Address": " 11206 Cosby Manor Road, Utica, NY 13502 Utica NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9343708,
+          41.1651242
+        ]
+      },
+      "properties": {
+        "ID": "145",
+        "City": "Congers",
+        "Province/State": "NY",
+        "Full Address": " 25 Hemlock Dr, Congers, NY 10920 Congers NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.060605,
+          43.05453
+        ]
+      },
+      "properties": {
+        "ID": "146",
+        "City": "Syracuse",
+        "Province/State": "NY",
+        "Full Address": " 5717 Enterprise Parkway East, Syracuse, NY 13057 Syracuse NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0059413,
+          40.7127837
+        ]
+      },
+      "properties": {
+        "ID": "147",
+        "City": "",
+        "Province/State": "NY",
+        "Full Address": "   NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7976347,
+          42.2503061
+        ]
+      },
+      "properties": {
+        "ID": "148",
+        "City": "Hudson",
+        "Province/State": "NY",
+        "Full Address": " 99 South 3rd St, Hudson, NY 12534 Hudson NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8310629,
+          40.897713
+        ]
+      },
+      "properties": {
+        "ID": "149",
+        "City": "Mt Vernon",
+        "Province/State": "NY",
+        "Full Address": " 560 South 3rd Ave, Mt Vernon, NY 10550 Mt Vernon NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9557869,
+          43.0177038
+        ]
+      },
+      "properties": {
+        "ID": "150",
+        "City": "Mohawk",
+        "Province/State": "NY",
+        "Full Address": " P.O. Box 279 556 State Route 5S, Mohawk, NY 13407 Mohawk NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6617974,
+          43.1665069
+        ]
+      },
+      "properties": {
+        "ID": "151",
+        "City": "Rochester",
+        "Province/State": "NY",
+        "Full Address": " 1450 Lyell Ave # 3, Rochester, NY 14606-2131 Rochester NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6722185,
+          42.9055418
+        ]
+      },
+      "properties": {
+        "ID": "152",
+        "City": "Lancaster",
+        "Province/State": "NY",
+        "Full Address": " 122 Central Ave., Lancaster, NY 14086 Lancaster NY ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0688313,
+          40.2742524
+        ]
+      },
+      "properties": {
+        "ID": "153",
+        "City": "Delaware",
+        "Province/State": "OH",
+        "Full Address": " 1135 Columbus Pike (Rt. 23) Delaware, OH 43015 Delaware OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5621905,
+          39.2030911
+        ]
+      },
+      "properties": {
+        "ID": "154",
+        "City": "Cincinnati",
+        "Province/State": "OH",
+        "Full Address": " 3980 North Bend Rd Cincinnati, OH 45211 Cincinnati OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9418763,
+          40.0583011
+        ]
+      },
+      "properties": {
+        "ID": "155",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 2933 Morse Road Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6743341,
+          39.9956193
+        ]
+      },
+      "properties": {
+        "ID": "156",
+        "City": "Pataskala",
+        "Province/State": "OH",
+        "Full Address": " 78 Oak Meadow, Pataskala, OH Pataskala OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9418763,
+          40.0583011
+        ]
+      },
+      "properties": {
+        "ID": "157",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 2933 Morse Road Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5890617,
+          41.4833473
+        ]
+      },
+      "properties": {
+        "ID": "158",
+        "City": "Cleveland",
+        "Province/State": "OH",
+        "Full Address": " 2720 Van Aken Boulevard Cleveland, OH 44120 Cleveland OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5321287,
+          41.6563475
+        ]
+      },
+      "properties": {
+        "ID": "159",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 626 N Huron St, Toledo, OH, 43604 Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5068968,
+          41.0273951
+        ]
+      },
+      "properties": {
+        "ID": "160",
+        "City": "Akron",
+        "Province/State": "OH",
+        "Full Address": " 570 East Waterloo Road\nAkron, OH 44319 Akron OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0092806,
+          39.9640126
+        ]
+      },
+      "properties": {
+        "ID": "161",
+        "City": "Zanesville",
+        "Province/State": "OH",
+        "Full Address": " 2134 Maple Avenue, Zanesville, OH 43701 Zanesville OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.420247,
+          39.552563
+        ]
+      },
+      "properties": {
+        "ID": "162",
+        "City": "Chillicothe",
+        "Province/State": "OH",
+        "Full Address": " 1827 Columbus Avenue\nWashington CH, Ohio 43160 Chillicothe OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8959699,
+          39.9330937
+        ]
+      },
+      "properties": {
+        "ID": "163",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 3910 Groves Road Suite C Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5694572,
+          41.7186864
+        ]
+      },
+      "properties": {
+        "ID": "164",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 5656 Opportunity Drive, Toledo, OH Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.942504,
+          40.058143
+        ]
+      },
+      "properties": {
+        "ID": "165",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 2899 Morse Rd, Columbus, Oh Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5694572,
+          41.7186864
+        ]
+      },
+      "properties": {
+        "ID": "166",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 5656 Opportunity Drive Toledo, OH Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9197121,
+          40.0581022
+        ]
+      },
+      "properties": {
+        "ID": "167",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 23899 Morse Rd, Columbus, Ohio Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.525675,
+          36.2939765
+        ]
+      },
+      "properties": {
+        "ID": "168",
+        "City": "Eastlake",
+        "Province/State": "OH",
+        "Full Address": " 34300 LAKELAND BLVD.\tUnit 5 Cleveland (EASTLAKE), OH 44095 Eastlake OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7503104,
+          41.5090078
+        ]
+      },
+      "properties": {
+        "ID": "169",
+        "City": "Waterville",
+        "Province/State": "OH",
+        "Full Address": " 8730 Waterville Swanton Rd, Waterville, OH 43566, USA Waterville OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.569144,
+          41.678766
+        ]
+      },
+      "properties": {
+        "ID": "170",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 1118 West Central Ave, Toledo OH 43610 Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.950604,
+          39.903479
+        ]
+      },
+      "properties": {
+        "ID": "171",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 1635 Watkins Rd Columbus, OH 43207, USA Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.676053,
+          41.623538
+        ]
+      },
+      "properties": {
+        "ID": "172",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 5645 Angola Road, Toledo, OH 43615 Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2677546,
+          39.8147501
+        ]
+      },
+      "properties": {
+        "ID": "173",
+        "City": "Trotwood",
+        "Province/State": "OH",
+        "Full Address": " 4805 Salem Ave. Trotwood, OH 45416 Trotwood OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.699025,
+          41.6762978
+        ]
+      },
+      "properties": {
+        "ID": "174",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 6540 West Central Ave.,Toledo, OH., 43617 Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5690358,
+          41.6781172
+        ]
+      },
+      "properties": {
+        "ID": "175",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 1114 W. Central Avenue Toledo, Ohio 43610 Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6970866,
+          41.5678545
+        ]
+      },
+      "properties": {
+        "ID": "176",
+        "City": "Maumee",
+        "Province/State": "OH",
+        "Full Address": " 3940 Technology Dr. Maumee, Ohio 43537 Maumee OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.7243034,
+          40.0778709
+        ]
+      },
+      "properties": {
+        "ID": "177",
+        "City": "Pataskala",
+        "Province/State": "OH",
+        "Full Address": " 200 Mink Street, SW Pataskala, Ohio 43062-9794 Pataskala OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.5694572,
+          41.7186864
+        ]
+      },
+      "properties": {
+        "ID": "178",
+        "City": "Toledo",
+        "Province/State": "OH",
+        "Full Address": " 5656 Opportunity Drive Toledo, OH Toledo OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.505589,
+          40.763956
+        ]
+      },
+      "properties": {
+        "ID": "179",
+        "City": "Mansfield",
+        "Province/State": "OH",
+        "Full Address": " 200 Wayne Street Mansfield, OH 44902 Mansfield OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.11507,
+          39.962805
+        ]
+      },
+      "properties": {
+        "ID": "180",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 4300 Janitrol Rd, Columbus, OH 43228 Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1143242,
+          40.0074317
+        ]
+      },
+      "properties": {
+        "ID": "181",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 3820 Zane Trace Drive Columbus, Ohio 43228 Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0720485,
+          39.9686561
+        ]
+      },
+      "properties": {
+        "ID": "182",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 672 Harrison Dr.  Columbus, OH 43204 Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.632786,
+          41.124598
+        ]
+      },
+      "properties": {
+        "ID": "183",
+        "City": "Youngstown",
+        "Province/State": "OH",
+        "Full Address": " 1730 Hubbard Rd. Youngstown OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1035712,
+          39.9689161
+        ]
+      },
+      "properties": {
+        "ID": "184",
+        "City": "Columbus",
+        "Province/State": "OH",
+        "Full Address": " 3854 Fisher Road, Columbus, Ohio Columbus OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5725779,
+          41.430674
+        ]
+      },
+      "properties": {
+        "ID": "185",
+        "City": "Cleveland",
+        "Province/State": "OH",
+        "Full Address": " 15551 Neo Pkwy, Garfield Heights, OH 44128, USA Cleveland OH ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.364839,
+          40.796678
+        ]
+      },
+      "properties": {
+        "ID": "186",
+        "City": "Canton",
+        "Province/State": "Ohio",
+        "Full Address": " 1201 Tuscarawas St E, Canton Ohio ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3282366,
+          43.3875439
+        ]
+      },
+      "properties": {
+        "ID": "187",
+        "City": "Sutherlin",
+        "Province/State": "OR",
+        "Full Address": " 1016 W Central Ave, Sutherlin, OR 97479 Sutherlin OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.118167,
+          44.040706
+        ]
+      },
+      "properties": {
+        "ID": "188",
+        "City": "Eugene",
+        "Province/State": "OR",
+        "Full Address": " 1717 W 18TH AVE EUGENE  OR 97402 Eugene OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.609496,
+          45.550234
+        ]
+      },
+      "properties": {
+        "ID": "189",
+        "City": "Portland",
+        "Province/State": "OR",
+        "Full Address": " 5625 NE Fremont St, Portland OR Portland OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5191823,
+          45.4456124
+        ]
+      },
+      "properties": {
+        "ID": "190",
+        "City": "Happy Valley",
+        "Province/State": "OR",
+        "Full Address": " 10330 SE 82ND Ave, Happy Valley, OR Happy Valley OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8188271,
+          45.3672413
+        ]
+      },
+      "properties": {
+        "ID": "191",
+        "City": "Sherwood",
+        "Province/State": "OR",
+        "Full Address": " 13910 SW Tualaton Sherwood Rd, Sherwood, OR Sherwood OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5593363,
+          45.4042864
+        ]
+      },
+      "properties": {
+        "ID": "192",
+        "City": "Clackamas",
+        "Province/State": "OR",
+        "Full Address": " 10151 Se Jennifer St Clackamas OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1373784,
+          43.8330728
+        ]
+      },
+      "properties": {
+        "ID": "193",
+        "City": "Cottage Grove",
+        "Province/State": "OR",
+        "Full Address": " 2494 E Whiteaker Ave, Cottage Grove, OR Cottage Grove OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1242533,
+          44.0489305
+        ]
+      },
+      "properties": {
+        "ID": "194",
+        "City": "Eugene",
+        "Province/State": "OR",
+        "Full Address": " 2101 W 10th Ave, Eugene OR Eugene OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.576673,
+          45.4491542
+        ]
+      },
+      "properties": {
+        "ID": "195",
+        "City": "Happy Valley",
+        "Province/State": "OR",
+        "Full Address": " 10174 SE 82ND PORTLAND OR Happy Valley OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5960232,
+          45.5678369
+        ]
+      },
+      "properties": {
+        "ID": "196",
+        "City": "Portland",
+        "Province/State": "OR",
+        "Full Address": " 6510 NE Columbia Blvd Ste B, Portland OR Portland OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6004635,
+          45.5698052
+        ]
+      },
+      "properties": {
+        "ID": "197",
+        "City": "Portland",
+        "Province/State": "OR",
+        "Full Address": " 6427 NE 59th Pl, Portland, OR 97218 Portland OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5651142,
+          45.4098706
+        ]
+      },
+      "properties": {
+        "ID": "198",
+        "City": "Clackamas",
+        "Province/State": "OR",
+        "Full Address": " 9602 SE Clackamas Rd, Clackamas, OR Clackamas OR ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3155271,
+          43.1630234
+        ]
+      },
+      "properties": {
+        "ID": "199",
+        "City": "Madison",
+        "Province/State": "WI",
+        "Full Address": " 6701 Manufacturers Dr\nMadison, WI 53704 Madison WI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5344765,
+          42.6663899
+        ]
+      },
+      "properties": {
+        "ID": "200",
+        "City": "Elkhorn",
+        "Province/State": "WI",
+        "Full Address": " 540 East Centralia Street, Elkhorn, WI Elkhorn WI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0107587,
+          42.6432442
+        ]
+      },
+      "properties": {
+        "ID": "201",
+        "City": "Janesville",
+        "Province/State": "WI",
+        "Full Address": " 2535 Beloit Avenue\nJanesville, WI 53546 Janesville WI ",
+        "Exported": "No",
+        "Legislation": "",
+        "Landfill_Ban": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="description" content="">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title></title>
+		<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+
+		<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+		<script src="//d3js.org/d3.v3.min.js"></script>
+	  <link rel="stylesheet" href="css/style.css" />
+
+	</head>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Fires and violent ruptures on Class I railroads</title>
+		<link rel="stylesheet/css" href="css/style.css" />
+	</head>
+
+	<body>
+
+
+		<!-- <div class="row">
+			<div class="small-2 small-offset-1 columns">
+				<small class="nav-label">Restart</small><div id="last"> <i class="fa fa-refresh fa-2x nav" aria-hidden="true"></i></div>
+			</div> -->
+
+		<!-- </div> -->
+
+		<div class="row">
+
+			<div class="small-6 medium-3 medium-offset-1 columns dropdown">
+				<label>Accident type</label>
+					<select class="selector" name="AccidentType" id="AccidentType">
+						<option selected="selected" value="All">All</option>
+						<option value="1">Derailment</option>
+						<!-- <option value="99">All Collisions</option> -->
+						<option value="2">Head on Collision</option>
+						<option value="3">Rear End Collision</option>
+						<option value="4">Side Collision</option>
+						<option value="5">Raking Collision</option>
+						<option value="6">Broken Train Collision</option>
+						<option value="7">Hwy-rail crossing</option>
+						<option value="8">RR Grade Crossing</option>
+						<option value="9">Obstruction</option>
+						<option value="10">Explosion-detonation</option>
+						<option value="11">Fire/violent Rupture</option>
+						<option value="12">Other Impacts</option>
+						<option value="13">Other</option>
+						<option value="14">Hazmat spills*</option>
+					</select>
+			</div>
+
+			<div class="small-6 medium-3 large-3 columns dropdown">
+				<label>Accident cause</label>
+					<select class="selector" name="AccidentCause" id="AccidentCause">
+					<option selected="selected" value="All">All</option>
+					<option value="T">Track, Roadbed and Structures</option>
+					<option value="S">Signal and Communication</option>
+					<option value="E">Mechanical and Electrical Failures</option>
+					<option value="H">Train Operation - Human Factor</option>
+					<option value="X">Handling Equip, Swt &amp; Derails (Sub F)</option>
+					<option value="M">Miscellaneous Causes Not Otherwise Listed</option>
+				</select>
+			</div>
+
+			<!-- <div class="small-6 medium-3 large-3 columns dropdown">
+				<label>Railroad size</label>
+					<select class="railroad-size-selector" name="RRClassVal" id="RRClassVal">
+					<option selected="selected" value="All">All</option>
+					<option value="1">Class I</option>
+					<option value="2">Class II and III</option>
+				</select>
+			</div> -->
+
+			<div class="small-6 medium-3 large-3 columns end dropdown">
+				<span id="hazmat-hide">
+				<label>Shipments</label>
+					<select class="selector" name="HazmatVal" id="HazmatVal">
+					<option selected="selected" value="All">All</option>
+					<option value="Yes">Hazardous materials</option>
+				</select>
+				</span>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div id="legend">
+							<div class="chatterbox">
+								<p id="up-chatter" style="float: left; width: 75%;"><b>Track-caused derailments</b><br/>Since 2006, Union Pacific (yellow) has had more derailments caused by track problems than BNSF, which traveled more miles and carried more tonnage between 2006 and 2016.</p> <div id="nav" style="float: left; margin-left: 6px; width: 20%;"> <i id="next" class="fa fa-arrow-right fa-4x nav" aria-hidden="true"></i></div>
+							</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-11">
+				<div id="chart"></div>
+			</div>
+		</div>
+
+
+					<!-- <div class="small-1 columns">
+						<small class="nav-label next-label">Next</small>
+							<div id="next"> </div>
+					</div> -->
+
+			<!-- <div class="bnsf-chatter chatterbox"><b>BNSF Railway</b> has amassed more train miles than Union Pacific since 2007 but has far fewer fires and violent ruptures.</div>
+
+			<div class="csx-nfs-chatter chatterbox"><b>CSX and Norfolk Southern</b> travel fewer miles than BNSF but have nearly as many incidents.</div> -->
+
+		<!-- <script src="js/project.js"></script> -->
+		<script type="text/javascript">
+				var docWidth = $("#chart").width();
+
+				if(docWidth > 600){
+					var docHeight = 500// docWidth * .35
+				}
+				else {
+					var docHeight = 350// docWidth * .35
+
+				}
+
+				var margin = {top: 50, right: 20, bottom: 30, left: 50},
+				    width = docWidth - margin.left - margin.right,
+				    height = docHeight - margin.top - margin.bottom;
+
+				var x = d3.scale.linear()
+				    .range([0, width]);
+
+				var y = d3.scale.linear()
+				    .range([height, 0]);
+
+				var r = d3.scale.sqrt()
+				    // .domain([0, 1e6])
+				    .range([2, 25]);
+
+				var color = d3.scale.category10();
+
+
+				var xAxis = d3.svg.axis()
+				    .scale(x)
+				    .orient("bottom")
+				    .ticks("4")
+
+
+				var yAxis = d3.svg.axis()
+				    .scale(y)
+				    .orient("left")
+				    .ticks("4");
+
+				var svg = d3.select("#chart").append("svg")
+				    .attr("width", width + margin.left + margin.right)
+				    .attr("height", height + margin.top + margin.bottom)
+				    .append("g")
+				    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+				// create a tooltip and store it in a variable we can access later to append data
+				var tooltip = d3.select("body").append("div")
+						.attr("class", "scatterplot-tooltip")
+						.style("opacity", 0);
+
+							// load two data files we'll be using
+							d3.csv("accidents.csv", function(error1, csv_data) {
+							  d3.csv("train_miles.csv", function(error2, train_miles) {
+							    // do something with the data
+
+									derailments_data = csv_data.filter(function(d){
+											return d.TYPE == '1'
+										})
+									derailments_data = derailments_data.filter(function(d){ return d.SHORT_CAUSE == 'T'})
+
+								// group the data by railroads, counting the number of incidents (length) and summing the cost
+								var data = d3.nest()
+									.key(function(d) { return d.RAILROAD; })
+									//count distinct incident numbers, sum the cost
+									.rollup(function(incidents) { return {"incidents": d3.map(incidents, function(d) { return d.INCDTNO; }).size(), "cost": d3.sum(incidents, function(d) {return parseFloat(d.ACCDMG);})} })
+									.entries(derailments_data);
+
+								// merge the accient data we just summed with freight miles., which is already
+								// grouped by railroad
+								data.forEach(function(data) {
+								    var result = train_miles.filter(function(train_miles) {
+										    return train_miles.RAILROAD === data.key;
+								    });
+						    		data.miles = (result[0] !== undefined) ? parseFloat(result[0].TONNAGE) : null;
+								});
+
+								data = data.filter(function(d){ return d.miles > 0})
+								// console.log(data);
+
+								y.domain(d3.extent(data, function(d) { return d.values.incidents; })).nice();
+							  x.domain(d3.extent(data, function(d) { return d.miles; })).nice();
+								r.domain(d3.extent(data, function(d) { return d.values.cost; })).nice();
+
+								/***************************
+							  // GRIDLINES
+								***************************/
+								svg.selectAll("line.horizontalGrid").data(y.ticks(4)).enter()
+							    .append("line")
+							        .attr(
+							        {
+							            "class":"horizontalGrid",
+							            "x1" : 0,
+							            "x2" : width,
+							            "y1" : function(d){ return y(d);},
+							            "y2" : function(d){ return y(d);},
+							            "fill" : "none",
+							            "shape-rendering" : "crispEdges",
+							            "stroke" : "black",
+							            "stroke-width" : "1px",
+													"stroke-opacity": "0.5"
+							        });
+
+								svg.selectAll("line.verticalGrid").data(x.ticks(4)).enter()
+							    .append("line")
+							        .attr(
+							        {
+							            "class":"horizontalGrid",
+							            "y1" : 0,
+							            "y2" : height - 4,
+							            "x1" : function(d){ return x(d);},
+							            "x2" : function(d){ return x(d);},
+							            "fill" : "none",
+							            "shape-rendering" : "crispEdges",
+							            "stroke" : "#eee",
+							            "stroke-width" : "1px",
+													"stroke-opacity": "0.5"
+							        });
+
+								/*******************************/
+
+							  svg.append("g")
+							      .attr("class", "x axis")
+							      .attr("transform", "translate(0," + height + ")")
+							      .call(xAxis)
+							    .append("text")
+							      .attr("class", "label")
+							      .attr("x", width - 6)
+							      .attr("y", -6)
+							      .style("text-anchor", "end")
+							      .text("Tonnage");
+
+							  svg.append("g")
+							      .attr("class", "y axis")
+							      .call(yAxis)
+							    .append("text")
+							      .attr("class", "label")
+							      .attr("transform", "rotate(-90)")
+							      .attr("y", 6)
+							      .attr("x", -10)
+							      .attr("dy", ".71em")
+							      .style("text-anchor", "end")
+							      .text("Incidents")
+
+							  var circle = svg.selectAll("circle")
+							      .data(data)
+							    	.enter()
+											.append("circle")
+									      .attr("class", "dot")
+												.attr("r", function(d){ return r(d.values.cost)})
+									      .attr("cx", function(d) { return x(d.miles) })
+									      .attr("cy", function(d) { return y(d.values.incidents) })
+									      //.style("stroke", function(d) { return color(d.color); })
+												.style("stroke-width", "1")
+					              .style("stroke", function(d){
+					                  if(d.key == "UP"){ return "#FE0000" }
+					                  // else if(d.key == "BNSF"){ return "black" }
+					                  else { return "steelblue" }
+					              } )
+					              .style("fill", function(d){
+					                  if(d.key == "UP"){ return "#fc0" }
+					                  // else if(d.key == "BNSF"){ return "#F85D13" }
+					                  else { return "steelblue" }
+					              } )
+												// .style("fill", function(d) { return color(d.color); })
+							          .style("fill-opacity", "0.65")
+							          .on("mouseover", function(d) {
+							                    d3.select(this)
+							                      .style("fill-opacity", ".65");
+
+							                    tooltip.transition()
+							                         .duration(200)
+							                         .style("opacity", .9);
+							                    tooltip.html("<b>" + d.key + "</b>" + "<br/>" + numberWithCommas(d.values.incidents) + " incidents over <br/> " + numberWithCommas(d.miles) +" freight miles. <br/> Total cost: $" + numberWithCommas(d.values.cost) + "")
+							                         .style("left", (d3.event.pageX - 25) + "px")
+							                         .style("top", (d3.event.pageY - 25) + "px");
+							                })
+							                .on("mouseout", function(d) {
+							                  d3.selectAll(".dot")
+							                    .style("fill-opacity", ".65");
+							                    tooltip.transition()
+							                         .duration(500)
+							                         .style("opacity", 0);
+							                });
+
+							  });
+							});
+
+							function numberWithCommas(x) {
+							    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+							}
+
+
+							var step = 0;
+
+					     $("#next").click(function() {
+					    //   if (step <= 2){
+					         step = ++step;
+					    //   }
+					       stepper(step);
+					     });
+
+					     $("#last").click(function() {
+					      //    step = --step;
+					      //  stepper(step);
+								location.reload();
+					     });
+
+					function stepper(){
+
+						switch(step) {
+
+						case 1:
+						$('#nav').append('<i id="refresh" class="fa fa-refresh fa-4x nav" aria-hidden="true">');
+
+						$("#refresh").click(function(){
+							location.reload();
+						})
+
+						$('#up-chatter').html("<b>Fires and violent ruptures</b><br/> Union Pacific also stands out for its number of fires — nearly double that of other large railroads. It's also had by far the costliest of these incidents. However, the majority of these are engine fires with no direct tie to the transport of crude by rail.");
+					// load two data files we'll be using
+					d3.csv("accidents.csv", function(error1, csv_data) {
+						d3.csv("train_miles.csv", function(error2, train_miles) {
+							// do something with the data
+
+							fires_data = csv_data.filter(function(d){
+									return d.TYPE == '11'
+								})
+
+						// group the data by railroads, counting the number of incidents (length) and summing the cost
+						var data = d3.nest()
+							.key(function(d) { return d.RAILROAD; })
+							//count distinct incident numbers, sum the cost
+							.rollup(function(incidents) { return {"incidents": d3.map(incidents, function(d) { return d.INCDTNO; }).size(), "cost": d3.sum(incidents, function(d) {return parseFloat(d.ACCDMG);})} })
+							.entries(fires_data);
+
+						// merge the accient data we just summed with freight miles., which is already
+						// grouped by railroad
+						data.forEach(function(data) {
+								var result = train_miles.filter(function(train_miles) {
+										return train_miles.RAILROAD === data.key;
+								});
+								data.miles = (result[0] !== undefined) ? parseFloat(result[0].TONNAGE) : null;
+						});
+
+						data = data.filter(function(d){ return d.miles > 0})
+						// console.log(data);
+
+						y.domain(d3.extent(data, function(d) { return d.values.incidents; })).nice();
+						x.domain(d3.extent(data, function(d) { return d.miles; })).nice();
+						r.domain(d3.extent(data, function(d) { return d.values.cost; })).nice();
+
+						/***************************
+						// GRIDLINES
+						***************************/
+						svg.selectAll("line.horizontalGrid").remove();
+						svg.selectAll("line.horizontalGrid").data(y.ticks(4)).enter()
+							.append("line")
+									.attr(
+									{
+											"class":"horizontalGrid",
+											"x1" : 0,
+											"x2" : width,
+											"y1" : function(d){ return y(d);},
+											"y2" : function(d){ return y(d);},
+											"fill" : "none",
+											"shape-rendering" : "crispEdges",
+											"stroke" : "black",
+											"stroke-width" : "1px",
+											"stroke-opacity": "0.5"
+									});
+						svg.selectAll("line.verticalGrid").remove();
+						svg.selectAll("line.verticalGrid").data(x.ticks(4)).enter()
+							.append("line")
+									.attr(
+									{
+											"class":"horizontalGrid",
+											"y1" : 0,
+											"y2" : height - 4,
+											"x1" : function(d){ return x(d);},
+											"x2" : function(d){ return x(d);},
+											"fill" : "none",
+											"shape-rendering" : "crispEdges",
+											"stroke" : "#eee",
+											"stroke-width" : "1px",
+											"stroke-opacity": "0.5"
+
+									});
+
+									svg.selectAll(".x.axis")
+										 .transition()
+										 .duration(1000)
+										 .call(xAxis);
+
+									// Update Y Axis
+									svg.selectAll(".y.axis")
+										 .transition()
+										 .duration(1000)
+										 .call(yAxis);
+
+
+						/*******************************/
+
+						// svg.append("g")
+						// 		.attr("class", "x axis")
+						// 		.attr("transform", "translate(0," + height + ")")
+						// 		.call(xAxis)
+						// 	.append("text")
+						// 		.attr("class", "label")
+						// 		.attr("x", width - 6)
+						// 		.attr("y", -6)
+						// 		.style("text-anchor", "end")
+						// 		.text("Freight miles");
+						//
+						// svg.append("g")
+						// 		.attr("class", "y axis")
+						// 		.call(yAxis)
+						// 	.append("text")
+						// 		.attr("class", "label")
+						// 		.attr("transform", "rotate(-90)")
+						// 		.attr("y", 6)
+						// 		.attr("x", -10)
+						// 		.attr("dy", ".71em")
+						// 		.style("text-anchor", "end")
+						// 		.text("Incidents")
+
+						var circle = svg.selectAll("circle")
+								.data(data)
+										.transition()
+										.duration(1000)
+										.attr("class", "dot")
+										.attr("r", function(d){ return r(d.values.cost)})
+										.attr("cx", function(d) { return x(d.miles) })
+										.attr("cy", function(d) { return y(d.values.incidents) })
+										//.style("stroke", function(d) { return color(d.color); })
+										.style("stroke-width", "1")
+										.style("stroke", function(d){
+												if(d.key == "UP"){ return "#FE0000" }
+												// else if(d.key == "BNSF"){ return "black" }
+												else { return "steelblue" }
+										} )
+										.style("fill", function(d){
+												if(d.key == "UP"){ return "#fc0" }
+												// else if(d.key == "BNSF"){ return "#F85D13" }
+												else { return "steelblue" }
+										} )
+										// .style("fill", function(d) { return color(d.color); })
+										.style("fill-opacity", "0.65")
+
+
+						});
+					});
+
+					function numberWithCommas(x) {
+							return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+					}
+
+					break;
+					/**************************************
+					Reloading data when selections are made
+					**************************************/
+					case 2:
+							$('#nav').html('<i id="close" class="fa fa-times fa-4x nav" aria-hidden="true">');
+
+							$('#nav').append('<i id="refresh" class="fa fa-refresh fa-4x nav" aria-hidden="true">');
+
+							$("#refresh").click(function(){
+								location.reload();
+							})
+
+							// $('.next-label').hide();
+							$('#up-chatter').html('<b>Explore the data yourself</b> using the dropdown menus above to select different accident types and causes.');
+							$('#close').click(function(){
+								$('#legend').toggle();
+							})
+							$('.dropdown').show('slow');
+							$('.selector').on("change", function(){
+								AccidentCauseVal = $( "#AccidentCause" ).val();
+								AccidentTypeVal = $( "#AccidentType" ).val();
+								// RRClassVal = $( "#RRClassVal" ).val();
+								HazmatVal = $( "#HazmatVal" ).val();
+
+									d3.csv("accidents.csv", function(error1, csv_data) {
+										d3.csv("train_miles.csv", function(error2, train_miles) {
+
+										// TYPE filter
+										type_filtered_data = csv_data.filter(function(d){
+											if(AccidentTypeVal == "All"){
+												return d
+											}
+											else{
+												return d.TYPE == AccidentTypeVal
+											}})
+
+										// CAUSE filter
+										cause_filtered_data = type_filtered_data.filter(function(d){
+											if(AccidentCauseVal == "All"){
+												return d
+											}
+											else{
+												return d.SHORT_CAUSE == AccidentCauseVal
+											}})
+
+										// HAZMAT filter
+										hazmat_filtered_data = cause_filtered_data.filter(function(d){
+											if(HazmatVal == "All"){
+												return d
+											}
+											else{
+												return d.HAZMAT == HazmatVal
+											}})
+
+										// // SIZE filter
+										// size_filtered_data = hazmat_filtered_data.filter(function(d){
+										// 	if(RRClassVal == "All"){
+										// 		return d
+										// 	}
+										// 	else{
+										// 		return d.RRCLASS == RRClassVal
+										// 	}})
+
+											var data = d3.nest()
+												.key(function(d) { return d.RAILROAD; })
+												//count distinct incident numbers, sum the cost
+												.rollup(function(incidents) { return {"incidents": d3.map(incidents, function(d) { return d.INCDTNO; }).size(), "cost": d3.sum(incidents, function(d) {return parseFloat(d.ACCDMG);})} })
+												.entries(hazmat_filtered_data);
+
+											// merge the accient data we just summed with freight miles., which is already
+											// grouped by railroad
+											data.forEach(function(data) {
+													var result = train_miles.filter(function(train_miles) {
+															return train_miles.RAILROAD === data.key;
+													});
+													data.miles = (result[0] !== undefined) ? parseFloat(result[0].TONNAGE) : null;
+											});
+
+											data = data.filter(function(d){ return d.miles > 0})
+
+											y.domain(d3.extent(data, function(d) { return d.values.incidents; })).nice();
+											x.domain(d3.extent(data, function(d) { return d.miles; })).nice();
+											r.domain(d3.extent(data, function(d) { return d.values.cost; })).nice();
+
+											// console.log("New data")
+											svg.selectAll(".x.axis")
+												 .transition()
+												 .duration(1000)
+												 .call(xAxis);
+
+											// Update Y Axis
+											svg.selectAll(".y.axis")
+												 .transition()
+												 .duration(1000)
+												 .call(yAxis);
+
+											svg.selectAll("line.horizontalGrid").remove();
+									 		svg.selectAll("line.horizontalGrid").data(y.ticks(4)).enter()
+									 			.append("line")
+									 					.attr(
+									 					{
+									 							"class":"horizontalGrid",
+									 							"x1" : 0,
+									 							"x2" : width,
+									 							"y1" : function(d){ return y(d);},
+									 							"y2" : function(d){ return y(d);},
+									 							"fill" : "none",
+									 							"shape-rendering" : "crispEdges",
+									 							"stroke" : "black",
+									 							"stroke-width" : "1px",
+																"stroke-opacity": "0.5"
+									 					});
+									 		svg.selectAll("line.verticalGrid").remove();
+									 		svg.selectAll("line.verticalGrid").data(x.ticks(4)).enter()
+									 			.append("line")
+									 					.attr(
+									 					{
+									 							"class":"horizontalGrid",
+									 							"y1" : 0,
+									 							"y2" : height - 4,
+									 							"x1" : function(d){ return x(d);},
+									 							"x2" : function(d){ return x(d);},
+									 							"fill" : "none",
+									 							"shape-rendering" : "crispEdges",
+									 							"stroke" : "#eee",
+									 							"stroke-width" : "1px",
+																"stroke-opacity": "0.5"
+									 					});
+
+											// svg.selectAll(".dot").remove();
+											var circle = svg.selectAll("circle")
+															.data(data)
+															// .enter()
+															// .append("circle")
+															.transition()
+															.duration(1000)
+															.attr("class", "dot")
+															.attr("r", function(d){ return r(d.values.cost)})
+															.attr("cx", function(d) { return x(d.miles) })
+															.attr("cy", function(d) { return y(d.values.incidents) })
+															.style("stroke", function(d) { return color(d.color); })
+															.style("stroke-width", "1")
+															.style("stroke", function(d){ if(d.key == "UP"){ return "#FE0000"} else { return "steelblue" } })
+															.style("fill", function(d){ if(d.key == "UP"){ return "#fc0" } else { return "steelblue" } } )
+															.style("fill-opacity", ".65");
+										}); // d3 load data function
+									}); // d3 load data function
+							}); // jquery on selector
+
+							// $('.railroad-size-selector').on("change", function(){
+							//
+							// 	d3.csv("accidents.csv", function(error1, csv_data) {
+							// 	  d3.csv("train_miles.csv", function(error2, train_miles) {
+							//
+							// 		AccidentCauseVal = $( "#AccidentCause" ).val();
+							// 		AccidentTypeVal = $( "#AccidentType" ).val();
+							// 		RRClassVal = $( "#RRClassVal" ).val();
+							// 		HazmatVal = $( "#HazmatVal" ).val();
+							//
+							// 		// TYPE filter
+							// 		type_filtered_data = csv_data.filter(function(d){
+							// 			if(AccidentTypeVal == "All"){
+							// 				return d
+							// 			}
+							// 			else{
+							// 				return d.TYPE == AccidentTypeVal
+							// 			}})
+							//
+							// 		// CAUSE filter
+							// 		cause_filtered_data = type_filtered_data.filter(function(d){
+							// 			if(AccidentCauseVal == "All"){
+							// 				return d
+							// 			}
+							// 			else{
+							// 				return d.SHORT_CAUSE == AccidentCauseVal
+							// 			}})
+							//
+							// 		// HAZMAT filter
+							// 		hazmat_filtered_data = cause_filtered_data.filter(function(d){
+							// 			if(HazmatVal == "All"){
+							// 				return d
+							// 			}
+							// 			else{
+							// 				return d.HAZMAT == HazmatVal
+							// 			}})
+							//
+							// 		// // SIZE filter
+							// 		// size_filtered_data = hazmat_filtered_data.filter(function(d){
+							// 		// 	if(RRClassVal == "All"){
+							// 		// 		return d
+							// 		// 	}
+							// 		// 	else{
+							// 		// 		return d.RRCLASS == RRClassVal
+							// 		// 	}})
+							//
+							// 			var data = d3.nest()
+							// 				.key(function(d) { return d.RAILROAD; })
+							// 				//count distinct incident numbers, sum the cost
+							// 				.rollup(function(incidents) { return {"incidents": d3.map(incidents, function(d) { return d.INCDTNO; }).size(), "cost": d3.sum(incidents, function(d) {return parseFloat(d.ACCDMG);})} })
+							// 				.entries(hazmat_filtered_data);
+							//
+							// 			// merge the accient data we just summed with freight miles., which is already
+							// 			// grouped by railroad
+							// 			data.forEach(function(data) {
+							// 			    var result = train_miles.filter(function(train_miles) {
+							// 					    return train_miles.RAILROAD === data.key;
+							// 			    });
+							// 	    		data.miles = (result[0] !== undefined) ? parseFloat(result[0].TONNAGE) : null;
+							// 			});
+							//
+							// 			data = data.filter(function(d){ return d.miles > 0})
+							//
+							//
+							// 			y.domain(d3.extent(data, function(d) { return d.values.incidents; })).nice();
+							// 		  x.domain(d3.extent(data, function(d) { return d.miles; })).nice();
+							// 			r.domain(d3.extent(data, function(d) { return d.values.cost; })).nice();
+							//
+					    //       // console.log("New data")
+							// 			svg.selectAll(".x.axis")
+							//          .transition()
+							//          .duration(1000)
+							//          .call(xAxis);
+							//
+							//       // Update Y Axis
+							//       svg.selectAll(".y.axis")
+							//          .transition()
+							//          .duration(1000)
+							//          .call(yAxis);
+							//
+							// 				 svg.selectAll("line.horizontalGrid").remove();
+							// 		 		svg.selectAll("line.horizontalGrid").data(y.ticks(4)).enter()
+							// 		 			.append("line")
+							// 		 					.attr(
+							// 		 					{
+							// 		 							"class":"horizontalGrid",
+							// 		 							"x1" : 0,
+							// 		 							"x2" : width,
+							// 		 							"y1" : function(d){ return y(d);},
+							// 		 							"y2" : function(d){ return y(d);},
+							// 		 							"fill" : "none",
+							// 		 							"shape-rendering" : "crispEdges",
+							// 		 							"stroke" : "black",
+							// 		 							"stroke-width" : "1px"
+							// 		 					});
+							// 		 		svg.selectAll("line.verticalGrid").remove();
+							// 		 		svg.selectAll("line.verticalGrid").data(x.ticks(4)).enter()
+							// 		 			.append("line")
+							// 		 					.attr(
+							// 		 					{
+							// 		 							"class":"horizontalGrid",
+							// 		 							"y1" : 0,
+							// 		 							"y2" : height - 4,
+							// 		 							"x1" : function(d){ return x(d);},
+							// 		 							"x2" : function(d){ return x(d);},
+							// 		 							"fill" : "none",
+							// 		 							"shape-rendering" : "crispEdges",
+							// 		 							"stroke" : "#eee",
+							// 		 							"stroke-width" : "1px"
+							// 		 					});
+							//
+							// 			svg.selectAll("circle").remove();
+							// 			var circle = svg.selectAll("circle")
+							// 					.data(data)
+							// 					.enter()
+							// 						.append("circle")
+							// 							.attr("class", "dot")
+							// 							.attr("r", function(d){ return r(d.values.cost)})
+							// 							.attr("cx", function(d) { return x(d.miles) })
+							// 							.attr("cy", function(d) { return y(d.values.incidents) })
+							// 							//.style("stroke", function(d) { return color(d.color); })
+							// 							.style("stroke-width", "1")
+							// 							.style("stroke", function(d){
+							// 								if(d.key == "UP"){ return "#FE0000" }
+							// 									// else if(d.key == "BNSF"){ return "black" }
+							// 									else { return "steelblue" }
+							// 								})
+							// 							.style("fill", function(d){
+							// 									if(d.key == "UP"){
+							// 										return "#fc0"
+							// 									}
+							// 									// else if(d.key == "BNSF"){ return "#F85D13" }
+							// 									else { return "steelblue" }
+							// 							} )
+							// 							// .style("fill", function(d) { return color(d.color); })
+							// 							.style("fill-opacity", "0.65")
+							// 							.on("mouseover", function(d) {
+							// 												d3.select(this)
+							// 													.style("fill-opacity", ".65");
+							//
+							// 												tooltip.transition()
+							// 														 .duration(200)
+							// 														 .style("opacity", .9);
+							// 												tooltip.html("<b>" + d.key + "</b>" + "<br/>" + numberWithCommas(d.values.incidents) + " incidents over <br/> " + numberWithCommas(d.miles) +" freight miles. <br/> Total cost: $" + numberWithCommas(d.values.cost) + "")
+							// 														 .style("left", (d3.event.pageX - 25) + "px")
+							// 														 .style("top", (d3.event.pageY - 25) + "px");
+							// 										})
+							// 										.on("mouseout", function(d) {
+							// 											d3.selectAll(".dot")
+							// 												.style("fill-opacity", ".65");
+							// 												tooltip.transition()
+							// 														 .duration(500)
+							// 														 .style("opacity", 0);
+							// 										});
+							//
+							// 									}); // d3 load data function
+							// 								}); // d3 load data function
+							// });
+					break;
+				}}
+				/****
+				Union Pacific has a higher , data from the Federal Railroad Administration show. When measured by total train miles, in comparison with other large railroads, Union Pacific stands out above the rest. The circles below are sized according to the total cost of such incidents, which can be an indicator of the severity of incidents. 
+				***/
+
+				function stepper(){
+
+
+				};
+
+				stepper();
+
+
+
+		</script>
+
+		<script type="text/javascript">
+		  var pymChild = new pym.Child();
+		</script>
+
+	</body>
+</html>

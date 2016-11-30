@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPB &middot;</title>
+
+	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+	<script charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+  <script charset="utf8" src="https://s3-us-west-2.amazonaws.com/opb-news-interactives/lib/pym.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+	    $('#dataTableDatabase').dataTable( {
+	        "sScrollY": "320px",
+	        "bPaginate": false,
+       		"bInfo": false,
+       		"oLanguage": {
+         	"sSearch": ""
+			}
+	    });
+
+		$('div.dataTables_filter input').attr('placeholder', 'Search');
+
+	});
+
+	</script>
+
+	<style type="text/css">
+
+  		body {
+		    margin: 0;
+	    }
+
+		h2 {
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 600;
+		    text-align: center;
+		    color: #222;
+		}
+
+	    p {
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    color: #222;
+		    font-size: 14px;
+		    margin-left: 4px;
+	    }
+
+	    #dataTableDatabase_filter {
+			float: none;
+			text-align: center;
+	    }
+
+		.dataTables_filter {
+			float: none;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    padding: 1em;
+		}
+
+		input {
+			width: 70%;
+			max-width: 25em;
+			height: 44px !important;
+		}
+
+		input[type="text"] {
+		    font-size:18px;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 300;
+		    color: #444;
+		    padding-left: .25em;
+		}
+
+		.dataTables_scrollHeadInner {
+			text-align: left;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 300;
+			background-color: #fff;
+		    border-bottom: 1px solid #ddd;
+		}
+
+		td {
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 300;
+		}
+
+    .highlight td{
+      font-weight: bold;
+      color: #444;
+    }
+
+    @media (max-width: 500px) {
+      tr {
+  		    font-size: 0.75em;
+  		}
+      td {
+  		    font-size: 0.875em;
+  		}
+    }
+
+	</style>
+
+</head>
+<body>
+
+
+  <table id="dataTableDatabase" class="stripe" cellspacing="0" width="100%" width="380px">
+         <thead>
+        <tr>
+          <th class="School-cell">School</th>
+          <th class="School District-cell">School District</th>
+          <th class="Specified Culture-cell">Specified Culture</th>
+          <th class="Current Provider-cell">Current Provider</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td class="School-cell">Boise-Eliot/Humboldt K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Bridger K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Impact Northwest</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Chavez K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Neighborhood House</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Clear Creek Middle School </td>
+          <td class="School District-cell">Gresham-Barlow</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">David Douglas High School</td>
+          <td class="School District-cell">David Douglas</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr>
+          <td class="School-cell">East Gresham Elementary</td>
+          <td class="School District-cell">Gresham-Barlow</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Catholic Charities</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Floyd Light Middle School</td>
+          <td class="School District-cell">David Douglas</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Catholic Charities</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Gilbert Park Elementary</td>
+          <td class="School District-cell">David Douglas</td>
+          <td class="Specified Culture-cell">Slavic</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Hall Elementary</td>
+          <td class="School District-cell">Gresham-Barlow</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Catholic Charities</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Harrison Park K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Asian Pacific Islander</td>
+          <td class="Current Provider-cell">Impact Northwest</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Hartley Elementary</td>
+          <td class="School District-cell">Reynolds</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Harvey Scott K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Impact Northwest</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Highland Elementary</td>
+          <td class="School District-cell">Gresham-Barlow</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Jefferson High School</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Kelly Elementary School</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Impact Northwest</td>
+        </tr>
+        <tr>
+          <td class="School-cell">King K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+        <tr>
+          <td class="School-cell">Lee K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Asian Pacific Islander</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Lent K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Asian Pacific Islander</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Lincoln Park Elementary</td>
+          <td class="School District-cell">David Douglas</td>
+          <td class="Specified Culture-cell">Asian Pacific Islander</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Lynch View Elementary</td>
+          <td class="School District-cell">Centennial</td>
+          <td class="Specified Culture-cell">Native American</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Lynch Wood Elementary</td>
+          <td class="School District-cell">Centennial</td>
+          <td class="Specified Culture-cell">Native American</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Madison High School</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Asian Pacific Islander</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Markham Elementary</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">African Immigrant</td>
+          <td class="Current Provider-cell">Neighborhood House</td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Mill Park Elementary</td>
+          <td class="School District-cell">David Douglas</td>
+          <td class="Specified Culture-cell">African Immigrant</td>
+          <td class="Current Provider-cell">Camp Fire</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Prescott Elementary</td>
+          <td class="School District-cell">Parkrose</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+        <tr>
+          <td class="School-cell">Reynolds High School</td>
+          <td class="School District-cell">Reynolds</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+        <tr class="highlight">
+          <td class="School-cell">Reynolds Middle School</td>
+          <td class="School District-cell">Reynolds</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Metropolitan Family Service</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Rigler K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Ron Russell Middle School</td>
+          <td class="School District-cell">David Douglas</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Catholic Charities</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Vernon K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+        <tr>
+          <td class="School-cell">Vestal K-8</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">Asian Pacific Islander</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Walt Morey Middle School</td>
+          <td class="School District-cell">Reynolds</td>
+          <td class="Specified Culture-cell">Slavic</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Wilkes Elementary</td>
+          <td class="School District-cell">Reynolds</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">Catholic Charities</td>
+        </tr>
+        <tr>
+          <td class="School-cell">Woodland Elementary</td>
+          <td class="School District-cell">Reynolds</td>
+          <td class="Specified Culture-cell">Latino</td>
+          <td class="Current Provider-cell">IRCO</td>
+        </tr>
+        <tr class="lastRow">
+          <td class="School-cell">Woodlawn</td>
+          <td class="School District-cell">Portland Public Schools</td>
+          <td class="Specified Culture-cell">African American</td>
+          <td class="Current Provider-cell">Self-Enhancement Inc. </td>
+        </tr>
+      </tbody>
+    </table>
+
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  </script>
+
+
+</body>
+
+</html>

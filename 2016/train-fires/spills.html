@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="description" content="">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title></title>
+		<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+
+		<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+		<script src="//d3js.org/d3.v3.min.js"></script>
+	  <link rel="stylesheet" href="css/style.css" />
+
+	</head>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Fires and violent ruptures on Class I railroads</title>
+		<link rel="stylesheet/css" href="css/style.css" />
+	</head>
+
+	<body>
+
+
+<div class="row">
+</div>
+<div id="legend">
+				<div class="chatterbox">
+					<p id="spill-chatter" style="float: left; width: 75%;">In recent years, spills of unprecedented size have occurred on North American railroads. <b>Crude oil and ethanol</b> incidents, shown in red, account for most of these.</p> <div id="nav" style="float: left; margin-left: 6px; width: 20%;"> <i id="next" class="fa fa-arrow-right fa-4x nav" aria-hidden="true"></i></div>
+				</div>
+</div>
+		<div class="row">
+			<div class="small-12 columns">
+				<div id="chart"></div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript">
+        var docWidth = $("#chart").width();
+				if(docWidth > 600){
+					var docHeight = 500// docWidth * .35
+				}
+				else {
+					var docHeight = 350// docWidth * .35
+
+				}
+        var margin = {top: 50, right: 20, bottom: 30, left: 50},
+            width = docWidth - margin.left - margin.right,
+            height = docHeight - margin.top - margin.bottom;
+
+        var x = d3.scale.linear()
+            .range([0, width]);
+
+        var y = d3.scale.linear()
+            .range([height, 0]);
+
+        var r = d3.scale.sqrt()
+            // .domain([0, 1e6])
+            .range([4, 4]);
+
+        var color = d3.scale.category10();
+
+        var xAxis = d3.svg.axis()
+            .scale(x)
+            .orient("bottom")
+            .ticks("10")
+						.tickFormat(d3.format("d"));
+
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left")
+            .ticks("4");
+
+        var svg = d3.select("#chart").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        // create a tooltip and store it in a variable we can access later to append data
+        var tooltip = d3.select("body").append("div")
+            .attr("class", "scatterplot-tooltip")
+            .style("opacity", 0);
+
+              // load two data files we'll be using
+              d3.csv("spills.csv", function(error1, data) {
+
+								data = data.filter(function(d){ return d.year > 1975})
+                // d3.csv("train_miles.csv", function(error2, train_miles) {
+                  // do something with the data
+
+                //   derailments_data = csv_data.filter(function(d){
+                //       return d.TYPE == '1'
+                //     })
+                //   derailments_data = derailments_data.filter(function(d){ return d.SHORT_CAUSE == 'T'})
+                //
+                // // group the data by railroads, counting the number of incidents (length) and summing the cost
+                // var data = d3.nest()
+                //   .key(function(d) { return d.RAILROAD; })
+                //   //count distinct incident numbers, sum the cost
+                //   .rollup(function(incidents) { return {"incidents": d3.map(incidents, function(d) { return d.INCDTNO; }).size(), "cost": d3.sum(incidents, function(d) {return parseFloat(d.ACCDMG);})} })
+                //   .entries(derailments_data);
+                //
+                // // merge the accient data we just summed with freight miles., which is already
+                // // grouped by railroad
+                // data.forEach(function(data) {
+                //     var result = train_miles.filter(function(train_miles) {
+                //         return train_miles.RAILROAD === data.key;
+                //     });
+                //     data.miles = (result[0] !== undefined) ? parseFloat(result[0].FRTRNMI) : null;
+                // });
+
+                // data = data.filter(function(d){ return d.miles > 0})
+                // console.log(data);
+
+                // y.domain(d3.extent(data, function(d) { return d.gallons; })).nice();
+                // x.domain(d3.extent(data, function(d) { return d.year; })).nice();
+                // r.domain(d3.extent(data, function(d) { return d.; })).nice();
+
+								x.domain([d3.min(data, function(d){ return d.year}), d3.max(data, function(d){ return d.year})]);
+								y.domain([0,863555])
+								r.domain([0,469131200])
+
+								//y.domain([0, d3.max(data, function(d){ return d})]);
+
+
+                /***************************
+                // GRIDLINES
+                ***************************/
+                svg.selectAll("line.horizontalGrid").data(y.ticks(4)).enter()
+                  .append("line")
+                      .attr(
+                      {
+                          "class":"horizontalGrid",
+                          "x1" : 0,
+                          "x2" : width,
+                          "y1" : function(d){ return y(d);},
+                          "y2" : function(d){ return y(d);},
+                          "fill" : "none",
+                          "shape-rendering" : "crispEdges",
+                          "stroke" : "black",
+                          "stroke-width" : "1px",
+                          "stroke-opacity": "0.5"
+                      });
+
+                svg.selectAll("line.verticalGrid").data(x.ticks(4)).enter()
+                  .append("line")
+                      .attr(
+                      {
+                          "class":"horizontalGrid",
+                          "y1" : 0,
+                          "y2" : height - 4,
+                          "x1" : function(d){ return x(d);},
+                          "x2" : function(d){ return x(d);},
+                          "fill" : "none",
+                          "shape-rendering" : "crispEdges",
+                          "stroke" : "#eee",
+                          "stroke-width" : "1px",
+                          "stroke-opacity": "0.5"
+                      });
+
+                /*******************************/
+
+                svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis)
+                  .append("text")
+                    .attr("class", "label")
+                    .attr("x", width - 6)
+                    .attr("y", -6)
+                    .style("text-anchor", "end")
+
+                svg.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis)
+                  .append("text")
+                    .attr("class", "label")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6)
+                    .attr("x", -10)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .text("Gallons released")
+
+                var circle = svg.selectAll("circle")
+                    .data(data)
+                    .enter()
+                      .append("circle")
+												// .filter(function(d){ return d.product == "UN1267" || d.product == "UN1987"})
+                        .attr("class", "dot")
+                        .attr("r", function(d){ return r(d.damages) }) // r(d.values.cost)})
+                        .attr("cx", function(d) { return x(d.year) })
+                        .attr("cy", function(d) { return y(d.gallons) })
+                        //.style("stroke", function(d) { return color(d.color); })
+                        .style("stroke-width", "1")
+												.style("stroke", "steelblue")
+												// .style("fill", "steelblue")
+                        .style("fill", function(d) {
+													if(d.product == "UN1987" || d.product == "UN1267")
+														return "red";
+													else {
+														return "steelblue";
+													}
+
+												 })
+                        .style("fill-opacity", "0.65")
+                        .on("mouseover", function(d) {
+                                  d3.select(this)
+                                    .style("fill-opacity", ".65");
+
+                                  tooltip.transition()
+                                       .duration(200)
+                                       .style("opacity", .9);
+                                  tooltip.html(numberWithCommas(Math.round(d.gallons)) + " gallons of " + toTitleCase(d.product_name) + " released from a " + toTitleCase(d.railroad) + "     train<br/>")
+                                       .style("left", (d3.event.pageX + 10) + "px")
+                                       .style("top", (d3.event.pageY - 25) + "px");
+                              })
+                              .on("mouseout", function(d) {
+                                d3.selectAll(".dot")
+                                  .style("fill-opacity", ".65");
+                                  tooltip.transition()
+                                       .duration(500)
+                                       .style("opacity", 0);
+                              });
+
+															$("#next").click(function(){
+
+																$("#spill-chatter").html("<b>Union Pacific</b> (yellow) has accounted for a high number of hazardous materials incident over the years, but it hasn't had the same large-scale spills as other railroads recently.")
+
+																$('#nav').html('<i id="refresh" class="fa fa-refresh fa-4x nav" aria-hidden="true">');
+
+																$("#refresh").click(function(){
+																	location.reload();
+																})
+
+																svg.selectAll("circle").remove();
+
+																svg.selectAll("circle")
+																	.data(data)
+																	.enter()
+																		.append("circle")
+																		.transition()
+																		.duration(1000)
+																			// .filter(function(d){ return d.railroad == "UNION PACIFIC RAILROAD COMPANY INC" || d.railroad == "UNION PACIFIC RR CO." })
+																			.attr("class", "dot")
+																			.attr("r", function(d){ return r(d.damages) })
+																			.attr("cx", function(d) { return x(d.year) })
+																			.attr("cy", function(d) { return y(d.gallons) })
+																			//.style("stroke", function(d) { return color(d.color); })
+																			.style("stroke-width", "1")
+																	// .style("stroke", "steelblue")
+																	.style("fill", function(d){
+																		if(d.railroad == "UNION PACIFIC RAILROAD COMPANY INC" || d.railroad == "UNION PACIFIC RR CO."){
+																			return "#fc0";
+																		}
+																		else {
+																			return "#ccc";
+
+																		}
+																	})
+																	.style("stroke", function(d){
+																		if(d.railroad == "UNION PACIFIC RAILROAD COMPANY INC" || d.railroad == "UNION PACIFIC RR CO."){
+																			return "#FE0000";
+																		}
+																		else {
+																			return "#ccc";
+
+																		}
+																	})
+																	.style("fill-opacity", function(d){
+																		if(d.railroad == "UNION PACIFIC RAILROAD COMPANY INC" || d.railroad == "UNION PACIFIC RR CO."){
+																			return "0.75";
+																		}
+																		else {
+																			return "0.5";
+
+																		}
+																	})
+															});
+
+                // });
+              });
+
+              function numberWithCommas(x) {
+                  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+              }
+
+							function toTitleCase(str)
+							{
+							    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+							}
+
+
+
+
+    </script>
+
+		<script type="text/javascript">
+		  var pymChild = new pym.Child();
+		</script>
+
+	</body>
+</html>

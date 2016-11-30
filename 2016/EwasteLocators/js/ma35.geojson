@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "Date": "8\/27\/2015", "locationName": "Lawrence, MA, United States", "Lat": 42.703420, "Lon": -71.154340, "Location Description": "#ma352894 (printer traveled 20,000 km)", "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ -71.15434, 42.70342 ] } },
+{ "type": "Feature", "properties": { "Date": "10\/17\/2015", "locationName": "Philadelphia, PA, United States", "Lat": 40.021471, "Lon": -75.065575, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ -75.065575, 40.021471 ] } },
+{ "type": "Feature", "properties": { "Date": "12\/11\/2015", "locationName": "Port Said, Egypt", "Lat": 31.198420, "Lon": 32.299280, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 32.29928, 31.19842 ] } },
+{ "type": "Feature", "properties": { "Date": "12\/25\/2015", "locationName": "Singapore", "Lat": 1.262740, "Lon": 103.844060, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 103.84406, 1.26274 ] } },
+{ "type": "Feature", "properties": { "Date": "1\/1\/2016", "locationName": "Tsing Yi, Hong Kong", "Lat": 22.351990, "Lon": 114.121120, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 114.12112, 22.35199 ] } },
+{ "type": "Feature", "properties": { "Date": "1\/5\/2016", "locationName": "Fung Kong Tsuen, Hong Kong", "Lat": 22.453303, "Lon": 113.981538, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 113.981538, 22.453303 ] } }
+]
+}

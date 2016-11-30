@@ -1,0 +1,175 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	margin-top: 1%;
+	width:auto !important;
+	height:auto !important;
+}
+
+h3, h4 {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h6 {
+	color: #444;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-size: 0.875em;
+	margin-top: -0.1em;
+}
+
+p {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+	h3 {
+		font-size: 1.75em;
+	}
+
+	.card {
+		margin: 0 0 0 1em;
+		padding: 0 0 3em 1em;
+		/*background-color: green;*/
+	}
+
+	.card:last-child {
+		margin: 0 0 3em 1em;
+		padding: 0 0 0em 1em;
+	}
+
+}
+
+table, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+td {
+	background-color: #eee;
+	height: 5px;
+	/*text-align: center;*/
+
+}
+
+tr {
+	line-height: 2px;
+	padding: 0;
+	margin-bottom: 0px;
+	display:table-row;
+}
+
+.spacer {
+	width: 1px;
+	padding: 0px;
+	margin: 0px;
+	border: none;/*border-color: white;*/
+	background-color: white;
+}
+
+th.rotate {
+	/* Something you can count on */
+	height: 50px;
+	white-space: nowrap;
+	background-color: #fff;
+}
+
+th.rotate > div {
+	transform:
+		/* Magic Numbers */
+		translate(0px, 25px)
+		/* 45 is really 360 - 45 */
+		rotate(315deg);
+	width: 10px;
+}
+
+th.rotate > div > span {
+	/*border-bottom: 1px solid #ccc;*/
+	padding: 5px 10px;
+}
+
+.product {
+	background-color: steelblue;
+}
+
+.entity {
+	background-color: #ffb911;
+}
+
+.law_ban {
+	background-color: green;
+}
+
+.ewaste {
+	table-layout: auto;
+	font-size: 10px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*font-weight: bold;*/
+	border-color: #fff !important;
+	border-top-color: #fff !important;
+	border-right-color: #fff !important;
+	border-bottom-color: #fff !important;
+	border-left-color: #fff !important;
+	border: none !important;
+	width: 90%;
+	max-width: 930px;
+	padding: 0;
+	margin: 0;
+}
+
+.ewaste th {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.entity-label {
+	padding: 1px;
+	color: #ffb911;
+	border-top: 1px solid #ffb911;
+}
+.product-label {
+	padding: 10px;
+	color: steelblue;
+	border-top: 1px solid steelblue;
+}
+.law-label {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: green;
+	border-top: 1px solid green;
+}
+
+th {
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.product-label-large {
+	display: none;
+	}
+	.hide_columns {
+	display: none;
+	}
+
+	td {
+		font-size: 9px;
+	}
+
+
+}
+
+@media (min-width: 600px) {
+
+	.product-label-small {
+	display: none;
+	}
+	.asterisk {
+		visibility: hidden;
+	}
+}

@@ -1,0 +1,3440 @@
+{
+    "WA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 773165, 
+                "is_winner": true, 
+                "candidateid": "8221", 
+                "name": "Donald Trump", 
+                "vote_percent": 37.69001242578773, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 12
+            }, 
+            {
+                "vote_total": 687212, 
+                "is_winner": false, 
+                "candidateid": "8224", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 33.500001706169364, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 257858, 
+                "is_winner": false, 
+                "candidateid": "8261", 
+                "name": "Darrell Castle", 
+                "vote_percent": 12.569983411159031, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 184624, 
+                "is_winner": false, 
+                "candidateid": "8227", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.999994637753433, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 58874, 
+                "is_winner": false, 
+                "candidateid": "8223", 
+                "name": "Jill Stein", 
+                "vote_percent": 2.8699718579550635, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 46156, 
+                "is_winner": false, 
+                "candidateid": "8222", 
+                "name": "Gloria La Riva", 
+                "vote_percent": 2.2499986594383583, 
+                "delegatecount": 0, 
+                "party": "PSL", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 43490, 
+                "is_winner": false, 
+                "candidateid": "8220", 
+                "name": "Alyson Kennedy", 
+                "vote_percent": 2.1200373017370264, 
+                "delegatecount": 0, 
+                "party": "SWP", 
+                "electtotal": 12, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "DE": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 148450, 
+                "is_winner": true, 
+                "candidateid": "10506", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.99998484338671, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 131956, 
+                "is_winner": false, 
+                "candidateid": "10505", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.000121252906276, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 49483, 
+                "is_winner": false, 
+                "candidateid": "10507", 
+                "name": "Gary Johnson", 
+                "vote_percent": 14.999893903707004, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "DC": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 108275, 
+                "is_winner": true, 
+                "candidateid": "10218", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.00039483144853, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 96243, 
+                "is_winner": false, 
+                "candidateid": "10219", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.99975063276935, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 36091, 
+                "is_winner": false, 
+                "candidateid": "10099", 
+                "name": "Gary Johnson", 
+                "vote_percent": 14.99985453578212, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "WI": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 804579, 
+                "is_winner": true, 
+                "candidateid": "27063", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 43.88000800615623, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 10
+            }, 
+            {
+                "vote_total": 718767, 
+                "is_winner": false, 
+                "candidateid": "27062", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.20000610823909, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 67292, 
+                "is_winner": false, 
+                "candidateid": "27072", 
+                "name": "Jill Stein", 
+                "vote_percent": 3.669960934538765, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 66926, 
+                "is_winner": false, 
+                "candidateid": "27069", 
+                "name": "Gary Johnson", 
+                "vote_percent": 3.6500000818067737, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 64543, 
+                "is_winner": false, 
+                "candidateid": "27070", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 3.5200363876528495, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 56841, 
+                "is_winner": false, 
+                "candidateid": "27073", 
+                "name": "Monica Moorehead", 
+                "vote_percent": 3.0999858746971105, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 54641, 
+                "is_winner": false, 
+                "candidateid": "27071", 
+                "name": "Darrell Castle", 
+                "vote_percent": 2.980002606909182, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "WV": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 273613, 
+                "is_winner": true, 
+                "candidateid": "57731", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.04006554189563, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 5
+            }, 
+            {
+                "vote_total": 248512, 
+                "is_winner": false, 
+                "candidateid": "57048", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.9998712339968, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 34543, 
+                "is_winner": false, 
+                "candidateid": "57767", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.559955060664883, 
+                "delegatecount": 0, 
+                "party": "Mnt", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 33487, 
+                "is_winner": false, 
+                "candidateid": "57732", 
+                "name": "Gary Johnson", 
+                "vote_percent": 5.389983936441101, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 31127, 
+                "is_winner": false, 
+                "candidateid": "57766", 
+                "name": "Darrell Castle", 
+                "vote_percent": 5.010124227001587, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "HI": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 164959, 
+                "is_winner": true, 
+                "candidateid": "19147", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.220263713369334, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 4
+            }, 
+            {
+                "vote_total": 152117, 
+                "is_winner": false, 
+                "candidateid": "19148", 
+                "name": "Donald Trump", 
+                "vote_percent": 41.69988212396173, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 26666, 
+                "is_winner": false, 
+                "candidateid": "19164", 
+                "name": "Gary Johnson", 
+                "vote_percent": 7.309959154582088, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 21048, 
+                "is_winner": false, 
+                "candidateid": "19165", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.769895008086844, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "FL": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 2698585, 
+                "is_winner": true, 
+                "candidateid": "20428", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.75000402132079, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 29
+            }, 
+            {
+                "vote_total": 2412143, 
+                "is_winner": false, 
+                "candidateid": "20402", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.00000331655323, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 309357, 
+                "is_winner": false, 
+                "candidateid": "20505", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.129994791353148, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 305739, 
+                "is_winner": false, 
+                "candidateid": "20503", 
+                "name": "Gary Johnson", 
+                "vote_percent": 5.069998343381661, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 304533, 
+                "is_winner": false, 
+                "candidateid": "20504", 
+                "name": "Darrell Castle", 
+                "vote_percent": 5.049999527391164, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "WY": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 50454, 
+                "is_winner": true, 
+                "candidateid": "55029", 
+                "name": "Donald Trump", 
+                "vote_percent": 43.91046282919358, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 45502, 
+                "is_winner": false, 
+                "candidateid": "55028", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 39.60070320795112, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 9536, 
+                "is_winner": false, 
+                "candidateid": "55031", 
+                "name": "Darrell Castle", 
+                "vote_percent": 8.299246314250405, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 9410, 
+                "is_winner": false, 
+                "candidateid": "55030", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.189587648604899, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NH": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 239774, 
+                "is_winner": true, 
+                "candidateid": "47142", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 55.00009175322054, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 4
+            }, 
+            {
+                "vote_total": 196178, 
+                "is_winner": false, 
+                "candidateid": "47143", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.99990824677946, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NJ": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1204324, 
+                "is_winner": true, 
+                "candidateid": "38596", 
+                "name": "Donald Trump", 
+                "vote_percent": 43.73000861656086, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 14
+            }, 
+            {
+                "vote_total": 1068552, 
+                "is_winner": false, 
+                "candidateid": "38597", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 38.80001408860352, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 80968, 
+                "is_winner": false, 
+                "candidateid": "38679", 
+                "name": "Gary Johnson", 
+                "vote_percent": 2.940015591872038, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 70778, 
+                "is_winner": false, 
+                "candidateid": "38681", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 2.5700081953551908, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 70227, 
+                "is_winner": false, 
+                "candidateid": "38628", 
+                "name": "Darrell Castle", 
+                "vote_percent": 2.550000925926262, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 68299, 
+                "is_winner": false, 
+                "candidateid": "38678", 
+                "name": "Jill Stein", 
+                "vote_percent": 2.4799936383419166, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 67197, 
+                "is_winner": false, 
+                "candidateid": "38672", 
+                "name": "Gloria La Riva", 
+                "vote_percent": 2.4399790994840593, 
+                "delegatecount": 0, 
+                "party": "PSL", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 66096, 
+                "is_winner": false, 
+                "candidateid": "38629", 
+                "name": "Alyson Kennedy", 
+                "vote_percent": 2.4000008714600116, 
+                "delegatecount": 0, 
+                "party": "SWP", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 57558, 
+                "is_winner": false, 
+                "candidateid": "38631", 
+                "name": "Monica Moorehead", 
+                "vote_percent": 2.089978972396141, 
+                "delegatecount": 0, 
+                "party": "WW", 
+                "electtotal": 14, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NM": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 245489, 
+                "is_winner": true, 
+                "candidateid": "38383", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.00016294075474, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 5
+            }, 
+            {
+                "vote_total": 214802, 
+                "is_winner": false, 
+                "candidateid": "38386", 
+                "name": "Donald Trump", 
+                "vote_percent": 35.0, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 92058, 
+                "is_winner": false, 
+                "candidateid": "38493", 
+                "name": "Gary Johnson", 
+                "vote_percent": 15.0, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 36823, 
+                "is_winner": false, 
+                "candidateid": "38499", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.999967411849052, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 24548, 
+                "is_winner": false, 
+                "candidateid": "38495", 
+                "name": "Darrell Castle", 
+                "vote_percent": 3.9998696473962063, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "TX": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 3915534, 
+                "is_winner": true, 
+                "candidateid": "59317", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 54.99999016737102, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 38, 
+                "is_incumbent": false, 
+                "electwon": 38
+            }, 
+            {
+                "vote_total": 3203620, 
+                "is_winner": false, 
+                "candidateid": "60390", 
+                "name": "Donald Trump", 
+                "vote_percent": 45.00000983262899, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 38, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "LA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 554448, 
+                "is_winner": true, 
+                "candidateid": "24352", 
+                "name": "Donald Trump", 
+                "vote_percent": 38.02999198174389, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 8
+            }, 
+            {
+                "vote_total": 531997, 
+                "is_winner": false, 
+                "candidateid": "24351", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 36.490061546460275, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 97972, 
+                "is_winner": false, 
+                "candidateid": "24455", 
+                "name": "Gary Johnson", 
+                "vote_percent": 6.719970807786145, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 69980, 
+                "is_winner": false, 
+                "candidateid": "24459", 
+                "name": "Jill Stein", 
+                "vote_percent": 4.799979148418675, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 55984, 
+                "is_winner": false, 
+                "candidateid": "24457", 
+                "name": "Laurence Kotlikoff", 
+                "vote_percent": 3.83998331873494, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 41988, 
+                "is_winner": false, 
+                "candidateid": "24454", 
+                "name": "Gloria La Riva", 
+                "vote_percent": 2.8799874890512047, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 27992, 
+                "is_winner": false, 
+                "candidateid": "24458", 
+                "name": "Jerry White", 
+                "vote_percent": 1.91999165936747, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 24493, 
+                "is_winner": false, 
+                "candidateid": "24463", 
+                "name": "Evan McMullin", 
+                "vote_percent": 1.6799927019465362, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 21724, 
+                "is_winner": false, 
+                "candidateid": "24461", 
+                "name": "Darrell Castle", 
+                "vote_percent": 1.4900649759966749, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 13996, 
+                "is_winner": false, 
+                "candidateid": "24456", 
+                "name": "Princess Jacob", 
+                "vote_percent": 0.959995829683735, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 9039, 
+                "is_winner": false, 
+                "candidateid": "24363", 
+                "name": "Alyson Kennedy", 
+                "vote_percent": 0.6199915907767419, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 4227, 
+                "is_winner": false, 
+                "candidateid": "24462", 
+                "name": "Chris Keniston", 
+                "vote_percent": 0.2899330074359208, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 4083, 
+                "is_winner": false, 
+                "candidateid": "24460", 
+                "name": "Tom Hoefling", 
+                "vote_percent": 0.2800559425977915, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NC": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1779205, 
+                "is_winner": true, 
+                "candidateid": "43782", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 53.999984824687196, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 15, 
+                "is_incumbent": false, 
+                "electwon": 15
+            }, 
+            {
+                "vote_total": 1383827, 
+                "is_winner": false, 
+                "candidateid": "43783", 
+                "name": "Donald Trump", 
+                "vote_percent": 42.0000151753128, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 15, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 131793, 
+                "is_winner": false, 
+                "candidateid": "43784", 
+                "name": "Gary Johnson", 
+                "vote_percent": 4.0, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 15, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "ND": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 150314, 
+                "is_winner": true, 
+                "candidateid": "40669", 
+                "name": "Donald Trump", 
+                "vote_percent": 54.99983534517141, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 122985, 
+                "is_winner": false, 
+                "candidateid": "40670", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.000164654828595, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NE": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 258766, 
+                "is_winner": true, 
+                "candidateid": "31580", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.41000557772343, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 230740, 
+                "is_winner": false, 
+                "candidateid": "31489", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.600120135581584, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 48362, 
+                "is_winner": false, 
+                "candidateid": "31594", 
+                "name": "Jill Stein", 
+                "vote_percent": 8.299995709443515, 
+                "delegatecount": 0, 
+                "party": "PEC", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 44807, 
+                "is_winner": false, 
+                "candidateid": "31497", 
+                "name": "Gary Johnson", 
+                "vote_percent": 7.689878577251469, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 5, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "TN": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1048738, 
+                "is_winner": true, 
+                "candidateid": "49748", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 52.80000563877788, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 11
+            }, 
+            {
+                "vote_total": 858059, 
+                "is_winner": false, 
+                "candidateid": "49749", 
+                "name": "Donald Trump", 
+                "vote_percent": 43.20003665205619, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 35752, 
+                "is_winner": false, 
+                "candidateid": "49777", 
+                "name": "Jill Stein", 
+                "vote_percent": 1.7999784518131188, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 31780, 
+                "is_winner": false, 
+                "candidateid": "49775", 
+                "name": "Gary Johnson", 
+                "vote_percent": 1.600003222158786, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 11917, 
+                "is_winner": false, 
+                "candidateid": "49776", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 0.5999760351940293, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NY": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 2812901, 
+                "is_winner": true, 
+                "candidateid": "78069", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.29000218387469, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 29
+            }, 
+            {
+                "vote_total": 2515035, 
+                "is_winner": false, 
+                "candidateid": "78071", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.600009258243105, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 353121, 
+                "is_winner": false, 
+                "candidateid": "78158", 
+                "name": "Lynn Kahn", 
+                "vote_percent": 5.5600001070681175, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 346135, 
+                "is_winner": false, 
+                "candidateid": "78157", 
+                "name": "Gary Johnson", 
+                "vote_percent": 5.450003361623984, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 323905, 
+                "is_winner": false, 
+                "candidateid": "78181", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 5.0999850891901035, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 29, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "PA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1851026, 
+                "is_winner": true, 
+                "candidateid": "50814", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.590002970216176, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 20
+            }, 
+            {
+                "vote_total": 1660486, 
+                "is_winner": false, 
+                "candidateid": "50798", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.00001927147559, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 219599, 
+                "is_winner": false, 
+                "candidateid": "51178", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.289995960216929, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 210466, 
+                "is_winner": false, 
+                "candidateid": "51179", 
+                "name": "Darrell Castle", 
+                "vote_percent": 5.069987977008166, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 209636, 
+                "is_winner": false, 
+                "candidateid": "51180", 
+                "name": "Gary Johnson", 
+                "vote_percent": 5.049993821083139, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "CA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 3934697, 
+                "is_winner": true, 
+                "candidateid": "20374", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.57000537732728, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 55, 
+                "is_incumbent": false, 
+                "electwon": 55
+            }, 
+            {
+                "vote_total": 3518519, 
+                "is_winner": false, 
+                "candidateid": "20820", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.75000686208574, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 55, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 757236, 
+                "is_winner": false, 
+                "candidateid": "20880", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.7699887925057, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 55, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 423949, 
+                "is_winner": false, 
+                "candidateid": "20882", 
+                "name": "Jill Stein", 
+                "vote_percent": 4.909998968081283, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 55, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "NV": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 361858, 
+                "is_winner": true, 
+                "candidateid": "36463", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 47.21011788895789, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 6
+            }, 
+            {
+                "vote_total": 341851, 
+                "is_winner": false, 
+                "candidateid": "36462", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.59988727749046, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 24834, 
+                "is_winner": false, 
+                "candidateid": "36576", 
+                "name": "Gary Johnson", 
+                "vote_percent": 3.2399893539852105, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 17092, 
+                "is_winner": false, 
+                "candidateid": "36554", 
+                "name": "None None of these candidates", 
+                "vote_percent": 2.2299226076473873, 
+                "delegatecount": 0, 
+                "party": "NPD", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 10501, 
+                "is_winner": false, 
+                "candidateid": "36578", 
+                "name": "Darrell Castle", 
+                "vote_percent": 1.3700220748247842, 
+                "delegatecount": 0, 
+                "party": "IAP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 10348, 
+                "is_winner": false, 
+                "candidateid": "36577", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 1.3500607970942642, 
+                "delegatecount": 0, 
+                "party": "NPD", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "VA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1472545, 
+                "is_winner": true, 
+                "candidateid": "51373", 
+                "name": "Donald Trump", 
+                "vote_percent": 54.99999066242617, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 13, 
+                "is_incumbent": false, 
+                "electwon": 13
+            }, 
+            {
+                "vote_total": 1204810, 
+                "is_winner": false, 
+                "candidateid": "51372", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.000009337573836, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 13, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "updated": {
+        "time": "2016-09-17 02:28:07.575852+00:00"
+    }, 
+    "CO": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 753527, 
+                "is_winner": true, 
+                "candidateid": "12802", 
+                "name": "Donald Trump", 
+                "vote_percent": 41.42001523718225, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 9
+            }, 
+            {
+                "vote_total": 662202, 
+                "is_winner": false, 
+                "candidateid": "12800", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 36.40004529378849, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 28925, 
+                "is_winner": false, 
+                "candidateid": "12842", 
+                "name": "Mike Smith", 
+                "vote_percent": 1.5899548931033611, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 28743, 
+                "is_winner": false, 
+                "candidateid": "12829", 
+                "name": "Rod Silva", 
+                "vote_percent": 1.5799506825400143, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 28199, 
+                "is_winner": false, 
+                "candidateid": "12825", 
+                "name": "Alyson Kennedy", 
+                "vote_percent": 1.55004798722979, 
+                "delegatecount": 0, 
+                "party": "SWP", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 28017, 
+                "is_winner": false, 
+                "candidateid": "12844", 
+                "name": "Kyle Kopitke", 
+                "vote_percent": 1.5400437766664432, 
+                "delegatecount": 0, 
+                "party": "IAP", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 27652, 
+                "is_winner": false, 
+                "candidateid": "12840", 
+                "name": "Michael Maturen", 
+                "vote_percent": 1.5199803873498408, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 25470, 
+                "is_winner": false, 
+                "candidateid": "12837", 
+                "name": "Tom Hoefling", 
+                "vote_percent": 1.4000397969694938, 
+                "delegatecount": 0, 
+                "party": "AmP", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 23651, 
+                "is_winner": false, 
+                "candidateid": "12824", 
+                "name": "Chris Keniston", 
+                "vote_percent": 1.3000526595259323, 
+                "delegatecount": 0, 
+                "party": "VET", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22741, 
+                "is_winner": false, 
+                "candidateid": "12823", 
+                "name": "Jim Hedges", 
+                "vote_percent": 1.2500316067091974, 
+                "delegatecount": 0, 
+                "party": "Pro", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22376, 
+                "is_winner": false, 
+                "candidateid": "12841", 
+                "name": "Evan McMullin", 
+                "vote_percent": 1.229968217392595, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22013, 
+                "is_winner": false, 
+                "candidateid": "12836", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 1.2100147644558095, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22012, 
+                "is_winner": false, 
+                "candidateid": "12843", 
+                "name": "Emidio Soltysik", 
+                "vote_percent": 1.209959796265901, 
+                "delegatecount": 0, 
+                "party": "SPU", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 20194, 
+                "is_winner": false, 
+                "candidateid": "12834", 
+                "name": "Gary Johnson", 
+                "vote_percent": 1.110027627012248, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 19830, 
+                "is_winner": false, 
+                "candidateid": "12835", 
+                "name": "Jill Stein", 
+                "vote_percent": 1.090019205885554, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 15099, 
+                "is_winner": false, 
+                "candidateid": "12826", 
+                "name": "Laurence Kotlikoff", 
+                "vote_percent": 0.8299646994284408, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 14553, 
+                "is_winner": false, 
+                "candidateid": "12827", 
+                "name": "Joseph Maldonado", 
+                "vote_percent": 0.7999520677383998, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 14553, 
+                "is_winner": false, 
+                "candidateid": "12828", 
+                "name": "Ryan Scott", 
+                "vote_percent": 0.7999520677383998, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 13826, 
+                "is_winner": false, 
+                "candidateid": "12838", 
+                "name": "Gloria La Riva", 
+                "vote_percent": 0.7599901936749204, 
+                "delegatecount": 0, 
+                "party": "PSL", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 12916, 
+                "is_winner": false, 
+                "candidateid": "12839", 
+                "name": "Bradford Lyttle", 
+                "vote_percent": 0.7099691408581854, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 12735, 
+                "is_winner": false, 
+                "candidateid": "12821", 
+                "name": "Frank Atwood", 
+                "vote_percent": 0.7000198984847469, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "AK": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 114042, 
+                "is_winner": true, 
+                "candidateid": "6638", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.209865248336925, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 102151, 
+                "is_winner": false, 
+                "candidateid": "6637", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 39.600164369117216, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 15297, 
+                "is_winner": false, 
+                "candidateid": "6641", 
+                "name": "Gary Johnson", 
+                "vote_percent": 5.930081099102172, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 13310, 
+                "is_winner": false, 
+                "candidateid": "6642", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.159794693668688, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 13156, 
+                "is_winner": false, 
+                "candidateid": "6639", 
+                "name": "Darrell Castle", 
+                "vote_percent": 5.100094589775001, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "AL": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 828376, 
+                "is_winner": true, 
+                "candidateid": "5065", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 55.00000663949785, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 9
+            }, 
+            {
+                "vote_total": 677762, 
+                "is_winner": false, 
+                "candidateid": "5063", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.99999336050216, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "AR": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 447444, 
+                "is_winner": true, 
+                "candidateid": "12686", 
+                "name": "Donald Trump", 
+                "vote_percent": 53.34996232246249, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 6
+            }, 
+            {
+                "vote_total": 325415, 
+                "is_winner": false, 
+                "candidateid": "12691", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 38.80011350954339, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 40677, 
+                "is_winner": false, 
+                "candidateid": "12843", 
+                "name": "Jim Hedges", 
+                "vote_percent": 4.850029092782129, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 11322, 
+                "is_winner": false, 
+                "candidateid": "12870", 
+                "name": "Tom Hoefling", 
+                "vote_percent": 1.349952783845398, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 10064, 
+                "is_winner": false, 
+                "candidateid": "12867", 
+                "name": "Gary Johnson", 
+                "vote_percent": 1.1999580300847983, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 3774, 
+                "is_winner": false, 
+                "candidateid": "12869", 
+                "name": "Lynn Kahn", 
+                "vote_percent": 0.44998426128179936, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "VT": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 100371, 
+                "is_winner": true, 
+                "candidateid": "52771", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.140269403802264, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 90046, 
+                "is_winner": false, 
+                "candidateid": "52770", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.599632351324374, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 10460, 
+                "is_winner": false, 
+                "candidateid": "52776", 
+                "name": "Gary Johnson", 
+                "vote_percent": 4.600006156796003, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 9210, 
+                "is_winner": false, 
+                "candidateid": "52772", 
+                "name": "Gloria La Riva", 
+                "vote_percent": 4.050292227924588, 
+                "delegatecount": 0, 
+                "party": "LUn", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 8663, 
+                "is_winner": false, 
+                "candidateid": "52773", 
+                "name": "Jill Stein", 
+                "vote_percent": 3.8097374126504566, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 8641, 
+                "is_winner": false, 
+                "candidateid": "52774", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 3.8000624475023197, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "IL": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1852007, 
+                "is_winner": true, 
+                "candidateid": "26524", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.260009846142076, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 20
+            }, 
+            {
+                "vote_total": 1673753, 
+                "is_winner": false, 
+                "candidateid": "26541", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.00002389840311, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 335168, 
+                "is_winner": false, 
+                "candidateid": "27491", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.009979973138195, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 323452, 
+                "is_winner": false, 
+                "candidateid": "27489", 
+                "name": "Jill Stein", 
+                "vote_percent": 7.729986282316616, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 20, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "GA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1100881, 
+                "is_winner": true, 
+                "candidateid": "20739", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.99998569328111, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 16
+            }, 
+            {
+                "vote_total": 978562, 
+                "is_winner": false, 
+                "candidateid": "20740", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.00003270107174, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 366960, 
+                "is_winner": false, 
+                "candidateid": "20764", 
+                "name": "Gary Johnson", 
+                "vote_percent": 14.999981605647147, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "IN": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1049931, 
+                "is_winner": true, 
+                "candidateid": "21368", 
+                "name": "Donald Trump", 
+                "vote_percent": 45.0000385739965, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 11
+            }, 
+            {
+                "vote_total": 933271, 
+                "is_winner": false, 
+                "candidateid": "21521", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 39.99999142800078, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 349976, 
+                "is_winner": false, 
+                "candidateid": "21585", 
+                "name": "Gary Johnson", 
+                "vote_percent": 14.999969998002724, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "IA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 479421, 
+                "is_winner": true, 
+                "candidateid": "22626", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 43.24000851413852, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 6
+            }, 
+            {
+                "vote_total": 430193, 
+                "is_winner": false, 
+                "candidateid": "22627", 
+                "name": "Donald Trump", 
+                "vote_percent": 38.80002958302368, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 30046, 
+                "is_winner": false, 
+                "candidateid": "22647", 
+                "name": "Lynn Kahn", 
+                "vote_percent": 2.7099131990793186, 
+                "delegatecount": 0, 
+                "party": "Oth", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 29604, 
+                "is_winner": false, 
+                "candidateid": "22632", 
+                "name": "Darrell Castle", 
+                "vote_percent": 2.6700482708361895, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 27940, 
+                "is_winner": false, 
+                "candidateid": "22645", 
+                "name": "Evan McMullin", 
+                "vote_percent": 2.5199685409797032, 
+                "delegatecount": 0, 
+                "party": "PEC", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 23727, 
+                "is_winner": false, 
+                "candidateid": "22635", 
+                "name": "Gloria La Riva", 
+                "vote_percent": 2.139989032635126, 
+                "delegatecount": 0, 
+                "party": "PSL", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 23506, 
+                "is_winner": false, 
+                "candidateid": "22634", 
+                "name": "Jill Stein", 
+                "vote_percent": 2.120056568513561, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22174, 
+                "is_winner": false, 
+                "candidateid": "22648", 
+                "name": "Gary Johnson", 
+                "vote_percent": 1.999920630912095, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22065, 
+                "is_winner": false, 
+                "candidateid": "22646", 
+                "name": "Dan Vacek", 
+                "vote_percent": 1.9900896870693323, 
+                "delegatecount": 0, 
+                "party": "LMN", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 20068, 
+                "is_winner": false, 
+                "candidateid": "22636", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 1.8099759728124796, 
+                "delegatecount": 0, 
+                "party": "PEC", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "OK": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 460652, 
+                "is_winner": true, 
+                "candidateid": "45302", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.0000048843818, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 7
+            }, 
+            {
+                "vote_total": 409469, 
+                "is_winner": false, 
+                "candidateid": "45303", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.00005861258158, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 153550, 
+                "is_winner": false, 
+                "candidateid": "45304", 
+                "name": "Gary Johnson", 
+                "vote_percent": 14.99993650303662, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "AZ": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 909804, 
+                "is_winner": true, 
+                "candidateid": "9533", 
+                "name": "Donald Trump", 
+                "vote_percent": 48.00002532414911, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 11
+            }, 
+            {
+                "vote_total": 852941, 
+                "is_winner": false, 
+                "candidateid": "9531", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.0000105517288, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 75816, 
+                "is_winner": false, 
+                "candidateid": "9546", 
+                "name": "Jill Stein", 
+                "vote_percent": 3.999949351701783, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 56863, 
+                "is_winner": false, 
+                "candidateid": "9545", 
+                "name": "Gary Johnson", 
+                "vote_percent": 3.0000147724203132, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "ID": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 192218, 
+                "is_winner": true, 
+                "candidateid": "18717", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 50.22024820378837, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 4
+            }, 
+            {
+                "vote_total": 162515, 
+                "is_winner": false, 
+                "candidateid": "18718", 
+                "name": "Donald Trump", 
+                "vote_percent": 42.459830176355325, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 28017, 
+                "is_winner": false, 
+                "candidateid": "18728", 
+                "name": "Gary Johnson", 
+                "vote_percent": 7.319921619856302, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "CT": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 596343, 
+                "is_winner": true, 
+                "candidateid": "20519", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 55.00005072588745, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 7
+            }, 
+            {
+                "vote_total": 487916, 
+                "is_winner": false, 
+                "candidateid": "20520", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.99994927411255, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "ME": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 226626, 
+                "is_winner": true, 
+                "candidateid": "29634", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.46009546249085, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 201852, 
+                "is_winner": false, 
+                "candidateid": "29633", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.599865811048616, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 42307, 
+                "is_winner": false, 
+                "candidateid": "29691", 
+                "name": "Jill Stein", 
+                "vote_percent": 8.299900535382527, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 38944, 
+                "is_winner": false, 
+                "candidateid": "29692", 
+                "name": "Gary Johnson", 
+                "vote_percent": 7.6401381910780035, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MD": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 902327, 
+                "is_winner": true, 
+                "candidateid": "30296", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 43.979973455860744, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 10
+            }, 
+            {
+                "vote_total": 812465, 
+                "is_winner": false, 
+                "candidateid": "30316", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.60004425647897, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 170289, 
+                "is_winner": false, 
+                "candidateid": "30592", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.299990690542419, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 166596, 
+                "is_winner": false, 
+                "candidateid": "30611", 
+                "name": "Jill Stein", 
+                "vote_percent": 8.11999159711787, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MA": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1120350, 
+                "is_winner": true, 
+                "candidateid": "33821", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 55.00002700050417, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 11
+            }, 
+            {
+                "vote_total": 916649, 
+                "is_winner": false, 
+                "candidateid": "33823", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.999972999495824, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 11, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "OH": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1694267, 
+                "is_winner": true, 
+                "candidateid": "45559", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.000021248136804, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 18, 
+                "is_incumbent": false, 
+                "electwon": 18
+            }, 
+            {
+                "vote_total": 1506015, 
+                "is_winner": false, 
+                "candidateid": "45853", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.0000159361026, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 18, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 301202, 
+                "is_winner": false, 
+                "candidateid": "45870", 
+                "name": "Gary Johnson", 
+                "vote_percent": 7.999976627049516, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 18, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 150601, 
+                "is_winner": false, 
+                "candidateid": "45869", 
+                "name": "Richard Duncan", 
+                "vote_percent": 3.999988313524758, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 18, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 112951, 
+                "is_winner": false, 
+                "candidateid": "45866", 
+                "name": "Jill Stein", 
+                "vote_percent": 2.99999787518632, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 18, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "UT": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 318209, 
+                "is_winner": true, 
+                "candidateid": "55310", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 43.290089815552975, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 6
+            }, 
+            {
+                "vote_total": 288145, 
+                "is_winner": false, 
+                "candidateid": "55311", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.20009468589044, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 22052, 
+                "is_winner": false, 
+                "candidateid": "55313", 
+                "name": "Gary Johnson", 
+                "vote_percent": 3.0000190460124454, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 18670, 
+                "is_winner": false, 
+                "candidateid": "55317", 
+                "name": "Monica Moorehead", 
+                "vote_percent": 2.539921802514618, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 18450, 
+                "is_winner": false, 
+                "candidateid": "55318", 
+                "name": "Jill Stein", 
+                "vote_percent": 2.5099923543864326, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 18157, 
+                "is_winner": false, 
+                "candidateid": "55314", 
+                "name": "Rocky De La Fuente", 
+                "vote_percent": 2.4701317711975315, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 17568, 
+                "is_winner": false, 
+                "candidateid": "55312", 
+                "name": "Darrell Castle", 
+                "vote_percent": 2.3900024759816176, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 17420, 
+                "is_winner": false, 
+                "candidateid": "55316", 
+                "name": "Evan McMullin", 
+                "vote_percent": 2.3698681199681113, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 16391, 
+                "is_winner": false, 
+                "candidateid": "55315", 
+                "name": "Alyson Kennedy", 
+                "vote_percent": 2.2298799284958277, 
+                "delegatecount": 0, 
+                "party": "Una", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MO": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 903491, 
+                "is_winner": true, 
+                "candidateid": "9227", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.30002324119556, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 10
+            }, 
+            {
+                "vote_total": 807635, 
+                "is_winner": false, 
+                "candidateid": "9228", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.60000627610344, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 119922, 
+                "is_winner": false, 
+                "candidateid": "9231", 
+                "name": "Darrell Castle", 
+                "vote_percent": 5.880022476295451, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 105441, 
+                "is_winner": false, 
+                "candidateid": "9230", 
+                "name": "Gary Johnson", 
+                "vote_percent": 5.169989242366444, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 102993, 
+                "is_winner": false, 
+                "candidateid": "9233", 
+                "name": "Jill Stein", 
+                "vote_percent": 5.049958764039104, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MN": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 727009, 
+                "is_winner": true, 
+                "candidateid": "33325", 
+                "name": "Donald Trump", 
+                "vote_percent": 43.65004743206408, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 10
+            }, 
+            {
+                "vote_total": 652892, 
+                "is_winner": false, 
+                "candidateid": "33326", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 39.20001921298798, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 77281, 
+                "is_winner": false, 
+                "candidateid": "33331", 
+                "name": "Dan Vacek", 
+                "vote_percent": 4.639996637727103, 
+                "delegatecount": 0, 
+                "party": "LMN", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 71784, 
+                "is_winner": false, 
+                "candidateid": "33332", 
+                "name": "Jill Stein", 
+                "vote_percent": 4.309953528585324, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 71285, 
+                "is_winner": false, 
+                "candidateid": "33327", 
+                "name": "Alyson Kennedy", 
+                "vote_percent": 4.279993275454207, 
+                "delegatecount": 0, 
+                "party": "SWP", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 65289, 
+                "is_winner": false, 
+                "candidateid": "33333", 
+                "name": "Gary Johnson", 
+                "vote_percent": 3.9199899131813107, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 10, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MI": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 1472091, 
+                "is_winner": true, 
+                "candidateid": "35598", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.00000543444739, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 16
+            }, 
+            {
+                "vote_total": 1398487, 
+                "is_winner": false, 
+                "candidateid": "35597", 
+                "name": "Donald Trump", 
+                "vote_percent": 38.00002010745533, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 294419, 
+                "is_winner": false, 
+                "candidateid": "35599", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.000022824679021, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 257615, 
+                "is_winner": false, 
+                "candidateid": "35630", 
+                "name": "Jill Stein", 
+                "vote_percent": 6.999975816709132, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 184011, 
+                "is_winner": false, 
+                "candidateid": "35600", 
+                "name": "Darrell Castle", 
+                "vote_percent": 4.999990489717074, 
+                "delegatecount": 0, 
+                "party": "UST", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 73604, 
+                "is_winner": false, 
+                "candidateid": "35601", 
+                "name": "Emidio Soltysik", 
+                "vote_percent": 1.9999853269920578, 
+                "delegatecount": 0, 
+                "party": "NLP", 
+                "electtotal": 16, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "US": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "RI": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 227963, 
+                "is_winner": true, 
+                "candidateid": "46020", 
+                "name": "Donald Trump", 
+                "vote_percent": 59.999894719941885, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 4
+            }, 
+            {
+                "vote_total": 151976, 
+                "is_winner": false, 
+                "candidateid": "46021", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.000105280058115, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 4, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "KS": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 379919, 
+                "is_winner": true, 
+                "candidateid": "6602", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.0101059479597, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 6
+            }, 
+            {
+                "vote_total": 341849, 
+                "is_winner": false, 
+                "candidateid": "6603", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.60004818975643, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 70959, 
+                "is_winner": false, 
+                "candidateid": "6607", 
+                "name": "Jill Stein", 
+                "vote_percent": 8.219944535443798, 
+                "delegatecount": 0, 
+                "party": "Ind", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 70527, 
+                "is_winner": false, 
+                "candidateid": "6604", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.169901326840073, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MT": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 153642, 
+                "is_winner": true, 
+                "candidateid": "34817", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.00008786677054, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 136571, 
+                "is_winner": false, 
+                "candidateid": "34536", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.000175733541084, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 51213, 
+                "is_winner": false, 
+                "candidateid": "34819", 
+                "name": "Gary Johnson", 
+                "vote_percent": 14.999736399688365, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "MS": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 460601, 
+                "is_winner": true, 
+                "candidateid": "31893", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.00007815888921, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 6
+            }, 
+            {
+                "vote_total": 409422, 
+                "is_winner": false, 
+                "candidateid": "31907", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.9999609205554, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 153533, 
+                "is_winner": false, 
+                "candidateid": "31947", 
+                "name": "Jill Stein", 
+                "vote_percent": 14.999960920555397, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 6, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "SC": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 665737, 
+                "is_winner": true, 
+                "candidateid": "48236", 
+                "name": "Donald Trump", 
+                "vote_percent": 44.22996175852328, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 9
+            }, 
+            {
+                "vote_total": 602069, 
+                "is_winner": false, 
+                "candidateid": "48235", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 40.00001328751797, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 124026, 
+                "is_winner": false, 
+                "candidateid": "48251", 
+                "name": "Gary Johnson", 
+                "vote_percent": 8.239988519584472, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 113340, 
+                "is_winner": false, 
+                "candidateid": "48253", 
+                "name": "Jill Stein", 
+                "vote_percent": 7.530036434374278, 
+                "delegatecount": 0, 
+                "party": "Grn", 
+                "electtotal": 9, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "KY": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 891830, 
+                "is_winner": true, 
+                "candidateid": "5609", 
+                "name": "Donald Trump", 
+                "vote_percent": 55.00003700259265, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 8
+            }, 
+            {
+                "vote_total": 729678, 
+                "is_winner": false, 
+                "candidateid": "5431", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.99996299740735, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 8, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "OR": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 510405, 
+                "is_winner": true, 
+                "candidateid": "5311", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 45.00005289923049, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 7
+            }, 
+            {
+                "vote_total": 453693, 
+                "is_winner": false, 
+                "candidateid": "5135", 
+                "name": "Donald Trump", 
+                "vote_percent": 40.00001763307683, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 170134, 
+                "is_winner": false, 
+                "candidateid": "5318", 
+                "name": "Jill Stein", 
+                "vote_percent": 14.999929467692677, 
+                "delegatecount": 0, 
+                "party": "PAG", 
+                "electtotal": 7, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }, 
+    "SD": {
+        "office": null, 
+        "national": true, 
+        "officename": "President", 
+        "candidates": [
+            {
+                "vote_total": 115164, 
+                "is_winner": true, 
+                "candidateid": "47679", 
+                "name": "Hillary Clinton", 
+                "vote_percent": 44.23973755176361, 
+                "delegatecount": 0, 
+                "party": "Dem", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 3
+            }, 
+            {
+                "vote_total": 103086, 
+                "is_winner": false, 
+                "candidateid": "47682", 
+                "name": "Donald Trump", 
+                "vote_percent": 39.60002765847924, 
+                "delegatecount": 0, 
+                "party": "GOP", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 21320, 
+                "is_winner": false, 
+                "candidateid": "47832", 
+                "name": "Darrell Castle", 
+                "vote_percent": 8.189983020766908, 
+                "delegatecount": 0, 
+                "party": "CST", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }, 
+            {
+                "vote_total": 20748, 
+                "is_winner": false, 
+                "candidateid": "47831", 
+                "name": "Gary Johnson", 
+                "vote_percent": 7.970251768990234, 
+                "delegatecount": 0, 
+                "party": "Lib", 
+                "electtotal": 3, 
+                "is_incumbent": false, 
+                "electwon": 0
+            }
+        ], 
+        "ap_race_number": "0", 
+        "seat_number": null, 
+        "called": false
+    }
+}

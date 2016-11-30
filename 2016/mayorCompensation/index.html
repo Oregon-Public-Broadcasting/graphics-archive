@@ -1,0 +1,241 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPB &middot;</title>
+  	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+  	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+  	<script charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css">
+  	<script type="text/javascript">
+
+    	$(document).ready(function() {
+    	    $('#dataTableDatabase').dataTable( {
+    	        "sScrollY": "320px",
+    	        "bPaginate": false,
+           		"bInfo": false,
+           		"oLanguage": {
+             	"sSearch": ""
+    			}
+    	    });
+    		$('div.dataTables_filter input').attr('placeholder', 'Search');
+    	});
+
+  	</script>
+
+  	<style type="text/css">
+
+      html, body {
+      	padding: 0;
+      	margin: 0;
+        width:auto !important;
+      	height:auto !important;
+      }
+
+      td {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+      }
+
+      #dataTableDatabase_filter {
+    		float: none;
+    		text-align: center;
+      }
+
+  		.dataTables_filter {
+  			float: none;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    padding: 1em;
+  		}
+
+  		input {
+  			width: 70%;
+  			max-width: 25em;
+  			height: 24px;
+  		}
+
+  		input[type="text"] {
+  	    font-size:18px;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  	    color: #444;
+  	    padding-left: .25em;
+  		}
+
+  		.dataTables_scrollHeadInner {
+  			text-align: left;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  			background-color: #fff;
+  	    border-bottom: 1px solid #ddd;
+  		}
+
+      @media (max-width: 500px) {
+        tr {
+    		    font-size: 0.75em;
+    		}
+        td {
+    		    font-size: 0.875em;
+    		}
+      }
+
+  	</style>
+
+</head>
+<body>
+
+  <table id="dataTableDatabase" class="stripe" cellspacing="0" width="100%" height="auto">
+      <thead>
+        <tr>
+          <th class="Jurisdiction-cell">Jurisdiction</th>
+          <th class="Population -cell">Population </th>
+          <th class="Mayor's Compensation-cell">Mayor's Compensation</th>
+          <th class="Councilmembers' Compensation-cell">Councilmembers' Compensation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td class="Jurisdiction-cell">Seattle</td>
+          <td class="Population -cell">662,400</td>
+          <td class="Mayor's Compensation-cell">$15,253</td>
+          <td class="Councilmembers' Compensation-cell">$9,998</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Spokane</td>
+          <td class="Population -cell">213,100</td>
+          <td class="Mayor's Compensation-cell">$14,381</td>
+          <td class="Councilmembers' Compensation-cell">$2,500</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Tacoma</td>
+          <td class="Population -cell">202,300</td>
+          <td class="Mayor's Compensation-cell">$8,009</td>
+          <td class="Councilmembers' Compensation-cell">$3,631</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Vancouver </td>
+          <td class="Population -cell">170,400</td>
+          <td class="Mayor's Compensation-cell">$2,300*</td>
+          <td class="Councilmembers' Compensation-cell">$1,800</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Bellevue </td>
+          <td class="Population -cell">135,000</td>
+          <td class="Mayor's Compensation-cell">$1,950</td>
+          <td class="Councilmembers' Compensation-cell">$1,650</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Kent</td>
+          <td class="Population -cell">122,900</td>
+          <td class="Mayor's Compensation-cell">$8,516</td>
+          <td class="Councilmembers' Compensation-cell">$1,146</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Everett</td>
+          <td class="Population -cell">105,800</td>
+          <td class="Mayor's Compensation-cell">$13,919</td>
+          <td class="Councilmembers' Compensation-cell">$2,247</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Renton</td>
+          <td class="Population -cell">98,470</td>
+          <td class="Mayor's Compensation-cell">$11,767</td>
+          <td class="Councilmembers' Compensation-cell">$950</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Spokane Valley</td>
+          <td class="Population -cell">93,340</td>
+          <td class="Mayor's Compensation-cell">$975</td>
+          <td class="Councilmembers' Compensation-cell">$750</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Yakima </td>
+          <td class="Population -cell">93,220</td>
+          <td class="Mayor's Compensation-cell">$1,375</td>
+          <td class="Councilmembers' Compensation-cell">$1,075</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Federal Way</td>
+          <td class="Population -cell">90,760</td>
+          <td class="Mayor's Compensation-cell">$9,635</td>
+          <td class="Councilmembers' Compensation-cell">$1,150</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Bellingham</td>
+          <td class="Population -cell">83,580</td>
+          <td class="Mayor's Compensation-cell">$11,513</td>
+          <td class="Councilmembers' Compensation-cell">$2,009</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Kirkland </td>
+          <td class="Population -cell">83,460</td>
+          <td class="Mayor's Compensation-cell">$1,428</td>
+          <td class="Councilmembers' Compensation-cell">$1,122</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Kennewick </td>
+          <td class="Population -cell">78,290</td>
+          <td class="Mayor's Compensation-cell">$1,191</td>
+          <td class="Councilmembers' Compensation-cell">$992</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Auburn</td>
+          <td class="Population -cell">75,545</td>
+          <td class="Mayor's Compensation-cell">$11,402</td>
+          <td class="Councilmembers' Compensation-cell">$975</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Pasco </td>
+          <td class="Population -cell">68,240</td>
+          <td class="Mayor's Compensation-cell">$1,300</td>
+          <td class="Councilmembers' Compensation-cell">$1,000</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Marysville</td>
+          <td class="Population -cell">64,140</td>
+          <td class="Mayor's Compensation-cell">$10,450</td>
+          <td class="Councilmembers' Compensation-cell">$950</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Redmond</td>
+          <td class="Population -cell">59,180</td>
+          <td class="Mayor's Compensation-cell">$10,417</td>
+          <td class="Councilmembers' Compensation-cell">$1,000</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Lakewood</td>
+          <td class="Population -cell">58,400</td>
+          <td class="Mayor's Compensation-cell">$900</td>
+          <td class="Councilmembers' Compensation-cell">$700</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Shoreline</td>
+          <td class="Population -cell">54,500</td>
+          <td class="Mayor's Compensation-cell">$1,250</td>
+          <td class="Councilmembers' Compensation-cell">$1,100</td>
+        </tr>
+        <tr>
+          <td class="Jurisdiction-cell">Richland</td>
+          <td class="Population -cell">53,080</td>
+          <td class="Mayor's Compensation-cell">$1,362</td>
+          <td class="Councilmembers' Compensation-cell">$1,112</td>
+        </tr>
+        <tr class="lastRow">
+          <td class="Jurisdiction-cell">Olympia</td>
+          <td class="Population -cell">51,020</td>
+          <td class="Mayor's Compensation-cell">$1,664</td>
+          <td class="Councilmembers' Compensation-cell">$1,386</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </table>
+
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script src="js/project.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+  </script>
+</body>
+</html>

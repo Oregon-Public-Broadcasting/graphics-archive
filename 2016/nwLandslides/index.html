@@ -1,0 +1,171 @@
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css" />
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+
+  <!-- SWITCH FROM CDN TO OPB HOST BEFORE YOU PUSH? -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+
+  <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="//cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+
+  <!-- DON'T FORGET YOUR GEOGRAPHY JSON FILES  -->
+  <!-- <script src="js/yourgeography.geojson"></script> -->
+
+  <style type="text/css">
+
+    html {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map { 
+      height: 100%;
+      width: 100%;
+     }
+
+    /*LEAFLET STYLE OVERRIDES*/
+
+    .leaflet-popup-content-wrapper {
+      background-color: #fff;
+      border-radius: 3px;
+    }
+
+    .leaflet-popup-tip{
+      background-color: #fff;
+    }
+
+    .leaflet-popup-content {
+      font-size: 1.125em;
+      color: #363636;
+    }
+
+    .leaflet-popup-content h4{
+      font-size: 20px;
+      line-height: 0;
+    }
+
+   </style>
+
+
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+
+
+<div id="legend-content" style="display: none;">
+  <div class="my-legend" style="font-size: 8pt; width: 185px; opacity: .75;">
+  
+    <h3 style="line-height: 14pt;">Searching for landslides</h3>
+    <p style="font-size: 8pt; line-height: 8.5pt;">This map shows known landslide deposits, the last national map and areas surveyed with LIDAR and for geologic hazards. <a style="color: teal; text-decoration: underline;" target="_blank" href="http://earthfix.opb.org/land/article/landslide-mapping-an-unfinished-task-for-geologist/">More about the data ...</a></p>
+    
+
+    <b>Slide inventory</b> <a target="_blank" href="http://earthfix.opb.org/land/article/landslide-mapping-an-unfinished-task-for-geologist/#inventory"><span style="font-size: 7pt; color: teal; text-decoration: underline;">what's this?</a></span>
+    <div style="clear: both;">
+      <div style="float: left; margin: .45em; width: 10px; height: 10px; background-color: #662506"></div>
+      <div style="float: left;">Slide deposit</div>
+    </div>
+    <br/>
+    
+    <div style="clear: both;">
+    <b>USGS incidence</b> <a target="_blank" href="http://landslides.usgs.gov/state_local/nationalmap/"><span style="font-size: 7pt; color: teal; text-decoration: underline;">what's this?</a></span>
+    <div style="clear: both;">
+      <div style="float: left; margin: .45em; width: 10px; height: 10px; opacity: .50; background-color: #e34a33"></div>
+      <div style="float: left;">High</div>
+
+      <div style="float: left; margin: .45em; width: 10px; height: 10px; opacity: .50; background-color: #feb24c"></div>
+      <div style="float: left;">Moderate</div>
+  </div>
+
+   
+    <!--
+      <div style="float: left; margin: .45em; width: 10px; height: 10px; opacity: .50; background-color: #fc9272"></div>
+      <div style="float: left;">Susceptible</div>
+   
+    </div>
+
+    <div style="clear: both;">
+        <b>LIDAR/Hazard studies</b> <a target="_blank" href="http://earthfix.opb.org/land/article/landslide-mapping-an-unfinished-task-for-geologist/#lidar"><span style="font-size: 7pt; color: teal; text-decoration: underline;">what's this?</a></span>
+        <div style="clear: both;">
+          <div style="float: left; margin: .45em; width: 10px; height: 10px; background-color: #36648B;"></div>
+          <div style="float: left;">Existing LIDAR maps</div>
+        </div>
+      </div>
+      <div style="clear: both;">
+          <div style="float: left; margin: .45em; width: 10px; height: 10px; background-color: #42C0FB;"></div>
+          <div style="float: left;">LIDAR for landslide inventory</div>
+        </div>
+        <div style="clear: both;">
+          <div style="float: left; margin: .45em; width: 10px; height: 10px; background-color: red;"></div>
+          <div style="float: left;">Hazard-specific study</div>
+        </div>
+      <div style="clear: both;">
+          <em style="font-size: 7pt; line-height: 5pt;">Sources: <a href="http://landslides.usgs.gov/">USGS</a>, <a href="http://www.oregongeology.org/sub/default.htm">DOGAMI</a>, <a href="http://www.dnr.wa.gov/">WA-DNR</a>, <a href="http://pugetsoundlidar.ess.washington.edu/">PSCL</a>.
+          </em>
+      </div>
+    </div> -->
+
+  <style type='text/css'>
+    .my-legend .legend-title {
+      text-align: left;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 90%;
+      }
+    .my-legend .legend-scale ul {
+      margin: 0;
+      padding: 0;
+      float: left;
+      list-style: none;
+      }
+    .my-legend .legend-scale ul li {
+      display: block;
+      float: left;
+      width: 50px;
+      margin-bottom: 6px;
+      text-align: center;
+      font-size: 80%;
+      list-style: none;
+      }
+    .my-legend ul.legend-labels li span {
+      display: block;
+      float: left;
+      height: 15px;
+      width: 50px;
+      }
+    .my-legend .legend-source {
+      font-size: 70%;
+      color: #999;
+      clear: both;
+      }
+    .my-legend a {
+      color: #777;
+      }
+  </style>
+
+
+
+<script src="js/project.js"></script>
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  </script>
+
+</body>

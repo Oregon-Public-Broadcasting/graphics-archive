@@ -1,0 +1,53 @@
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/vendor/modernizr.js"></script>
+  <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/foundation.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- SWITCH FROM CDN TO OPB HOST BEFORE YOU PUSH? -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="//cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+
+  <!-- DON'T FORGET YOUR GEOGRAPHY JSON FILES  -->
+  <script src="js/shootings.geojson"></script>
+
+</head>
+
+<body>
+
+<div class="row collapse">
+  <div class="small-12 medium-12 column">
+    <div id="map"></div>
+    <div id="info">
+      <h6 id="date">Sunday, June 12, 2016</h6>
+      <h4 id="title">Orlando Nightclub Massacre</h4>
+        <div id="video">
+          <div class="flex-video widescreen">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ArkIHIyAkdY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      <p id="description">Omar Mateen, 29, attacked the Pulse nighclub in Orlando in the early morning hours of June 12.</p>
+      <h6 id="victims"></h6>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/project.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  </script>
+
+</body>

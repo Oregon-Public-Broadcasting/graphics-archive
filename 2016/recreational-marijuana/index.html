@@ -1,0 +1,2195 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPB &middot;</title>
+  	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+  	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+  	<script charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+  	<script type="text/javascript">
+
+    	$(document).ready(function() {
+    	    $('#dataTableDatabase').dataTable( {
+    	        "sScrollY": "320px",
+    	        "bPaginate": false,
+           		"bInfo": false,
+           		"oLanguage": {
+             	"sSearch": ""
+    			}
+    	    });
+    		$('div.dataTables_filter input').attr('placeholder', 'Search');
+    	});
+
+  	</script>
+
+  	<style type="text/css">
+
+      html, body {
+      	padding: 0;
+      	margin: 0;
+        width:auto !important;
+      	height:auto !important;
+      }
+
+      td {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+      }
+
+      #dataTableDatabase_filter {
+    		float: none;
+    		text-align: center;
+      }
+
+  		.dataTables_filter {
+  			float: none;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    padding: 1em;
+  		}
+
+  		input {
+  			width: 70%;
+  			max-width: 25em;
+  			height: 24px;
+  		}
+
+  		input[type="text"] {
+  	    font-size:18px;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  	    color: #444;
+  	    padding-left: .25em;
+  		}
+
+  		.dataTables_scrollHeadInner {
+  			text-align: left;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  			background-color: #fff;
+  	    border-bottom: 1px solid #ddd;
+  		}
+
+      @media (max-width: 500px) {
+        tr {
+    		    font-size: 0.75em;
+    		}
+        td {
+    		    font-size: 0.875em;
+    		}
+      }
+
+  	</style>
+
+</head>
+<body>
+
+  <table id="dataTableDatabase" class="stripe" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+          <th class="Facility Name-cell">Facility Name</th>
+          <th class="Retail-cell">Retail</th>
+          <th class="Contact Information-cell">Contact Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td class="Facility Name-cell">High Winds Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">220 Clearwater Ln Ste B Hood River OR 97031</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">buds4u</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10692 Hwy 126 Ste 2 Mapleton OR 97453</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Alberta Green House</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1313 NE Alberta St Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Western Oregon Dispensary</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">15025 SW Tualatin Sherwood Rd Sherwood OR 97140</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pipe Dreams</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1745 SW Highway 101 Ste C Lincoln City Oregon 97367</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Stoney Only Clackamas LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10289 SE HWY 212 Clackamas OR 97015</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Top Shelf Wellness Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">205 Fern Valley Rd Ste C Phoenix Oregon 97535</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kush Gardens</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1067 Court Street Medford OR 97501</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">DiamondTREE Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2715 NE Hwy 20 Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Otter Dreamery LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">485 Fir Ave Reedsport OR 97467</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Holistic Choice</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1045 Commercial St SE Salem Oregon 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">NW Remedy LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">16554 SE McLoughlin Blvd Portland OR 97267</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pakalolo PDX LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1528 SE Holgate Blvd Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Knottz</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">51546 Hwy 97 #7 La Pine OR 97739</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">7 Leaf Silverton LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">3410 Hawthorne Ave NE Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Eugene OG</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2045 Franklin Blvd Eugene OR 97403</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Gorge Greenery</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">13 Oak Street Hood River OR 97031</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Lime Green</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">17 S Riverside Ave Medford Oregon 97501</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Canna and the City</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3607 SW Corbett Ave Portland OR 97239</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Green Remedy</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">12447 SE Powell Blvd Portland Oregon 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Williams Street Green House LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4936 N Williams Ave Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Greensky Collective LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4027 N Interstate Ave Portland OR 97227</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Meg's Marijuana</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2155 Olympic St Springfield OR 97477</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Siskiyou Medical Supply</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1796 Ashland St Ashland OR 97520</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nature's Alternative Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">15350 NE Sandy Blvd Units #C and #D Portland Oregon 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Cannabis Co.</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1989 Santiam Hwy Albany OR 97322</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Amazon Organics</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3443 Hilyard St Eugene OR 97405</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">PDX 220 SW 1st LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">220 SW 1st Ave.Portland OR 97204</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Providing All Patients Access LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">226 N Redwood Hwy Cave Junction OR 97523</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">hillTop Pharmaceuticals</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">14812 SE Powell Blvd Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">High Grade Organics</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">224 SE Davis Ave Bend OR 97702</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Peace Love and Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2625 Salem Dallas Hwy NW Salem OR 97304</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">AmeriCanna Rx</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8654 NE Sandy Blvd Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Cannaisseur</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10700 NW St Helens Rd Portland OR 97231</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Bud Company</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">837 SW Bay Blvd Newport OR 97365</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Piper's Holistic Essentials</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1729 Center St NE #170 Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">S.O.W. LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">306 NW 6th Grants Pass OR 97526</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Growing ReLeaf</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4160 SW 109th Ave Beaverton OR 97005</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Terpene Station</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">645 River Rd Eugene OR 97404</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Divine Kind Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8601 SW Terwilliger Blvd Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Herbal Remedies</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">340 Lancaster Dr NE Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Grateful Meds LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1401 Market St Springfield OR 97477</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Jenny's Dispensary</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">934 NE 3rd St Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon's Finest</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">736 NE MLK Blvd Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CannaMedicine</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">157 NW 15th St Newport OR 97365</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Room</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2521 NW 9th St Corvallis OR 97330</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">RKO</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8265 SE McLoughlin Blvd Portland OR 97202-6851</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannabis Nation Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">550 S Roosevelt Dr Seaside OR 97138</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">GreenOak N.V.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">48122 Hwy 58 Oakridge OR 97463</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Maryjanes Basement</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">259 E Barnett Rd Medford Oregon 97501</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">420ville</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">432 N Oregon St Ontario Oregon 97914</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Blue Moon Dispensary</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">39092 Dexter Rd Dexter Oregon 97431</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rogue River Herbal Pain Management Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">510 E Main Street Rogue River OR 97537</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Sip Stop</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">43168 Hwy 26 Seaside OR 97138</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Puddletown Organics</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8201 SE Powell Blvd Ste F Portland Oregon 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Canna-Daddy's Wellness Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">16955 SE Division St Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">A Better Way Medicinal Alternatives LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">3255 Washburn Wy Ste #5 Klamath Falls OR 97603</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Westside Wellness</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">18918 SW Shaw St Aloha Oregon 97007</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">SkunkRx</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8979 Rogue River Hwy. Grants Pass OR 97527</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Marijuana Paradise</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">9663 SW Barbur Blvd Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Got Weed?</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2600 Main Street Suite E Springfield OR 97477</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Lucky Leaf</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">208 Jersey St Silverton OR 97381</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Gras on 7th</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">621 SE 7th Ave Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Home Grown Apothecary</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1937 NE Pacific St Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rogue Valley Remedies</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3724 S Pacific Hwy Medford OR 97501</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Columbia Alternative Medical Center</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">56821 Columbia River Hwy Warren OR 97053</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Umpqua Green Cross</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2485 NE Diamond Lake Blvd Roseburg OR 97470</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Herbalist Farmer Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">45 NE 122nd Ave Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregrown</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1199 NW Wall St Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Flower Pot</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">433 N Hwy 101 Depoe Bay OR 97341</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Buckman Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">128 SE 12th Ave Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Green Heart Oregon</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1208 SW Baker St McMinnville OR 97128</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Dispenserve LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">308 Villa Rd Suite 115 Newberg OR 97132</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Jefferson Soul LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1574 Sky Park Drive Suite 100 Medford OR 97504</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Mota 4</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">158 S Hwy 101 Rockaway Beach OR 97136</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannabis LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1936 Main St Springfield OR 97477</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Seaside Cannabis Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1111 S Holladay Seaside OR 97138</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Buds4u</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1480 Rhododendron Dr Florence OR 97439</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Mota</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">620 S Main St Lebanon OR 97355</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon's Finest</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1327 NW Kearney St Portland OR 97209</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">TLC Medical LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4550 Commercial Street S Salem Oregon 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The CO2 Company</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1010 SW Gibbs St Portland OR 97239</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Lester L Brock Construction</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1210 SW Main St Sheridan OR 97378</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CannaKing Marijuana Dispensaries LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1449 N Mulholland Roseburg OR 97470</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Tamerans</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3388 Merlin Road Grants Pass OR 97526</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannacare Organics LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">4605 NE Fremont St Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">All Systems As Promised Inc.</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">10920 SW Beaverton Hillsdale HwyBeaverton OR 97005</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Best Buds</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6313 N Lombard St Portland OR 97203</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannabliss And Co</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2231 W Burnside St Portland OR 97210</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Zion Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2331 SW 6th Ave Portland OR 97201</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rooted Northwest LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7817 NE Halsey St Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sacred Flower Medicinals LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">18248 Redwood Hwy#2 Selma OR 97538</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">River City</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">115 Galice Rd Merlin OR 97532</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Medigreen</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">570 Lawrence St #112 Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Eugreen Health Center LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1000 Obie St Ste A Eugene OR 97402</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Miracle Greens Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">20565 Brinson Blvd Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon House of Herbs</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8105 N Fessenden St Portland OR 97203</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Next Level Wellness</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2837 Willamette St Eugene OR 97405</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kush Gardens</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">21226 Suite A Hwy 62 Shady Cove OR 97539</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Chalice</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1178 SW OR-99W Dundee OR 97148</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">West Coast Organics LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">855 Railroad St Brookings OR 97415</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Abuv</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8056 SE Harold St Portland Oregon 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Vessel Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1979 NW Vaughn St Suite B Portland OR 97209</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Alpha Alternative Solutions LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3700 River Rd N Ste 11 Keizer OR 97303</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">One Draw Two LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">11711 NE Halsey St Portland Oregon 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Apple NW</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">24180 SE Borges Rd Damascus OR 97089</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">NV Salem LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4142 Liberty Rd S Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">PDX 2519 SE Belmont</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2519 SE Belmont St Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Mota 2</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">4999 NE 99th Ave Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">NoDak Green Prairie</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">390 Coburg Rd Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Exodus Wellness Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">16211 SE Powell Blvd Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">High Quality Compassion</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1300 NW 9th St Corvallis OR 97330</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">ReLeaf MM</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1034 SE 122nd Ave Portland OR 97233</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Allied Patient Care Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">729 SE Powell Blvd Portland Oregon 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Greener Side</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1553 Oak St Eugene Oregon 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Hemp Center LLC - The HC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">10546 Hwy 62 Suite B Eagle Point OR 97524</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Finest Kind</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">9127 SE Stark Street Portland OR 97216</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The New Amsterdam</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2201 N Killingsworth St Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Leaf Cannabis LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3912 Main St Springfield OR 97478</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Joint</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3270 Market St. NE Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Buds on Glisan Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7201 NE Glisan St #D Portland OR 97223-6713</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Powellhurst Alternative Medical Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">12550 SE Division St Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The People's Wellness Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">71 Centennial Loop Ste B Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Extracts</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2123 SE Division St Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">South Coast Dispensaries</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1025 Chetco Ave #4 Brookings Oregon 97415</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Agrestic LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1665 SE 3rd St Corvallis OR 97333</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nicolai</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2515 NW Nicolai St Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">DSC & KSB LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">4340 Commercial St Suite 110 Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Foster Buds</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5522 SE Foster Rd Portland OR 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Home Grown Remedies LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">277 N 3rd Ave Stayton OR 97383</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">PDX 1450 SW Marlow LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1450 SW Marlow Ave Portland OR 97225</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Weedery</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2312 NW Kearney St Portland OR 97210</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Lester L Brock Construction</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2316 Portland R</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">OMD1 Inc.</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1441 N Marine Drive Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Collective Awakenings</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2823 NE Sandy Blvd Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Natural RX LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">193 Marine Dr Astoria OR 97103</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Medmar Clinic LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">20595 SW TV Hwy Aloha Oregon 97006</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Fireside Dispensary Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4149 S Pacific Hwy Phoenix OR 97501</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rare Earth Dispensary LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2699 Roosevelt Blvd Eugene OR 97402</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">MindRite</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1780 NW Marshall St Portland OR 97209</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Health Center Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5816 NE Portland Hwy Portland OR 97218</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">K9 Chronic LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1505 N 18th St #AB Springfield OR 97477</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">J.C. Hawthorne's</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1133 SE 82nd Ave Portland Oregon 97215</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Depo</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">74382 Columbia River Hwy Rainier OR 97016</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Tokyo Starfish</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">542 NW Arizona Ave Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Canna Royal Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">25808 Hwy 126 Veneta OR 97487</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Talent Health Club LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1007 S Pacific Hwy Unit E Talent Oregon 97540</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Mota 3</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">644 SE Cass St Roseburg OR 97470</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Leaf Portland LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2367 SE 122nd Ave Portland OR 97233</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Burk Brothers</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">8701 SE Powell Blvd. Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Front Avenue</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">730 SW 1st Ave Portland OR 97204</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Brooklyn Holding Company</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1436 SE Powell Blvd Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Belmont Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2036 SE Belmont St Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Pharm Shoppe</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10931 SW 53rd Ave Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Columbia River Herbals LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">609 E 2nd St The Dalles OR 97058</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Healing Green LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">769 N Main Ste C Independence Oregon 97351</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">OMG Medical Marijuana LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">204 Madrone St Rogue River OR 97537</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Brothers Cannabis Club LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3609 SE Division ST Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Lincoln City Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1266 SW 50th St. Lincoln City OR 97367</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Going Green Grande Ronde LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">25715 Salmon River Hwy Grande Ronde OR 97396</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cured Green LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3715 N Lombard St Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">420 Club LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2574 & 2576 NE Stephens St Roseburg Oregon 97470</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Elevation</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">525 SW 12th Ave Portland OR 97205</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Attis Trading Compnay Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7737 SW Barbur Blvd Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Harvest Moon Essentials Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">85289 Hwy 101 Florence OR 97439</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cherry City Compassion</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2025 25th St SE Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pacific Green</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">710 NE Killingsworth St Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Top Hat Express</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">11916 SE 22nd Ave Ste B Milwaukie OR 97222</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">DDHK Ventures LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">13545 SW Pacific Hwy Tigard OR 97223</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon's Herbal Remedies LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">88344 Territorial Rd Veneta Oregon 97487</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kaleafa</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5232 SE Woodstock Blvd Portland Oregon 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rose City Wellness</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">214 NW Couch Street Portland OR 97209</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Mart LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">12745 SW Walker Rd Ste 100 Beaverton OR 97005</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Alternative Solutions</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">13560 SE Powell Blvd Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">ANCIENT REMEDIES</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2350 State St Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kind Heart Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8217 N Denver Ave Portland Oregon 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Plane Jane's LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10530 NE Simpson St Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kaya Shack 2</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5757 Commercial St SE Ste 108 Salem OR 97306</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Powell LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6611 SE Powell Blvd Portland OR 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Green Planet</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10022 SW Canyon Rd Portland OR 97225</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Human Collective II</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">9220 SW Barbur Blvd Ste 107 Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Mt Hood Wellness Center LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">11121 SE Division St Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Native Herbs</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2300 Suite B Washburn Way Klamath Falls OR 97603</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Bud Bros</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1240 Chetco Ave Stes E&F Brookings OR 97415</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">L.J.'s Medication Destination LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">3131 W 11th Ave Eugene Oregon 97403</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pacific Wave Resource Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1543 NW 19th St Lincoln City OR 97367</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannabend LLC.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3312 N HWY 97 Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Farma</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">916 SE Hawthorne Blvd. Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CHALICE</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">16735 Pacific Highway Tigard OR 97224</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">SHANGO LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1775 SE Tualatin Valley Highway Hillsboro OR 97123</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Homegrown Oregon</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2820 Liberty Street NE Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Family Philanthropic Enterprises</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6712 NE Sandy Blvd Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Natures Better Health Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">220 NW 2nd St Corvallis Oregon 97330</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Urban Farmacy LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">420 NE 60th Ave Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannabliss And Co</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">588 E 11th Ave Eugene Oregon 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">My Bigfoot Farms LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">340 River RdEugene OR 97404</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Ocean Grown Cannabis Company</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">13580 SW Hwy 99 West Suite 1 McMinnville OR 97128</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Progressive Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">9810 E Burnside St Portland OR 97216</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Leaf Portland LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">13910 SE McLoughlin Blvd Portland OR 97222</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Plantae Health Care LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1100 SW Hwy 97 Ste 103 Madras OR 97741</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Grown Gift Shop</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">332 SE 82nd Ave Portland OR 97216</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">HWY 30 Cannabis LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1709 Adams Ave La Grande OR 97850</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Medijuana4U</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8135 SE Woodward St Portland OR 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kaya Shack</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1719 SE Hawthorne Blvd Portland Oregon 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">RDZ Enterprises LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">814 E 12TH AveEugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Dr. Jolly's</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">415 SE 3rd St Bend OR 97702</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">DiamondTREE Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1233 NW Galveston Ave Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Budlandia</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">16440 SE Division St Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Doctors Orders</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3424 NE 82nd Ave Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Grass Shack</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6802 NE Broadway St Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Garden Kings</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">325 NE Franklin Ave Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Holistic Coop LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1049 E. Main St. Cottage Grove OR 97424</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Vernonia's Natural Choice LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">886 Bridge St Vernonia OR 97064</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Grateful Meds LLC.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7050 NE MLK Blvd Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Abuv</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6033 NE Win Sivers Dr Portland Oregon 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CBDB Developments LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">926 E Harbor Drive Warrenton OR 97146</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Tree House Collective LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2419 NE Sandy Blvd Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Medication Station Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">817 NW Hill St Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Herbary</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">11642 SW Pacific Hwy Ste 100 Tigard OR 97223</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Moss Crossing LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2751 Friendly St Eugene OR 97405</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">JAYNE</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2145 NE Martin Luther King Jr Blvd Portland OR 97212</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Jamaica Joel's</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">37 W 13th Ave Ste 201 Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Microgrowers Guild</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1395 Cross St Eugene Oregon 97402</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Goddess Remedies</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5435 SW Taylors Ferry Rd Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kaleafa</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">12215 SW Main St Suite A Tigard OR 97223</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Little Amsterdam Wellness Center SW</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7035 SW Macadam Ave Portland OR 97239</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The CDC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10015 SW Hall Blvd Tigard OR 97223</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">AgriServ Enterprises LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1234 SW Baseline Street Hillsboro OR 97123</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Purple Organics LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">11321 SW 64th Ave Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">GW Retail Weidler Inc</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">211 NE Weidler St Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Natural Rxemedies</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">8700 SW 26th Ave Ste Z Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Breeze Botanicals</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1526 Siskiyou Blvd Ashland OR 97520</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Stoney Brothers LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7827 SE Powell Blvd Portland OR 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nectar Medicinal Herbs LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3350 NE Sandy Blvd Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Gratitude LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10322 SE Holgate Blvd Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Medicine Tree LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2046 OR 99W #A McMinnville OR 97128</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Hydra Oregon</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">63027 Lower Meadow Dr Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Breeze Botanicals</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">315 Second Ave Gold Hill Oregon 97525</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Attis Trading Company</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2606 SE Gladstone St Ste 101 Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Shango</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">109 W Main StreetMolalla OR 97038</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Medication Station I Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1041 Hwy 99 N Cottage Grove OR 97424</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rose Plaza LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">13810 NE Sandy Blvd Ste #13836 Portland OR 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">NBHH</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">861 NW Beach Dr Newport OR 97365</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Oasis</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">4046 NE Cully BlvdPortland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rogue Valley Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6388 Crater Lake Ave Central Point OR 97502</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Gorge Green Cross</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">602 Oak St Hood River Oregon 97031</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Coast Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">868 Laneda Avenue Manzanita OR 97130</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Botanica</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4124 SE 60th Ave Portland OR 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Bridge City Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4312 N Williams Ave Portland Oregon 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Relief Scappoose</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">52515 Columbia River Hwy Scappoose OR 97056</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Green Front</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6814 NE Glisan St Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Chalice Farms - Powell</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5333 SE Powell Blvd Portland OR 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Gramsterdam</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2300 Ferry St SW Ste 1 Albany OR 97322</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Top Shelf Medicine</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">815 NE Greenwood Ave Bend OR 97702</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Flora Portland</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">110 SE Main St Ste C Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannacea</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10735 NE Halsey St Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Evergreen Medicinals</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">9046 NE Sandy Blvd Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Medical Grade Rainier LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">75940 Rockcrest St Rainier OR 97048</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Stop Meds</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">17030 SE McLoughlin Blvd Milwaukie OR 97267</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Mountain View Naturals</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1020 Wasco St Suite E Hood River OR 97031</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Happy Leaf</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1301 NE Broadway Ave Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Going Green Albany</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1225 Commercial Wy SE Albany Oregon 97322</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pacific Green</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3821 Pacific Ave Forest Grove OR 97116</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Banana Belt Safe Access Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">16399 Lower Harbor Rd Brookings Oregon 97415</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">High Desert Botanicals</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">51456 Hwy 97 suite 3 La Pine OR 97739</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Western Oregon Dispensary</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1013 N. Springbrook Rd Newberg OR 97132</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Oasis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1035 SE Tacoma Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Relief West</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">65 Portway St.Astoria OR 97103</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Leaf Illusions</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8434 SE 82nd Ave Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">LJM Fremont LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">5103 NE Fremont St Portland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Greener Grasses</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">909 NE Dekum St Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Dean's Greens</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5625 SE 85th Ave Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">New Leaf CannaCenter</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3325 NE Riverside Dr McMinnville OR 97128</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Bijan LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3075 NW Front Ave. Portland OR 97210</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Grateful Meds LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">630 Highway 99 Talent OR 97540</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Western Oregon Dispensary</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">730 NW Dale Avenue Portland OR 97229</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Stonies LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3682 Tremont St North Bend OR 97420</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">BUDS LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">439 W 1st St Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Valley Wellness LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">103 N Pacific Hwy Units B & C Talent Oregon 97540</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pharm to Table LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3528 S. Pacific Hwy Medford OR 97504</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Four Seasons Dispensary and Resource Center</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">30943 Ehlen Dr Albany OR 97321</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Good Leaf Organic Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">20360 Empire Ave #B-8 Bend Oregon 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">PM Holgate LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">11030 SE Holgate Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Relief Tillamook</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1906 1st Street Tillamook OR 97141</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Herbal Centre LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">463 River Ave Eugene OR 97404</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">High Tide Wellness Center LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">15957 S Hwy 101 Brookings OR 97415</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Euphorics</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">70 SW Century Dr Ste 180 Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">House of Leaves</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">488 N Main St #2 Ashland OR 97520</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Eagle Cap Dispensary LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1609 N. Albany St. #5 La Grande OR 97850</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Be-1 Enterprises North West</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">4557 NE 60th Ave Portland OR 97218</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Uplift Botanicals LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5421 NE 33rd Ave Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Sweet Relief Natural Medicine</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1444 Commercial St Astoria OR 97103</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Patients Helping Patients LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2390 W Main St Ste D Medford OR 97501</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Little Amsterdam Wellness Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">18819 SE McLoughlin Blvd Milwaukie OR 97267</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Blackbird Indica</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">319 S 10th St Independence OR 97351</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Central Organics</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">780 SW 4th St Madras OR 97741</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Herbal Choices</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">63247 Troller Rd Charleston OR 97420</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Mandy's Med Club</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">335 Hwy 99 S Cottage Grove OR 97424</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">THC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">21901 Hwy 62 Shady Cove Oregon 97539</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">DDJM Park LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3332 Main St Springfield OR 97476</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">NPDG LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">17950 NE Glisan St Portland OR 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Stumptown Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10587 SE 82nd Ave Happy Valley OR 97086</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Little Amsterdam Wellness Center West</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5320 SW Macadam Ave Portland OR 97239</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">7 Leaf Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1026 Commercial St NE Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Today's Herbal Choice</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">31568 S Hwy 213 Molalla OR 97038</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">New Vansterdam Med Express</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">7540 NE Sandy BlvdPortland OR 97213</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Chalice LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">13315 NE Airport Way Portland OR 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">2nd Step Dispensary</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1295 Oxford St SE Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Local Herb Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">15948 SE Division Portland OR 97236</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">PHMR LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10929 NE Sandy Blvd Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CBDB Developments LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">3026 NE Highway 101 Lincoln City OR 97367</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Country Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1830 Goodspeed Rd Tillamook OR 97141</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Albany Alternative Health Solutions</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">820 Pacific Blvd SE Ste B Albany Oregon 97321</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Mid Valley Patient Resource Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3650 Main St Springfield OR 97478</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Kings of Canna</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1465 NE Prescott St Ste C Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Pure Green</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3738 NE Sandy Blvd Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">sunray cannabis llc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1347 NW Hwy 101 Lincoln City OR 97367</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Going Green Sweet Home</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">925 Main St Sweet Home OR 97386</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cascade Alternative Resources</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6430 NE MLK Blvd Portland Oregon 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">mahalo</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">353 SW Walnut Hillsboro OR 97123</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Dragon Herbal Clinic</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">185 N Main Street Toledo OR 97391</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Bloom Well Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1814 NE Division St Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">ANTHEIA LLC.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2455 Rogue River Hwy Grants Pass OR 97527</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Club Sky High</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">8957 N Lombard St Portland OR 97203</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Club Sockeye</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">94253 North Bank Rogue River Rd Gold Beach Oregon 97444</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">NW Compassion Medical Center Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1970 B NE 238th Dr Wood Village OR 97060</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">HWY 99 Cannabis Company</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1083B Hwy 99 N Eugene OR 97402</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Smoke on the Mountain</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">23860 E Arrah Wanna Blvd. Welches OR 97067</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Cottage Remedies</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3675 SW Troy St Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Organic Therapy</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">481 Applegate Way Ashland OR 97520</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Medication Station</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">454 SW Coast Hwy Newport OR 97365</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Silver Stem</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1926 NE 40th Ave Portland OR 97212</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Natural Wonders</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1402 SE Cesar E Chavez Blvd Portland OR 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Canna Source</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4335 NE 148th St Portland OR 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CBDB Developments LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">801 NE Broadway Street Portland OR 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Five Zero Trees</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5336 SW Beaverton-Hillsdale Hwy Portland OR 97221</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rose City Oreganics</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5918 SE 89th Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Oasis</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">11850 N Center Ave Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">5LMNT LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">63552 N Hwy 97 Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Renee's Herb Store LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3203 SW Hwy 101 Lincoln City OR 97367</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">South Coast Compassion Coalition LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">93705 Newport Ln Coos Bay OR 97420</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Five Zero Trees</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10209 SE Division St Bldg B Ste 100 Portland OR 97266</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">1201 W 11th Retail LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1201 W 11th Ave.Eugene OR 97402-4768</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Grass Hut</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2340 Martin Dr Stayton OR 97383</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nature Script's LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6790 Williams Hwy Ste A Grants Pass OR 97527</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Traditional Medicinal PDX</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">16306 NE Glisan St Portland OR 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CannaCopia</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">923 SE 3rd St Bend OR 97702</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Farmacy LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2911 Marine Dr Ste B Astoria OR 97103</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Emerald Leaf Institute</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3829 NE Columbia Blvd Portland OR 97211</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Mainstreaming Our Medicine LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">24394 Redwood Hwy Kerby Oregon 97531</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Evergreen Hood River</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">1408 13th St Hood River OR 97031</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Deanz Greenz</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10518 NE Sandy Blvd Unit B Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nectar Medicinal Herbs LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1019 NE 122nd St Portland Oregon 97230</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Trailblazer Holdings LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">14250 SW Allen Blvd Beaverton OR 97005</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Bridge City Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">215 SE Grand Ave Portland Oregon 97232</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Medical Grade. Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">717 SE 1st Ave Canby OR 97013</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Blooming Deals</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">15915 NW Schendel Ave Beaverton OR 97006</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Highway420</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1803 S Roosevelt Dr Seaside OR 97138</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Medicine Pot</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">5135 NW St. Helens Rd Portland OR 97210</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Mota</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7435 SE 52nd Ave Portland Oregon 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon's Best Meds LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10128 E Burnside St Ste A Portland OR 97216</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Madras Resource Center LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">141 SE 5th St Madras OR 97741</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Wellstone LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">9952 SW Beaverton Hillsdale Hwy Beaverton OR 97005</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Bud Company LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">16631 SE 82nd Dr Clackamas Oregon 97015</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">I and I</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">452 SW Bay Blvd. Newport OR 97365</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Satchel</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6900 N Interstate Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Left Coast Connection LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">10055 NE Glisan St Portland OR 97220</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">420ville</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">210 W Washington St Huntington OR 97907</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Rip City Remedies Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3325 SE Division St Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Compassionate Caregivers</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4020 SE Cesar Chavez Blvd Portland Oregon 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Burk Brothers</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">7151 NE Prescott Street Portland OR 97218</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Plantae Health Care LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2675 High Desert Dr Prineville OR 97754</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cannabliss And Co</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1917 SE 7th Ave Portland Oregon 97214</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Awesome Blossoms #1 LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">32702 E Pearl St Coburg OR 97408</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">La Rosa Holdings LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">180 Clear Creek Dr #103 Ashland OR 97520</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Wicked Weedery - Wheeler</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">675 Nehalem Blvd Wheeler OR 97147</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Apothecaria LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">700 Row River Rd Cottage Grove Oregon 97424</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nectar PDX LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4125 N Mississippi Avenue Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Coastal Cannabinoids</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1466 SW Pacific Coast Hwy Waldport Oregon 97394</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Whistling Sister Green Goddess</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">559-B John Long Rd Oakland OR 97462</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Positive Vibrations</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2001 Union Avenue North Bend OR 97459</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Herbal Grasslands LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1130 Royvonne Ave SE Ste 104 Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Earthy Herbs</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">16323 SE Stark St Portland OR 97233</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green-Way Medicinal Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1865 Beach Avenue Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Calyxes LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">7501 SW Capitol Hwy Portland OR 97219</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Puff Oregon</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">47700 NW Sunset Hwy Manning OR 97125</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Bloom</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2637 NE Martin Luther King Blvd #B Portland OR 97212</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">New Vansterdam Med LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4709 SW Beaverton-Hillsdale Hwy Portland OR 97221</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Natural RX</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">8140 SE Malden Ct Portland OR 97202</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Portland Canna Connection</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1515 SE 46th Ave Portland OR 97215</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CannaBuds PDX</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6519 NW St Helens Rd Portland OR 97210</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Waldport Cannabis DLLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">250 SW Hwy 101 Waldport Oregon 97394</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Thurman Street Collective</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2384 NW Thurman St Portland OR 97210</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Flowr of Lyfe</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">114 W Broadway St Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">PM Holgate</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">5070 Commercial St Suite 170 Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Club Pitbull</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4088 State St Salem OR 97301</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon Bud Company</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">3270 SW Cedar Hills Blvd Unit 104 Beaverton OR 97005</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Beaver Bowls</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">227 SW 6th St Corvallis OR 97333</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">TJ's Kind Care</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1910 Empire Park Dr Eugene OR 97402</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Green Health Associates</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">607 Hwy 99 N Eugene OR 97402</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Twenty After Four Wellness Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">420 Blair Blvd Unit A Eugene Oregon 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Terrapin Care Station</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">835 E Park St Eugene OR 97401</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Ripped City</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">2058 NW Burnside Rd Gresham OR 97030</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Maritime Cafe Inc.</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">17417 SE McLoughlin Blvd Gladstone OR 97267</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Nature's Choice Alternative Medicine</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">229 W Marine Dr Ste C Astoria OR 97016</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Art De La Vigne LLC</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">829 N Russell St Portland OR 97227</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Northwest Releaf</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6126 SE Duke St Unit A Portland Oregon 97206</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Cougar Cannabis</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">1969 NE Diamond Lake Blvd Roseburg OR 97470</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Exit 71 Cannabis Club</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">102 Old Stage Rd.Wolf Creek OR 97497</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">CannaMedicine</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">3212 Triangle Dr SE Salem OR 97302</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">The Herb Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">2205 NE Division St Bend OR 97701</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Oregon's Alternative Medical Center</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6300 NE 42nd Ave Portland Oregon 97218</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Greeley Gallery LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">6512 N Greeley Ave Portland OR 97217</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Tangent Farmacy</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">32990 Hwy 99E Tangent OR 97389</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Local Leaf</td>
+          <td class="Retail-cell">No</td>
+          <td class="Contact Information-cell">7570 SW 74th Ave. Portland OR 97223</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">Attis Trading Company Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4920 NE Cully Blvd Portland OR 97218</td>
+        </tr>
+        <tr>
+          <td class="Facility Name-cell">T.E.R.P Collective LLC</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">4355 N Hwy 101 Lincoln City OR 97367</td>
+        </tr>
+        <tr class="lastRow">
+          <td class="Facility Name-cell">Going Green West Coast Inc</td>
+          <td class="Retail-cell">Yes</td>
+          <td class="Contact Information-cell">41 Olalla Rd Toledo OR 97391</td>
+        </tr>
+      </tbody>
+    </table>
+
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script src="js/project.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+  </script>
+</body>
+</html>

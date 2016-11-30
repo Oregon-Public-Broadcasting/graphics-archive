@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="js/date.format.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/map_result.css" />
+
+
+</head>
+<body>
+<div id="map"></div>
+
+<div id="instructions" class="election-item">
+  <h4>Select a county to view it's results.</h4>
+</div>
+
+<div style="min-height: 120px;">
+  <div id="map-result" class="election-item" style="display: none;">
+  <h4><strong>County: </strong><span id="county"></span></h4>
+  <p id="updated">8:58 p.m. | November 18, 2016</p>  
+  <table id="result"></table>
+</div>
+</div>
+
+</body>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+</html>

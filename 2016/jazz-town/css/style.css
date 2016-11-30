@@ -1,0 +1,117 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia,Times,Times New Roman,serif;
+	/*text-transform: uppercase;*/
+	text-transform: capitalize;
+	/*font-weight: bold;*/
+	/*letter-spacing: 0.1em;*/
+	color: #333;
+	padding: 1em 0 0.25em 0;
+	border-bottom: 6px #DDB71C solid;
+	margin-bottom: 1em;
+}
+
+h6 {
+	font-size: 0.8em !important;
+	padding: 0 0 1.25em 0;
+	border-bottom: 1px #eee solid;
+	margin-bottom: 2em;
+}
+
+p {
+		font-size: 1.1em !important;
+		line-height: 1.75em;
+  	font-family: Georgia,Times,Times New Roman,serif;
+}
+
+hr {
+	margin: 3em 0;
+}
+
+video{
+	-webkit-filter: grayscale(1);
+	-webkit-transition: -webkit-filter 0.5s;
+	transition: -webkit-filter 0.5s;
+	margin-bottom: -10px;
+}
+
+a {
+	color: #111;
+	text-decoration: underline;
+}
+
+video:hover {
+	-webkit-filter: grayscale(0);
+}
+
+.juxtapose{
+	width:100%;
+	height: 380px;
+}
+
+/*blockquote::before {
+	content: '“\A';
+}*/
+
+.dropParagraph {
+	font-size: 1.25em !important;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 1.125em !important;
+	margin-bottom: 2em;
+}
+
+.attribution {
+	text-align: right;
+	text-transform: uppercase;
+	color: #444;
+	letter-spacing: 0.08em;
+	font-size: 1em !important;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	margin-bottom: 0rem;
+	font-weight: bold;
+}
+
+.description {
+	text-align: right;
+	font-size: 0.875em !important;
+	color: #888;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	/*font-weight: 300;*/
+}
+
+@media screen and (max-width: 39.9375em) {
+
+	.juxtapose{
+		width:100%;
+		height: 280px;
+	}
+
+	p {
+			font-size: 1.1em !important;
+			line-height: 1.5em;
+	  	font-family: Georgia,Times,Times New Roman,serif;
+	}
+
+	.quote {
+		font-style: italic;
+		font-size: 1em !important;
+		/*margin-bottom: 2em;*/
+	}
+	.attribution {
+		text-align: left;
+	}
+
+	.description {
+		text-align: left;
+	}
+}

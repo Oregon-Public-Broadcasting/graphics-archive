@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div id="timeline"></div>
+
+<script id="slide" type="text/x-handlebars-template">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 column">
+        <div class="circle"></div>
+        <h6>{{Date}}</h6>
+        <h4>{{Title}}</h4>
+        <p>{{Description}}
+        {{#if link}}
+          <a href="{{link}}" target="_blank"> Read More</a>
+        {{/if}}
+        </p>
+      </div>
+  </div>
+</script>
+
+<script type="text/javascript" src="https://opb-news-interactives.s3.amazonaws.com/lib/tabletop.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/handlebars.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+
+</body>

@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <title></title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <!-- LEAFLET + Maptiles + omnivore for loading topojson into leaflet  -->
+   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+   <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+   <script src="//cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+   <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+
+   <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+  <div class="row small-collapse" style="position:relative;">
+
+    <div class="small-12 columns">
+      <h4 class="text-center"><strong>Bureau of Land Management Livestock Grazing Allotments</strong></h4>
+      <img src="img/grazinglandWest.jpg">
+    </div>
+    <div class="small-12 columns">
+      <div id="mapKey">
+        <h5>Rangeland Health Status</h5>
+        <h6><i class="fa fa-square" style="color:#1a9850;"></i> Standards Met</h6>
+        <h6><i class="fa fa-square" style="color:#d73027;"></i> Standards Not Met</h6>
+        <h6><i class="fa fa-square" style="color:#fee08b;"></i> No Data</h6>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 medium-7 medium-centered columns">
+      <p>The Bureau of Land Management permits livestock grazing on 155 million acres of public land in the West. Those permits come with expanding environmental regulations. But an <a href="https://github.com/tonyschick/rangeland/blob/master/README.md" target="_blank">analysis by EarthFix</a> found enforcement of these rules is lagging.</p>
+      <ul class="ul-style findings">
+        <li>Millions of acres of public rangeland have never been fully assessed for rangeland health.</li>
+        <li>Most of these acres lack long-term management plans and at least one in three permits are renewed under a provision that sidesteps a full environmental review.</li>
+        <li>In hundreds of cases, permits are renewed under that provision even where grazing has been determined to impair rangeland health.</li>
+      </ul>
+      <p>Below, explore what livestock grazing and rangeland health looks like in states throughout the West. Click on a state's map to see individual allotments. Click for details on each allotment of grazing land.</p>
+      <hr/>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="or" data-lon="44" data-lat="-121">
+      <img class="stateCover"  src="img/or.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Oregon and Washington</b></h4>
+    <ul>
+      <li><strong>13.7 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 34% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>33% </strong> had not been evaluated.</li>
+      <li>At least <strong>1,371</strong> ranches manage an estimated <strong>1.1 million</strong> in </strong> in <span data-tooltip data-options="hover_delay: 50;" aria-haspopup="true" class="has-tip" title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>49%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="id" data-lon="44.2394" data-lat="-114.5103">
+      <img class="stateCover"  src="img/id.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Idaho</b></h4>
+    <ul>
+      <li><strong>11.5 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 26% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>34% </strong> had not been evaluated.</li>
+      <li>At least <strong>1,617</strong> ranches manage an estimated <strong>1.3 million</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>51%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" style="height:500px;" id="ca" data-lon="36.1700" data-lat="-119.7462">
+      <img class="stateCover"  src="img/ca.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>California</b></h4>
+    <ul>
+      <li><strong>6.8 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 41% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>27% </strong> had not been evaluated.</li>
+      <li>At least <strong>480</strong> ranches manage an estimated <strong>394,957</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>20%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="az" data-lon="33.7712" data-lat="-111.3877">
+      <img class="stateCover"  src="img/az.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Arizona</b></h4>
+    <ul>
+      <li><strong>11.4 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 46% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>32% </strong> had not been evaluated.</li>
+      <li>At least <strong>663</strong> ranches manage an estimated <strong>658,155</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>68%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="co" data-lon="39.0646" data-lat="-105.3272">
+      <img class="stateCover"  src="img/co.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Colorado</b></h4>
+    <ul>
+      <li><strong>7.9 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 55% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>16% </strong> had not been evaluated.</li>
+      <li>At least <strong>1,284</strong> ranches manage an estimated <strong>580,410</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>18%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="mt" data-lon="46.9048" data-lat="-110.3261">
+      <img class="stateCover"  src="img/mt.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Montana and the Dakotas</b></h4>
+    <ul>
+      <li><strong>8.2 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 73% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>4% </strong> had not been evaluated.</li>
+      <li>At least <strong>3,747</strong> ranches manage an estimated <strong>1.4 million</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>13%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="nm" data-lon="34.8375" data-lat="-106.2371">
+      <img class="stateCover"  src="img/nm.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>New Mexico</b></h4>
+    <ul>
+      <li><strong>12.8 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 44% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>47% </strong> had not been evaluated.</li>
+      <li>At least <strong>1,869</strong> ranches manage an estimated <strong>1.8 million</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>37%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="nv" data-lon="38.4199" data-lat="-117.1219">
+      <img class="stateCover"  src="img/nv.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Nevada</b></h4>
+    <ul>
+      <li><strong>43.3 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 10% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>54% </strong> had not been evaluated.</li>
+      <li>At least <strong>516</strong> ranches manage an estimated <strong>2.1 million</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>60%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="wy" data-lon="42.7475" data-lat="-107.2085">
+      <img class="stateCover"  src="img/wy.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Wyoming</b></h4>
+    <ul>
+      <li><strong>17.4 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 32% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>49% </strong> had not been evaluated.</li>
+      <li>At least <strong>2,502</strong> ranches manage an estimated <strong>1.9 million</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>47%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 medium-6 columns">
+    <div class="mapDiv" id="ut" data-lon="40.1135" data-lat="-111.8535">
+      <img class="stateCover"  src="img/ut.jpg">
+      <div class="activateLeaflet">
+        <i class="fa fa-plus"></i>
+        <h6>Explore</h6>
+      </div>
+    </div>
+  </div>
+  <div class="small-12 medium-6 columns">
+    <h4><b>Utah</b></h4>
+    <ul>
+      <li><strong>21.6 million </strong> acres of BLM land here are used for grazing.
+      <li>As of 2013, an estimated<strong> 63% </strong> of areas used for grazing met federal benchmarks for rangeland health.  An estimated <strong>21% </strong> had not been evaluated.</li>
+      <li>At least <strong>1,377</strong> ranches manage an estimated <strong>1.2 million</strong> in </strong> in <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' data-options="clickOpen: true;" tabindex=1 title="An animal unit month, or AUM, is the amount of forage needed to sustain one cow and her calf, one horse, or five sheep or goats for a month.">animal unit months</span></li>
+      <li>Nearly <strong>34%</strong> of grazing permits here were issued without a full environmental review </li>
+    </ul>
+  </div>
+</div>
+
+
+<script src="js/project.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+
+
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  $(document).foundation();
+
+  $('.mapDiv').click(function(){
+        $(this).children('img, .activateLeaflet').hide();
+
+        var state = $(this).attr('id')
+        var lat = $(this).attr('data-lat')
+        var lon = $(this).attr('data-lon')
+        var map = L.map(state).setView([lon,lat], 6);
+        var link = "https://s3-us-west-2.amazonaws.com/opb-news-interactives/earthfix/rangeland/topo/" + state + ".json";
+        // L.esri.basemapLayer('Terrain').addTo(map);
+        var terrainBackground = new L.StamenTileLayer("terrain").setOpacity(0.5).addTo(map);
+        // var layerLines = new L.StamenTileLayer("toner-lines").setOpacity(0.3).addTo(map);
+        //
+        // // map.addLayer(layerLines);
+        // L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png',{
+        //   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        // }).addTo(map);
+
+        // GEOJSON Styles
+        function getColor(d) {
+            return d == 'ALL STANDARDS MET' ? '#1a9850' :
+                   d == 'NOT MET - LIVESTOCK' ? '#d73027' :
+                   d == 'NOT MET - NOT LIVESTOCK'  ? '#d73027' :
+                   d == 'NOT MET - NOTLIVESTOCK'  ? '#d73027' :
+                   d == 'NOT MET - INSUFFICIENT INFORMATION'  ? '#d73027' :
+                   d == 'NO DATA'  ? '#fee08b' :
+                   d == 'CLOSED'  ? '#ccc' :
+                   d == 'DETERMINATION NOT COMPLETE'  ? '#fee08b' :
+                        '#fee08b';
+        }
+
+        function allotment_style(feature) {
+            return {
+              weight: 0.25,
+              opacity: 1,
+              color: 'white',
+              fillOpacity: 1,
+              fillColor: getColor(feature.properties.LHS_CLASS)
+            };
+          }
+
+        window.ShowAllotment = function(allotment){
+          var iframe = '<iframe frameborder="0" width="100%" height="100%" src="http://opb-news-interactives.s3.amazonaws.com/news/2016/02February/rangelandStatic/static/' + allotment + '.html"></iframe>';
+          var windowHeight = $( window ).height(); //$(window.parent.document).height(); style="height:' + (windowHeight - 60 ) + 'px"
+          var appendthis = '<div class="allotmentPopUp"></div><div class="iFrameContent"><div class="close-out"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-times fa-stack-1x fa-inverse"></i></span></div>' + iframe + '</div>';
+
+          $('#'+state).parent().parent().prepend(appendthis)
+          $('body').addClass('scroll-fix')
+
+          $('.close-out').click(function() {
+            $('.allotmentPopUp').remove()
+            $('.iFrameContent').remove()
+            $('body').removeClass('scroll-fix')
+          });
+        }
+
+        // Add popupContent
+        function onEachFeature(feature, layer) {
+            if (feature.properties && feature.properties.STALLOT) {
+                layer.bindPopup('<a href="javascript:ShowAllotment(' + "'" + feature.properties.STALLOT.toString() + "'" + ');"> Dig deeper into the <b>' + feature.properties.ALLOT_NAME.toLowerCase() + '</b> allotment.</a>');
+            }
+        }
+
+        var customLayer = L.geoJson(null, {
+              style: allotment_style,
+              onEachFeature: onEachFeature
+            });
+
+        var runLayer = omnivore.topojson(link, null, customLayer).addTo(map);
+
+        // Disable drag and zoom handlers.
+          map.touchZoom.disable();
+          map.scrollWheelZoom.disable();
+
+        // Disable tap handler, if present.
+          if (map.tap) map.tap.disable();
+
+  });
+
+</script>
+
+</body>
+</html>

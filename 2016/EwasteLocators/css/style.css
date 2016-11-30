@@ -1,0 +1,56 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+
+svg {
+	fill: blue;
+}
+
+.country {
+	fill: #ccc;
+	stroke: #ccc;
+	stroke-width: 0.25px;
+	stroke-linejoin: round;
+}
+
+.ewaste {
+	fill: none;
+	stroke: #a50f15;
+	stroke-width: 3px;
+	stroke-linejoin: round;
+}
+
+.graticule {
+	fill: none;
+	stroke: #e1e2e3;
+	/*stroke-opacity: .3;*/
+	stroke-width: 1px;
+}
+
+.graticule-outline {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 1px;
+}
+
+path {
+	stroke-linejoin: round;
+}
+
+text {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-anchor: middle;
+	fill: #a50f15;
+}
+
+.pinpoint {
+	fill: #a50f15;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+}

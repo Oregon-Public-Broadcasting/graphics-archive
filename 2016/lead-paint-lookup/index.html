@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPB &middot;</title>
+  	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+  	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+  	<script charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+  	<script type="text/javascript">
+
+    	$(document).ready(function() {
+    	    $('#dataTableDatabase').dataTable( {
+    	        "sScrollY": "320px",
+    	        "bPaginate": false,
+           		"bInfo": false,
+           		"oLanguage": {
+             	"sSearch": ""
+    			}
+    	    });
+    		$('div.dataTables_filter input').attr('placeholder', 'Search');
+    	});
+
+  	</script>
+
+  	<style type="text/css">
+
+      html, body {
+      	padding: 0;
+      	margin: 0;
+        width:auto !important;
+      	height:auto !important;
+      }
+
+      td {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+      }
+
+      #dataTableDatabase_filter {
+    		float: none;
+    		text-align: center;
+      }
+
+  		.dataTables_filter {
+  			float: none;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    padding: 1em;
+  		}
+
+  		input {
+  			width: 70%;
+  			max-width: 25em;
+  			height: 24px;
+  		}
+
+  		input[type="text"] {
+  	    font-size:18px;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  	    color: #444;
+  	    padding-left: .25em;
+  		}
+
+  		.dataTables_scrollHeadInner {
+  			text-align: left;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  			background-color: #fff;
+  	    border-bottom: 1px solid #ddd;
+  		}
+
+      @media (max-width: 500px) {
+        tr {
+    		    font-size: 0.75em;
+    		}
+        td {
+    		    font-size: 0.875em;
+    		}
+      }
+
+  	</style>
+
+</head>
+<body>
+
+  <table id="dataTableDatabase" class="stripe" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th class="Project-cell">Project</th>
+          <th class="Lead Paint Scope-cell">Lead Paint Scope</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td class="Project-cell">Cleveland Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior window/frame lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Columbia Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Green Thumb Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Alliance Meek Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior roof trim lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Atkinson Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">BESC Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior concrete lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">East Sylvan Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding and concrete lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Hayhurst Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Sacajawea Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior window/frame lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Woodstock Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Applegate Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Astor Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior wood siding lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Holladay Annex Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior trim lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Rose City Park Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior window/frame lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Sunnyside Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior window/frame lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Youngson Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior trim lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Abernathy Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior trim lead paint containment</td>
+        </tr>
+        <tr>
+          <td class="Project-cell">Irvington Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior window/frame lead paint containment</td>
+        </tr>
+        <tr class="lastRow">
+          <td class="Project-cell">West Sylvan Lead Paint Containment</td>
+          <td class="Lead Paint Scope-cell">exterior window/frame lead paint containment</td>
+        </tr>
+      </tbody>
+    </table>
+  </table>
+
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script src="js/project.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+  </script>
+</body>
+</html>

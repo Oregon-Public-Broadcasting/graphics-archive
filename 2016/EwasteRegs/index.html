@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" /> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script> -->
+  <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <h6>Scope of electronic waste recycling laws, by state</h6>
+
+<table class="ewaste" style="border-color: #fff;" cellpadding="3" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th class="product-label product-label-large" colspan="17">PRODUCTS</th>
+      <th class="product-label product-label-small" colspan="7">PRODUCTS*</th>
+      <th></th>
+      <th class="entity-label" colspan="6">ENTITIES</th>
+    </tr>
+    <tr>
+      <th class="rotate"><div><span></span></div></th>
+      <th class="rotate"><div><span>Recycles<br/><br/><br/><br/> &nbsp &nbsp e-waste</span></div></th>
+      <!-- <th class="spacer"></th>
+      <th class="rotate"><div><span>Landfill ban</span></div></th> -->
+      <th class="spacer"></th>
+      <th class="rotate"><div><span>Desktop</span></div></th>
+      <th class="rotate"><div><span>Laptop</span></div></th>
+      <th class="rotate"><div><span>Monitor</span></div></th>
+      <th class="rotate"><div><span>Television</span></div></th>
+      <th class="rotate"><div><span>Printer</span></div></th>
+      <th class="rotate"><div><span>Tablet</span></div></th>
+      <th class="rotate"><div><span>E-reader</span></div></th>
+      <th class="rotate hide_columns"><div><span>Fax</span></div></th>
+      <th class="rotate hide_columns"><div><span>Scanner</span></div></th>
+      <th class="rotate hide_columns"><div><span>Keyboard/mouse</span></div></th>
+      <th class="rotate hide_columns"><div><span>Media player</span></div></th>
+      <th class="rotate hide_columns"><div><span>Portable DVD</span></div></th>
+      <th class="rotate hide_columns"><div><span>DVD/VCR</span></div></th>
+      <th class="rotate hide_columns"><div><span>Server</span></div></th>
+      <th class="rotate hide_columns"><div><span>Set top box</span></div></th>
+      <th class="rotate hide_columns"><div><span>Game system</span></div></th>
+      <th class="rotate hide_columns"><div><span>Digital frame</span></div></th>
+      <th class="spacer"></th>
+      <th class="rotate"><div><span> Household</span></div></th>
+      <th class="rotate"><div><span> Small business</span></div></th>
+      <th class="rotate"><div><span> Large business</span></div></th>
+      <th class="rotate"><div><span> Government</span></div></th>
+      <th class="rotate"><div><span> Nonprofit</span></div></th>
+      <th class="rotate"><div><span> School</span></div></th>
+
+
+      </div>
+    </tr>
+
+  </thead>
+  <tbody id="tablerow">
+  </tbody>
+</table>
+<br/>
+
+<script id="slide" type="text/x-handlebars-template">
+
+      <tr>
+        <td style="width: 25px; padding: 1px; background-color: white;"> {{{ state_abbr }}}</td>
+
+        <!-- product scope -->
+        <td style="max-width: 25px;" {{#if laws}} class="law_ban"> {{/if}} </td>
+        <td class="spacer"></td>
+
+
+        <!-- <td {{#if landfill_ban}} class="landfill"> {{/if}} </td>
+        <td class="spacer"></td> -->
+        <td {{#if desktops}} class="product"> {{/if}} </td>
+        <td {{#if laptops}} class="product"> {{/if}} </td>
+        <td {{#if monitors}} class="product"> {{/if}} </td>
+        <td {{#if televisions}} class="product"> {{/if}} </td>
+        <td {{#if printers}} class="product"> {{/if}} </td>
+        <td {{#if tablets}} class="product"> {{/if}} </td>
+        <td {{#if e-readers}} class="product"> {{/if}} </td>
+        <td class="hide_columns"  {{#if fax}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if scanners}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if keyboards_mice}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if media_players}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if portable_dvd}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if dvd_vcr}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if servers}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if set_top_boxes}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if game_systems}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <td class="hide_columns" {{#if digital_frames}} style="background-color: steelblue; border-left: 1px solid #ccc; border-right: 1px solid #ccc;"> {{/if}} </td>
+        <!-- entities -->
+        <td class="spacer"></td>
+        <td {{#if households}} class="entity"> {{/if}} </td>
+        <td {{#if small_business}} class= "entity">{{/if}} </td>
+        <td {{#if large_business}} class="entity"> {{/if}} </td>
+        <td {{#if government}} class="entity"> {{/if}} </td>
+        <td {{#if nonprofits}} class="entity"> {{/if}} </td>
+        <td {{#if schools}} class="entity"> {{/if}} </td>
+
+
+      </tr>
+</script>
+
+<script type="text/javascript" src="https://opb-news-interactives.s3.amazonaws.com/lib/tabletop.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/handlebars.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+
+</body>

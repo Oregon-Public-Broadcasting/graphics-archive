@@ -1,0 +1,67 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	text-align: center;
+	color: #222;
+}
+
+h3{
+	text-align: center;
+	color: #222;
+}
+
+p {
+	font-family: Georgia, Times, 'Times New Roman', serif !important;
+	text-align: center;
+}
+
+#map { 
+	height: 400px;
+	width: 100%;
+ }
+
+#slider-range{
+	margin: 5px 0;
+}
+
+li {
+	color: #777;
+}
+
+.liSelected {
+	color:#222;
+	font-weight: bold;
+}
+
+/*LEAFLET STYLE OVERRIDES*/
+
+.leaflet-popup-content-wrapper {
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.leaflet-popup-tip{
+	background-color: #fff;
+}
+
+.leaflet-popup-content {
+	font-size: 1.125em;
+	color: #363636;
+}
+
+.leaflet-popup-content h4{
+	font-size: 20px;
+	line-height: 0;
+}
+
+#shareInfo {
+    display: none;
+}

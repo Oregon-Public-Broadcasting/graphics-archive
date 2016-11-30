@@ -1,0 +1,2199 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPB &middot;</title>
+  	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+  	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+  	<script charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+  	<script type="text/javascript">
+
+    	$(document).ready(function() {
+    	    $('#dataTableDatabase').dataTable( {
+    	        "sScrollY": "320px",
+    	        "bPaginate": false,
+           		"bInfo": false,
+           		"oLanguage": {
+             	"sSearch": ""
+    			}
+    	    });
+    		$('div.dataTables_filter input').attr('placeholder', 'Search');
+        pymChild.sendHeight();
+    	});
+
+  	</script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+  <table id="dataTableDatabase" class="stripe" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th class="School Name-cell">School Name</th>
+          <th class="Material-cell">Material</th>
+          <th class="Space-cell">Space</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td class="School Name-cell">Abernethy</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Abernethy</td>
+          <td class="Material-cell">Tank Insulation - Two Tanks</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ainsworth</td>
+          <td class="Material-cell">Air Cell Pipe Insulation 4</td>
+          <td class="Space-cell">North Addition Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ainsworth</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">South Addition</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Alameda</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">1B Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Alameda</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Portable 2A Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Applegate Head Start</td>
+          <td class="Material-cell">Mag & Aircell pipe insulation 2</td>
+          <td class="Space-cell">Kitchen storage room above ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Arleta</td>
+          <td class="Material-cell">Vinyl Floor Tile 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Arleta</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Attic Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Arleta</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Arleta</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Atkinson</td>
+          <td class="Material-cell">Air Cell/Hard Fittings (Mag, Aircell and Cardboard)</td>
+          <td class="Space-cell">Sector B Attic - South Corridor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Atkinson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Sector B Gym fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Atkinson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Main Custodial Storage Rm 1</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Atkinson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Sector B - SW Custodial Closet</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Atkinson</td>
+          <td class="Material-cell">Vinyl Floor Tile 9</td>
+          <td class="Space-cell">Sector C</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beach</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Annex Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beach</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Original Building Crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beach</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beach</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Ground Floor Fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beach</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">First Floor Above Ceilings</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beach</td>
+          <td class="Material-cell">VAT of various colors 12</td>
+          <td class="Space-cell">Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beaumont</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass</td>
+          <td class="Space-cell">Portable 1 - Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beaumont</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass</td>
+          <td class="Space-cell">Portable 2 / Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Beaumont</td>
+          <td class="Material-cell">VAT and linoleum of various colors</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Gypsum Wallboard/Joint Compound</td>
+          <td class="Space-cell">Wing C</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Transite panels</td>
+          <td class="Space-cell">C Wing - Room C149</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Attic Shop Wings C & E</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Main Tunnel From Boiler</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Central Building - Tunnel Under Original Building</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Mag and cardboard Pipe Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Central Building Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Central Building - Penthouse E</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Central Building - Boys Gym Penthouse</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Benson</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Room D206</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Besc</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Throughout</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridger</td>
+          <td class="Material-cell">Duct Insulation Cement/Glue</td>
+          <td class="Space-cell">East Wing Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridger</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Center Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridger</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">East Wing Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridger</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridger</td>
+          <td class="Material-cell">Breeching Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridger</td>
+          <td class="Material-cell">Mag and cardboard Pipe Insulation 4</td>
+          <td class="Space-cell">Fan Room (above room 5)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridlemile</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Center Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridlemile</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">North Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridlemile</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Attic - South Hall</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridlemile</td>
+          <td class="Material-cell">Breeching Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridlemile</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Fan Room Above Faculty Dining</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Bridlemile</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Buckman</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Capitol Hill</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Original Building Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Capitol Hill</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">1952 Addition - NW tunnel</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Capitol Hill</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Capitol Hill</td>
+          <td class="Material-cell">Transite Board backing fin tube radiators</td>
+          <td class="Space-cell">1948 addition - First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Capitol Hill</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">1952 addition - second floor fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Chapman</td>
+          <td class="Material-cell">Air Cell Pipe Insulation</td>
+          <td class="Space-cell">Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Cleveland</td>
+          <td class="Material-cell">Glue under fiberglass insulation</td>
+          <td class="Space-cell">Attic Fan Room 357 A</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Cleveland</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Attic Fan Room 357 A</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Cleveland</td>
+          <td class="Material-cell">Mastic (Mastic or Adhesive)</td>
+          <td class="Space-cell">Attic HVU 4</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Cleveland</td>
+          <td class="Material-cell">Air Cell Pipe Insulation</td>
+          <td class="Space-cell">Locker Room G-10</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Cleveland</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Cleveland</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Above Ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Columbia</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Main Building Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Columbia</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Below Cafeteria Slab</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Columbia</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">East Wing Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Creston</td>
+          <td class="Material-cell">Air Cell Duct Insulation and tape</td>
+          <td class="Space-cell">Original Building - Auditorium Custodial Storage (cust. storage accross from 100C)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Creston</td>
+          <td class="Material-cell">Incinerator Breeching</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Creston</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Creston</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">West Addition/ Attic / West Corridor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Csc</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Primary Building - Room 117</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Csc</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">Primary Building - Third Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Davinci Arts Middle School</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Davinci Arts Middle School</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnel-Plenum off of Boiler Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Davinci Arts Middle School</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room and Custodial Office</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Davinci Arts Middle School</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Davinci Arts Middle School</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Room 110 Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Davinci Arts Middle School</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Duniway</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Duniway</td>
+          <td class="Material-cell">Mag and aircell 4</td>
+          <td class="Space-cell">Addition 1 trench and tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Duniway</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">Original Building - First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Faubion</td>
+          <td class="Material-cell">Mag and cardboard pipe insulation 2</td>
+          <td class="Space-cell">1952 Addition - Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Faubion</td>
+          <td class="Material-cell">Mag and cardboard pipe insulation 2</td>
+          <td class="Space-cell">1952 Addition - Mechanical room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Fernwood</td>
+          <td class="Material-cell">Duct Insulation</td>
+          <td class="Space-cell">Main Building - West Corridor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Fernwood</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnel To cafeteria</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Fernwood</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">Main Building - Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Fernwood</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Main Building - Rooms 229A & B</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Foster</td>
+          <td class="Material-cell">Mastic (Mastic on fiberglass duct insulation)</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Auditorium Wing - Cafeteria Mechanical Room - West fan</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">New tunnel from gym to auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Crawl space and Tunnel</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Central Building - Basement East fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Sheet Vinyl Flooring</td>
+          <td class="Space-cell">Central Building - Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">SW Wing - Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Franklin</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">West Wing - Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">George</td>
+          <td class="Material-cell">Duct insulation and tape</td>
+          <td class="Space-cell">Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">George</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor Mechanical Space-Lower Level</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">George</td>
+          <td class="Material-cell">Spray-applied acoustical plaster</td>
+          <td class="Space-cell">Auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Glencoe</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Glencoe</td>
+          <td class="Material-cell">Domestic hot water tank insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Glencoe</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Glencoe</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Play Court</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Glencoe</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Room 207</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Magnesite flooring</td>
+          <td class="Space-cell">Main Building Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Main Building - Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Air Cell Pipe Insulation 4</td>
+          <td class="Space-cell">Main Building Basment - New Gym Storage Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Main Building Basement - New Gym Apparatus Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">North Wing First Floor - Room 133</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Portables</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Science Room - Mechanical Room (Penthouse)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Science Building - Mechanical Room (Penthouse)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">South Wing - Room 19 (Typing)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">South Wing Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grant</td>
+          <td class="Material-cell">Wall Tile</td>
+          <td class="Space-cell">Main Building Basement - Rooms 13 and 19</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">Boiler breeching insulation</td>
+          <td class="Space-cell">East Wing Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">Mag, aircell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">East Wing Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">East Wing Crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">West Wing Crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">East Wing First Floor - South fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Below stage in Cafetorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Gray</td>
+          <td class="Material-cell">VATof various color 9</td>
+          <td class="Space-cell">East Wing First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Green Thumb</td>
+          <td class="Material-cell">VAT of Various Colors 12</td>
+          <td class="Space-cell">Classrooms</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grout</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Storage Room South</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Grout</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Crawlspace Under 1st Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Harrison Park</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Harrison Park</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Harrison Park</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">First floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Holladay Annex</td>
+          <td class="Material-cell">Vinyl Floor Tile 9</td>
+          <td class="Space-cell">Lower Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Holladay Annex</td>
+          <td class="Material-cell">Sheet Vinyl Flooring</td>
+          <td class="Space-cell">Main Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Holladay Annex</td>
+          <td class="Material-cell">Textured Ceiling Plaster</td>
+          <td class="Space-cell">Main Floor - Walls and Ceilings</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Holladay Annex</td>
+          <td class="Material-cell">Vinyl Floor Tile 9</td>
+          <td class="Space-cell">Main Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Holladay Center</td>
+          <td class="Material-cell">Hard Fittings</td>
+          <td class="Space-cell">Breezeway to Youngson</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hollyrood</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hosford</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Original Building Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hosford</td>
+          <td class="Material-cell">Floor Paint</td>
+          <td class="Space-cell">Wood Shop</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hosford</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hosford</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Addition Basement - Mechanical Room 2</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hosford</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Addition Basement - Storage Rooms (15, 16)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Hosford</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor Addition - Mechanical Room 1</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Irvington</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Irvington</td>
+          <td class="Material-cell">Hot water tank insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Irvington</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Irvington</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Irvington</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Storage Under Stairs SW</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Irvington</td>
+          <td class="Material-cell">VAT and sheet Linoleum of various colors</td>
+          <td class="Space-cell">Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jackson</td>
+          <td class="Material-cell">Domestic hot water tank</td>
+          <td class="Space-cell">B-Wing Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jackson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">G-Wing Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jackson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">C-Wing Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jackson</td>
+          <td class="Material-cell">Original fireproofing on steel deck</td>
+          <td class="Space-cell">D-Wing First Floor - Above Library</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jackson</td>
+          <td class="Material-cell">Original fireproofing on steel deck</td>
+          <td class="Space-cell">B-Wing Above Cafeteria Ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jackson</td>
+          <td class="Material-cell">Original fireproofing on steel deck</td>
+          <td class="Space-cell">C-Wing - Catwalks above Auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">James John</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Main Building Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">James John</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Auditorium Wing A-Floor - Custodial storage/rest room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Auditorium Wing Floor A - Sanitation room (off rm A77)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Acoustical Ceiling Plaster</td>
+          <td class="Space-cell">Auditorium Wing C-Floor - SW Stairwell</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Acoustical Ceiling Plaster</td>
+          <td class="Space-cell">Auditorium Wing Floor-D - SE Stairwell</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Acoustical Ceiling Plaster</td>
+          <td class="Space-cell">Auditorium Wing Floor-D - SW Stairwell</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Auditorium Wing D-Floor - Fan room D79</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">Auto Shop Building First Floor - Shop area</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">Boys Gym Basement - Above shower ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">Boys Gym Basement - Room A105 (Mechanical)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fireproofing on Steel Deck</td>
+          <td class="Space-cell">Boys Gym Penthouse - East fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fireproofing on Steel Deck</td>
+          <td class="Space-cell">Boys Gym Penthouse - West fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Girls Gym Basement - Storage Room (West side of Locker Room)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Duct Felt Tape</td>
+          <td class="Space-cell">Original Building Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building - Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Original Building A-Floor - Room A03</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 2</td>
+          <td class="Space-cell">Original Building Floor-A - Corridor behind boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building A-Floor - Custodial office corridor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building Floor-A - West storage room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building A-Floor - Above permanent ceilings</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building A-Floor - Room A16</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Original Building Floor-A</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building B-Floor - Room B20</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building B-Floor - Room B21</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building B-Floor - Above ceilings/behind walls</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building B-Floor - Room B17 (fan room)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Transite Wall Board</td>
+          <td class="Space-cell">Original Building B-Floor - Room B06</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Original Building B-Floor - Walls</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Acoustical Ceiling Plaster</td>
+          <td class="Space-cell">Original Building C-Floor - Room C21</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Acoustical Ceiling Plaster</td>
+          <td class="Space-cell">Original Building C-Floor - Room C22</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Acoustical Ceiling Plaster</td>
+          <td class="Space-cell">Original Building C-Floor - Room C23</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building D-Floor - Room D21</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building D-Floor - Room D22</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building D-Floor - Room D17</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building C-Floor - Room C23</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building C-Floor - Room C22</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Fintube cabinet insulation</td>
+          <td class="Space-cell">Original Building C-Floor - Room C19</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building C-Floor - Room C16 (fan room)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Building C-Floor - Above ceilings/behind walls</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Transite Panels</td>
+          <td class="Space-cell">Original Building C-Floor - Room C36</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Original Building D-Floor - Walls</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Original Building C-Floor - Walls</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Original Building D-Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Original Building C-Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Original Gym (TV Services) - First Floor Shop</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Jefferson</td>
+          <td class="Material-cell">White electrical cords</td>
+          <td class="Space-cell">Original Gym (TV Services) - First Floor Storage</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kellogg</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">Main Building - First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kellogg</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">Main Building - Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kellogg</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">Main Building - Third Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Attic Above Kitchen</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Attic - NW Hall</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Attic - North Hall</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnel North</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">SW Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation</td>
+          <td class="Space-cell">First Floor - Custodial Closet West Hall</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor Fan Room East</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kelly</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor - Fan Room West</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kenton</td>
+          <td class="Material-cell">Mag Pipe Insulation 2</td>
+          <td class="Space-cell">Portable 1 Crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Kenton</td>
+          <td class="Material-cell">Mag Pipe Insulation 2</td>
+          <td class="Space-cell">Portable 2 Crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">King</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Main Basement East storage</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">King</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">King</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Main Basement West storage</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">King</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Main Basement - West storage Supplies room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lane</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Crawlspace in Original Building</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lane</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor Fan Room Storage Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lane</td>
+          <td class="Material-cell">Ceiling Tile Type E</td>
+          <td class="Space-cell">Main Building</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lane</td>
+          <td class="Material-cell">Hot water tank insulation</td>
+          <td class="Space-cell">First Floor Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lane</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass</td>
+          <td class="Space-cell">Storage Room Below Auditorium and Cafeteria</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass</td>
+          <td class="Space-cell">Basement Tunnel</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Tunnel</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Laurelhurst</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Attic Fan room 2 (near gym)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">First Floor Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">Domestic hot water tank insulation</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lee</td>
+          <td class="Material-cell">VAT tile of various color 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lent</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lent</td>
+          <td class="Material-cell">Vinyl Floor Tile of various colors 9</td>
+          <td class="Space-cell">Original building</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lewis</td>
+          <td class="Material-cell">Breeching Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lewis</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lewis</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Addition - Room 27</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">Air Cell Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor - Room 160</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Room 138-S - Adjoining Pipe Chase</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">Troweled Acoustical Plaster</td>
+          <td class="Space-cell">Auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Lincoln</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Penthouse</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Basement Boys locker room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Sub-Basement West mechanical room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Room B-42</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Room B-43</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Gym / East fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Gym / West fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Room A-11 (storage room)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Ground Floor Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Room B-46</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Room A-17</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Ground Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Room C-45</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Second Floor Above corridor ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Room C-45</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Lower level of field house</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Corrugated transite roof panels</td>
+          <td class="Space-cell">Field House Roof</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Madison</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Upper level of field house</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Maplewood</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Basement Fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Maplewood</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Maplewood</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Gym - Under stage</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Maplewood</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">Main Building</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Attic Over West Side of Gym</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Air Cell Pipe Insulation 4</td>
+          <td class="Space-cell">Gym Attic Foyer</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Duct Insulation</td>
+          <td class="Space-cell">Auditorium Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Duct Insulation</td>
+          <td class="Space-cell">Cafeteria Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Duct Insulation</td>
+          <td class="Space-cell">Center Corridor Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Duct Insulation</td>
+          <td class="Space-cell">North Corridor Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Auditorium Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">SE Corridor Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Markham</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Center Corridor Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Gym Training Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Small Room Next To (A45) Mechanical Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Mechanical Room North (A7)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Tank Insulation - Two Tanks</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Tank Insulation on North Wall</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Boys Lavatory (B54) Behind Wall</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marshall</td>
+          <td class="Material-cell">VAT of various colors</td>
+          <td class="Space-cell">Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Marysville</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mlc</td>
+          <td class="Material-cell">Duct Felt Wrap</td>
+          <td class="Space-cell">Cafeteria</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mlc</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mlc</td>
+          <td class="Material-cell">VAT of Various Colors 9</td>
+          <td class="Space-cell">Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mt. Tabor</td>
+          <td class="Material-cell">Mag Pipe Insulation 2</td>
+          <td class="Space-cell">Library crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mt. Tabor</td>
+          <td class="Material-cell">Mag Pipe Insulation 2</td>
+          <td class="Space-cell">Cafetorium Stage crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mt. Tabor</td>
+          <td class="Material-cell">Wainscotting - vinyl type</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Mt. Tabor</td>
+          <td class="Material-cell">Mag Pipe Insulation 2</td>
+          <td class="Space-cell">Attic above Corridors and Classrooms</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ockley Green</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ockley Green</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Main Building Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ockley Green</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Cafeteria Corridor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ockley Green</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Kitchen (room 108B) Above ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Ockley Green</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Kitchen (Room 108B) Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Peninsula</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Peninsula</td>
+          <td class="Material-cell">Mastic on fiberglass duct insulation</td>
+          <td class="Space-cell">Attics</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Peninsula</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">North fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rice</td>
+          <td class="Material-cell">Vinyl Floor Tile of various colors 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rice</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">North Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Vinyl Wall Tile - 6</td>
+          <td class="Space-cell">Cafetorium Addition - Walls and Ceilings</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Cafetorium Addition - Above Kitchen Ceiling (Attic)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Basement Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Boiler Exhaust Breeching</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Basement - Boys rest room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Title I Lab (room 23)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Boys rest room - room 22</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Vinyl Floor Tile/Mastic 9</td>
+          <td class="Space-cell">Basement</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Room 106</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Richmond</td>
+          <td class="Material-cell">Vinyl Wall Tile - 6</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rieke</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rigler</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rigler</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">North Addition Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rigler</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Kitchen Storage</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rigler</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">North Addition Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rigler</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">South Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rigler</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Portable 1 - Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Tunnels - Boiler house to auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Gym Building Basement - Storage room G-7</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">White/gray debris</td>
+          <td class="Space-cell">Gym Building Basement - Storage room in Weight Room G-4</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Gym Building First Floor - Corridor pipe chase</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Gym Building First Floor - Hallway at SE girls restroom</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Gym Building Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Library Building - Custodian closet 163</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Original Building Basement - West fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Original Building Basement - West plenum</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">East crawl space and risers</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Original Building Basement - East plenum</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Original Building - NW crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Putty on wooden windows</td>
+          <td class="Space-cell">Original Building First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Vinyl Floor Tile/Mastic 9</td>
+          <td class="Space-cell">Floors</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roosevelt</td>
+          <td class="Material-cell">Vinyl Floor Tile/Mastic 9</td>
+          <td class="Space-cell">Original Building Second Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rose City Park</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Basement - SE storage room (Herbert Snook supply rm)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rose City Park</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Kitchen Fan room above ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rose City Park</td>
+          <td class="Material-cell">Woven paper type</td>
+          <td class="Space-cell">Basement - South boys rest room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Rose City Park</td>
+          <td class="Material-cell">Woven paper type</td>
+          <td class="Space-cell">Basement - Room 03</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Roseway Heights</td>
+          <td class="Material-cell">Various colored VAT and mastic 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sabin</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Tunnels and Crawlspaces</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sabin</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Kitchen</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sacajawea Site</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sacajawea Site</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Main Building - Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Boiler Room - Fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Main Building - Basement North fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Type T 24</td>
+          <td class="Space-cell">Main Building - First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">East Portables - First Floor Custodial closet</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Main Building - Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Scott</td>
+          <td class="Material-cell">Duct tape</td>
+          <td class="Space-cell">East Portables Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sellwood</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnels and Trenches</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sellwood</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sitton</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sitton</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sitton</td>
+          <td class="Material-cell">VAT, VCT, linoleum, and sheet vinyl flooring</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Skyline</td>
+          <td class="Material-cell">Spray-applied acoustical plaster - encapsulated</td>
+          <td class="Space-cell">Cafeteria</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Smith</td>
+          <td class="Material-cell">Boiler Insulation - One Boiler</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Smith</td>
+          <td class="Material-cell">Fittings on fiberglass lines 2</td>
+          <td class="Space-cell">Media Center - North Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Smith</td>
+          <td class="Material-cell">Fittings on fiberglass lines 2</td>
+          <td class="Space-cell">Media Center - South Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Smith</td>
+          <td class="Material-cell">Fittings on fiberglass lines 2</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Stephenson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Crawlspace (Tunnel & Mech. Room)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Stephenson</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Stephenson</td>
+          <td class="Material-cell">Sheet Floor Covering</td>
+          <td class="Space-cell">Media Center Addition</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Stephenson</td>
+          <td class="Material-cell">VAT of various colors 9</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sunnyside</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Basement - Open Storage</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sunnyside</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sunnyside</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sunnyside</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 4</td>
+          <td class="Space-cell">Room 105</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sunnyside</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Kitchen</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Sunnyside</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Room 212</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Terwilliger</td>
+          <td class="Material-cell">Air Cell Duct Insulation</td>
+          <td class="Space-cell">Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Terwilliger</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Tubman</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Tubman</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor - Above Ceiling</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Tubman</td>
+          <td class="Material-cell">Tank Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Basement Fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Crawl Space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Cafeteria</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Tank Insulation - Domestic hot water tank</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Thermal Insulation on two boilers</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Girls locker room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vernon</td>
+          <td class="Material-cell">VAT and VCT of various colors with mastic</td>
+          <td class="Space-cell">First Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vestal</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Main Building Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vestal</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Portable 2 Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vestal</td>
+          <td class="Material-cell">Woven paper type duct tape</td>
+          <td class="Space-cell">Custodial closet</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Vestal</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Portable 3 - Crawl space</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - East</td>
+          <td class="Material-cell">Vinyl Floor Tile of various colors 9</td>
+          <td class="Space-cell">Floors</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - East</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 2</td>
+          <td class="Space-cell">Attic - South</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - West</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - West</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - West</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">Gym Storage Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - West</td>
+          <td class="Material-cell">Sprayed acoustical treatment</td>
+          <td class="Space-cell">Cafeteria</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">West Sylvan - West</td>
+          <td class="Material-cell">Tank Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Whitman</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">West Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Whitman</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Whitman</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">North Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Whitman</td>
+          <td class="Material-cell">Mag and aircell Pipe Insulation 4</td>
+          <td class="Space-cell">Fan room - Above Hallway North of Gym</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Whitman</td>
+          <td class="Material-cell">Mag Pipe Insulation 4</td>
+          <td class="Space-cell">First Floor - West Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilcox</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">Attic</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilcox</td>
+          <td class="Material-cell">Hard Fittings/Fiberglass 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Basement Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Acoustical ceiling panels</td>
+          <td class="Space-cell">Auditorium</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Mag Pipe Insulation 12</td>
+          <td class="Space-cell">North fan room - Ground Floor</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Auditorium prop room (below stage)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Gym/West fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Room 104A (Band)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Wilson</td>
+          <td class="Material-cell">Transite Acoustical panels</td>
+          <td class="Space-cell">Room 105 (Choral)</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Winterhaven</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Basement Fan Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Winterhaven</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Original Building Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Winterhaven</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 4</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Winterhaven</td>
+          <td class="Material-cell">Tank Insulation</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Winterhaven</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Addition 1 Crawlspace</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Woodlawn</td>
+          <td class="Material-cell">Domestic hot water tank insulation</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Woodlawn</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Basement fan room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Woodmere</td>
+          <td class="Material-cell">Asbestos Pipe Insulation 4</td>
+          <td class="Space-cell">Tunnels</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Woodmere</td>
+          <td class="Material-cell">Boiler Insulation - Two boilers</td>
+          <td class="Space-cell">Boiler Room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Youngson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Boiler room</td>
+        </tr>
+        <tr>
+          <td class="School Name-cell">Youngson</td>
+          <td class="Material-cell">Mag, air cell and cardboard pipe insulation 2</td>
+          <td class="Space-cell">Cafeteria</td>
+        </tr>
+        <tr class="lastRow">
+          <td class="School Name-cell">Youngson</td>
+          <td class="Material-cell">Woven paper type</td>
+          <td class="Space-cell">Original Bldg.</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </table>
+
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script src="js/project.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+    pym.Child({ polling: 500 });
+  </script>
+</body>
+</html>

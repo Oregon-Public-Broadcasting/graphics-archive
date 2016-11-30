@@ -1,0 +1,183 @@
+/* .grid_6 = babosa overrides */
+/* .article_content = story rocket overrides */
+
+.grid_6 .election_result .large-3,
+.grid_6 .election_result .large-9,
+.article_content .election_result .large-3,
+.article_content .election_result .large-9
+{
+	width: 100% !important;
+	padding: 0;
+}
+
+.article_content .election_result .row
+{
+	display: block;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.article_content .election_result .small-2.column
+{
+	clear: none;
+	text-align: right;
+	width: 20%;
+	float: right;
+}
+
+.article_content .election_result .small-2.column p.right
+{
+ float: right;
+}
+
+.article_content .election_result .small-10.column
+{
+	float: left;
+	width: 80%;
+}
+
+.article_content .election_result .reporting
+{
+	clear: left;
+	margin-right: 10px;
+}
+
+.article .election_result .votesCast
+{
+	display: none;
+}
+
+.election_result .georgia {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 1.4em;
+	text-transform: none;
+	color: black;
+	font-weight: 400;
+}
+
+.election_result .caps {
+	text-transform: uppercase;
+	letter-spacing: .06em;
+}
+
+.election_result .lineHeightReset p {
+	font-size: 1.125em;
+	line-height: 1.875em !important;
+	margin-bottom: 0rem !important;
+	font-weight: 300;
+	padding: 0 10px 0 0;
+	font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif;
+	font-weight: 700px;
+	font-size: 18px;
+}
+
+.election_result .republican {
+	color: #7d191e;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+.election_result .democrat {
+	color: #3f5d83;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1em;
+	font-weight: bold;
+}
+
+.election_result .lineHeightReset p .party {
+	color: #7e7e7e;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 1em;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.election_result {
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 1em;
+	font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif;
+}
+
+.election_result .result:last-child {
+	border-bottom: 0px solid #e1e1e1;
+}
+
+.election_result .row .called {
+	background-color: #ebebeb !important;
+}
+
+.article_content .election_result .row .called {
+	height: 45px;
+}
+
+.article_content .election_result .called p,
+.article_content .election_result  p.left  {
+	float: left;
+}
+
+.election_result .called p {
+	font-weight: bold;
+}
+
+.article_content .election_result .isWinner i,
+.article_content .election_result .isLoser i,
+.article_content .election_result i
+{
+	float: left;
+	padding: 5px;
+}
+
+	.election_result .isWinner i {
+		 color:#00a651;
+	}
+
+	.election_result .isLoser i {
+		 color:#bd1a27;
+	}
+
+.election_result .votesCast {
+	font-size: 14px !important;
+	color: #888;
+	text-align: right;
+	padding: 5px 20px 0 0 !important;
+}
+
+.election_result .lineHeightReset p span.incumbent {
+	font-family: Georgia, Times, "Times New Roman", serif  !important;
+	font-size: 12px !important;
+	font-style: italic;
+	color: #7e7e7e;
+	padding-top: 7px !important;
+	font-weight: 100;
+}
+
+.election_result i {
+	color: white;
+	font-size: 24px;
+	line-height: 0;
+	padding: 4px 10px 0 10px;
+}
+
+.election_result h5
+{
+	font-size: 1.125rem;
+	font-weight: 700;
+	text-transform: none;
+	color: black;
+}
+
+.election_result .reporting {
+	font-size: 12px !important;
+	text-align: right;
+	margin: 4px 26px 8px 0;
+	color: #bbb  !important;
+	font-weight: 300;
+	letter-spacing: .04em;
+	font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif !important;
+	font-weight: 300;
+}

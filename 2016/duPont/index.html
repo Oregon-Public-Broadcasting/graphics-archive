@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+
+
+<!-- <div class="cover"> -->
+
+
+  <div class="row">
+    <div class="small-12 medium-7 medium-push-1 end column">
+      <!-- <a href="http://www.opb.org" target="_blank"><img src="OPB_black.png" id="logo"></a> -->
+      <br/>
+
+      <br/>
+      <h5 class="caps animated fadeInUp"><strong>DuPont Award Entry</strong></h5>
+      <h1 class="big-headline animated fadeInUp">An Occupation In Eastern&nbsp;Oregon</h1>
+      <h5 class="serif animated fadeInUp" style="max-width:24em;">Following is a selection of content from OPB’s ongoing coverage of the occupation of the Malheur National Wildlife refuge in Oregon. The occupation lasted 41 days. OPB was there throughout it all and we continue to cover the legal and social issues that resulted. Our complete coverage is  <strong><a href="http://www.opb.org/news/series/burns-oregon-standoff-bundy-militia-news-updates/">here</a></strong>. The following content is a selection chosen specifically for the DuPont awards.</h5>
+    </div>
+  </div>
+<!-- </div> -->
+
+<br/>
+<br/>
+
+<div id="content"></div>
+
+  <script id="slide" type="text/x-handlebars-template">
+      <div class="row">
+        <div class="small-12 medium-6 medium-push-1 column">
+          <a href="{{link}}" target="_blank"><img src="{{photo}}"></a>
+        </div>
+        <div class="small-12 medium-4 medium-pull-1 column">
+          <!-- <div class="parentDiv"> -->
+            <!-- <div class="childDiv"> -->
+              <h4 class="serif"><a href="{{link}}" target="_blank">{{headline}}</a></h4>
+              <h6 class="caps">{{date}}</h6>
+              <p>{{note}}</p>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+  </script>
+
+  <script type="text/javascript" src="js/handlebars.js"></script>
+  <script type="text/javascript" src="js/tabletop.js"></script>
+  <script src="js/project.js"></script>
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+  </script>
+
+</body>

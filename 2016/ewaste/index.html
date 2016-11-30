@@ -1,0 +1,677 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!--
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Beaverton to Hong&nbsp;Kong</h3>
+      <p>A LCD TV screen is dropped off at an electronics recycling center in Beaverton, Oregon. A GPS tracker has been placed inside the TV. It travels for <strong>299 days</strong> and more than <strong>8,700 miles</strong> to a scrapyard in Tam Mei, Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/or35.mp4" type="video/mp4">
+    </video>
+    <img src="img/or35.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="or356028content"></div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Portland to City Fung Kong&nbsp;Tsuen</h3>
+      <p>A LCD TV screen is dropped off at an electronics recycling center in Portland, Oregon. A GPS tracker has been placed inside the TV. It travels for <strong>198 days</strong> and more than <strong>8,700 miles</strong> to Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/or34.mp4" type="video/mp4">
+    </video>
+    <img src="img/or34.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="or349759content"></div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>The Printer that Traveled 13,000&nbsp;Miles</h3>
+      <p>A printer is dropped off in Lawrence, Massachusetts. A GPS tracker has been placed inside the printer. It travels for <strong>131 days</strong> and more than <strong>13,000 miles</strong> to a scrapyard in Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/ma35.mp4" type="video/mp4">
+    </video>
+    <img src="img/ma35.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="ma352894content"></div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Irvine to Hong&nbsp;Kong</h3>
+        <p>A LCD TV is dropped in Irvine, California. A GPS tracker has been placed inside the TV. It travels for more than <strong>7,000 miles</strong> over the course of <strong>270 days</strong> to a scrapyard in Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/irvine.mp4" type="video/mp4">
+    </video>
+    <img src="img/irvine.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="ca552287content"></div>
+
+<script id="slide" type="text/x-handlebars-template">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>{{Date}}</h6>
+        <h4>{{Location}}</h4>
+        <p>{{Description}}</p>
+        {{#if ElapsedDistance}}
+          <h6>Days Elapsed: <strong>{{ElapsedTimeInDays}}</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>{{ElapsedDistance}}</strong></h6>
+        {{/if}}
+      </div>
+      {{#if Lon}}
+        {{#if Lat}}
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="{{id}}" data-lon="{{Lon}}" data-lat="{{Lat}}">
+              <div class="marker"></div>
+            </div>
+          </div>
+        {{/if}}
+      {{/if}}
+  </div>
+</script> -->
+
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Beaverton to Hong&nbsp;Kong</h3>
+      <p>A LCD TV screen is dropped off at an electronics recycling center in Beaverton, Oregon. A GPS tracker has been placed inside the TV. It travels for <strong>299 days</strong> and more than <strong>8,700 miles</strong> to a scrapyard in Tam Mei, Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay="" loop="" muted="">
+       <source src="img/or35.mp4" type="video/mp4">
+    </video>
+    <img src="img/or35.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="or356028content">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>May 17, 2015</h6>
+        <h4>Beaverton, Oregon</h4>
+        <p>An LCD TV screen is dropped off at a recycling center in Beaverton, Oregon. Inside is a GPS device that's being tracked by the Basel Action Network.</p>
+      </div>
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR356028" data-lon="-122.788326" data-lat="45.460159">
+              <div class="marker"></div>
+            </div>
+          </div>
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>October 1, 2015</h6>
+        <h4>Seattle, Washington</h4>
+        <p>After 137 days, the tracker tells BAN that it has made its way north to Harbor Island at the mouth of Seattle's Duwamish River.</p>
+          <h6>Days Elapsed: <strong>137</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>84</strong></h6>
+      </div>
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR356030" data-lon="-122.355865" data-lat="47.577749">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>November 22, 2015</h6>
+        <h4>Port of Hong Kong</h4>
+        <p>After 190 days and 8,719 miles of travel, it reaches the Port of Hong Kong – one of the largest shipping ports in the world.</p>
+          <h6>Days Elapsed: <strong>189</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>8,719</strong></h6>
+      </div>
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR356032" data-lon="114.1138" data-lat="22.33172">
+              <div class="marker"></div>
+            </div>
+          </div>
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>March 8, 2016</h6>
+        <h4>Ngau Hom Sha</h4>
+        <p>Traveling roughly 10 miles north, the tracker ends up in a scrapyard in Ngau Hom Sha. Devices from Total Reclaim, a recycling company headquartered in Seattle, are also found in the yard.</p>
+
+          <h6>Days Elapsed: <strong>296</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>8,730</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR356033" data-lon="113.96666" data-lat="22.4505">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>March 11, 2016</h6>
+        <h4>Scrapyard in Hong Kong</h4>
+        <p>A few days later the device moves to its final resting place; another scrapyard in Tam Mei, Hong Kong.</p>
+
+          <h6>Days Elapsed: <strong>299</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>8,738</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR356034" data-lon="114.07469" data-lat="22.4856">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Portland to City Fung Kong&nbsp;Tsuen</h3>
+      <p>A LCD TV screen is dropped off at an electronics recycling center in Portland, Oregon. A GPS tracker has been placed inside the TV. It travels for <strong>198 days</strong> and more than <strong>8,700 miles</strong> to Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay="" loop="" muted="">
+       <source src="img/or34.mp4" type="video/mp4">
+    </video>
+    <img src="img/or34.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="or349759content">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>May 11, 2015</h6>
+        <h4>Portland, Oregon</h4>
+        <p>The GPS tracker-equipped TV is dropped off on May 11, 2015 at the Total Reclaim recycling center in North Portland. </p>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR349759" data-lon="-122.601445" data-lat="45.572143">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>July 6, 2015</h6>
+        <h4>Portland, Oregon</h4>
+        <p>The tracker indicates the TV sits at Mckinney Trailer Rentals, a semi-trailer rental and leasing company, in North Portland.</p>
+
+          <h6>Days Elapsed: <strong>56</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>4</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR349760" data-lon="-122.538029" data-lat="45.562104">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>October 13, 2015</h6>
+        <h4>Seattle, Washington</h4>
+        <p>After 160 days it works its way north to Harbor Island in the mouth of Seattle's Duwamish River.</p>
+
+          <h6>Days Elapsed: <strong>155</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>80</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR349761" data-lon="-122.356476" data-lat="47.578592">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>January 3, 2016</h6>
+        <h4>Port of Hong Kong</h4>
+        <p>On January 3, 2016 after traveling around 8,600 miles, the tracker reaches the Port of Hong Kong – one of the largest shipping ports in the world.</p>
+
+          <h6>Days Elapsed: <strong>237</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>8,715</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR349762" data-lon="114.11754" data-lat="22.33166">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>January 20, 2016</h6>
+        <h4>Scrapyard in Hong Kong</h4>
+        <p>More than 250 days after being dropped off in Portland, a GPS signal indicates the tracker-equipped TV has reached its final resting place: a scrapyard in Fung Kong Tsuen City.</p>
+
+          <h6>Days Elapsed: <strong>254</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>8,725</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="OR349763" data-lon="113.98236" data-lat="22.4586">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>The Printer that Traveled 13,000&nbsp;Miles</h3>
+      <p>A printer is dropped off in Lawrence, Massachusetts. A GPS tracker has been placed inside the printer. It travels for <strong>131 days</strong> and more than <strong>13,000 miles</strong> to a scrapyard in Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay="" loop="" muted="">
+       <source src="img/ma35.mp4" type="video/mp4">
+    </video>
+    <img src="img/ma35.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="ma352894content">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>August 27, 2015</h6>
+        <h4>Lawrence, Massachusetts</h4>
+        <p>A printer is recycled in the city of Lawrence, Massachusetts, with a tracker that emits its location coordinates via GPS. It will travel more than 13,387 miles before reaching its final resting place.</p>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ma352894" data-lon="-71.15434" data-lat="42.70342">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>October 17, 2015</h6>
+        <h4>Philadelphia, Pennsylvania</h4>
+        <p>It works its way 275 miles to a Philadelphia recycling center.</p>
+
+          <h6>Days Elapsed: <strong>51</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>275</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ma352895" data-lon="-75.065575" data-lat="40.021471">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>December 11, 2015</h6>
+        <h4>Port Said, Egypt</h4>
+        <p>The next location sent by the GPS tracker is from Port Said, Egpyt, on the Mediterranean Sea next to the Suez Canal.</p>
+
+          <h6>Days Elapsed: <strong>106</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>7,704</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ma352896" data-lon="32.29928" data-lat="31.19842">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>December 25, 2015</h6>
+        <h4>Port of Singapore Authority</h4>
+        <p>More than four months and 12,000 miles later, it ends up at The Port of Singapore Authority – one of the world's busiest transhipment hubs.</p>
+
+          <h6>Days Elapsed: <strong>120</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>12,534</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ma352897" data-lon="103.84406" data-lat="1.26274">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>January 1, 2016</h6>
+        <h4>City Tsing Yi</h4>
+        <p>A few days later it's shipped to Modern Terminals Limited. It's Hong Kong's second-largest container terminal.</p>
+
+          <h6>Days Elapsed: <strong>127</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>13,377</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ma352898" data-lon="114.12112" data-lat="22.35199">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>January 5, 2016</h6>
+        <h4>Scrapyard in Hong Kong</h4>
+        <p>After 131 days and more than 13,387 miles, it reaches its final destination in a scrapyard in Hong Kong.</p>
+
+          <h6>Days Elapsed: <strong>131</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>13,387</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ma352899" data-lon="113.981538" data-lat="22.453303">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Irvine to Hong&nbsp;Kong</h3>
+        <p>A LCD TV is dropped in Irvine, California. A GPS tracker has been placed inside the TV. It travels for more than <strong>7,000 miles</strong> over the course of <strong>270 days</strong> to a scrapyard in Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay="" loop="" muted="">
+       <source src="img/irvine.mp4" type="video/mp4">
+    </video>
+    <img src="img/irvine.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="ca552287content">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>June 23, 2015</h6>
+        <h4>Irvine, California</h4>
+        <p>An LCD TV is dropped off at a recycling enter in Irvine, California, on June 23, 2015. Inside the TV is a GPS tracker.</p>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ca552287" data-lon="-117.736927" data-lat="33.665372">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>October 27, 2015</h6>
+        <h4>Industry, California</h4>
+        <p>Four months later it moves by rail on its way to the Port of Long Beach.</p>
+
+          <h6>Days Elapsed: <strong>126</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>30</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ca552288" data-lon="-117.985" data-lat="34.04226">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>November 4, 2015</h6>
+        <h4>Port of Long Beach, California</h4>
+        <p>It moves to the Port of Long Beach where it sits for a month before being shipped across the Pacific Ocean.</p>
+
+          <h6>Days Elapsed: <strong>134</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>53</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ca552289" data-lon="-118.18916" data-lat="33.75516">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>December 8, 2015</h6>
+        <h4>Port of Hong Kong</h4>
+        <p>On Dec. 8, after a journey of around 7,200 miles, it reaches the Port of Hong Kong – one of the world's largest ports.</p>
+
+          <h6>Days Elapsed: <strong>168</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>7,309</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ca552290" data-lon="114.11399" data-lat="22.33503">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>December 12, 2015</h6>
+        <h4>Yuen Long</h4>
+        <p>After 172 days, it reaches its final resting place – a scrapyard in Hong Kong. </p>
+
+          <h6>Days Elapsed: <strong>172</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>7,319</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ca552291" data-lon="114.020101" data-lat="22.455844">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>March 19, 2016</h6>
+        <h4>Scrapyard in Hong Kong</h4>
+        <p>After 270 days, the GPS tracker is still active when recovered by Jim Puckett at the Hong Kong scrapyard.</p>
+
+          <h6>Days Elapsed: <strong>270</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>7,319</strong></h6>
+
+      </div>
+
+
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="ca552292" data-lon="114.020101" data-lat="22.455844">
+              <div class="marker"></div>
+            </div>
+          </div>
+
+
+  </div>
+
+<!-- <script type="text/javascript" src="js/handlebars.js"></script>
+<script type="text/javascript" src="js/tabletop.js"></script> -->
+
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+<script>
+
+
+$('.mapDiv').each(function(){
+    var place = $(this).attr("id");
+    var lat = $(this).attr('data-lat')
+    var lon = $(this).attr('data-lon')
+    var map = L.map(place, {
+      zoomControl: false
+    }).setView([lat,lon], 16);
+    L.tileLayer(
+        'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 18,
+        }).addTo(map);
+        // Disable drag and zoom handlers.
+        map.dragging.disable();
+        map.touchZoom.disable();
+        map.doubleClickZoom.disable();
+        map.scrollWheelZoom.disable();
+        map.keyboard.disable();
+        // Disable tap handler, if present.
+        if (map.tap) map.tap.disable();
+        // var labels = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png');
+        // var labels = L.tileLayer('http://c.tile.stamen.com/toner-labels/{z}/{x}/{y}.png');
+        // map.addLayer(labels);
+})
+$(".leaflet-bottom").remove();
+
+
+var pymChild = new pym.Child();
+
+$('#ca552292').ready( function(){
+  pym.Child({ polling: 2000 });
+});
+
+
+
+</script>
+
+</body>

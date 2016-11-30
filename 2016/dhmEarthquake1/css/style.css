@@ -1,0 +1,51 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+.x text {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	fill: #ccc;
+}
+
+.x .tick line {
+	stroke: none !important;
+}
+
+.domain {
+	stroke: none !important;
+}
+
+.legendBox {
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+
+p {
+	font-size: 12px;
+	color: #717273;
+	padding: 2px 6px;
+	float: left;
+	-webkit-margin-before: 0em !important;
+  -webkit-margin-after: 0em !important;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.y text {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	fill: #414243;
+	font-size: 16px !important;
+}

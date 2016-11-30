@@ -1,0 +1,129 @@
+.election-item
+{
+    padding: 0 10px;
+}
+
+
+h4
+{
+    font-family: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-left: 7px;
+}
+
+/* TABLE ---------------- */
+.election-item table
+{
+    width: 100%;
+    border: none !important;
+    font-family: Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif !important;
+}
+
+.election-item tr
+{
+    height: 22px !important;
+    font-size: 12px !important;
+    padding: 0!important;
+    border: none !important;
+}
+
+.election-item td
+{
+    vertical-align: middle !important;
+    border: none !important;
+    padding: 0 5px!important;
+}
+
+.election-item .candidate
+{
+    width: 200px !important;
+    max-width: 200px !important;
+}
+
+.election-item .percent
+{
+    width: 60px !important;
+    max-width: 60px !important;
+}
+
+
+.election-item .percent,
+.election-item .count
+{
+    text-align: right!important;
+    color: #969696 !important;
+}
+
+.election-item .winIcon
+{
+    width: 16px;
+    padding-right: 0;
+    padding-top: 2px;
+}
+
+
+
+/* BARS ---------------- */
+.election-item .bars div
+{
+    height: 12px;
+}
+
+#left_col .election-item .bar-bg
+{
+    width: 200px;
+}
+
+.election-item .bar-bg
+{
+    background-color: #eaeaea;
+    width: 110px;
+}
+
+
+
+.election-item .bar-bg .bar-result
+{
+    background-color: #969696;
+}
+
+/* LABELS ---------------- */
+.election-item .Dem,
+.election-item .GOP
+{
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.election-item .Dem
+{
+    font-weight: bold;
+    color: #4140ef;
+}
+
+.election-item .GOP
+{
+    font-weight: bold;
+    color: #d30b0b;
+}
+
+#instructions
+{
+    color: #b9b9b9;
+    font-size: 11px;
+    font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    padding-left: 7px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#updated
+{
+    color: #b9b9b9;
+    font-size: 11px;
+    font-family: Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    padding-left: 7px;
+    margin-top: 5px;
+}

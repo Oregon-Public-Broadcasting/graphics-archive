@@ -1,0 +1,110 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+p {
+	font-size: 1.125em;
+	font-family: Georgia,Times,Times New Roman,serif;
+	line-height: 1.5em;
+	color: #444;
+}
+
+
+#map {
+	height: 600px;
+	width: 100%;
+	margin-bottom: 2em;
+ }
+
+#info {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 300px;
+	top: 10;
+	right: 10;
+	padding: 1em 1em 0 1em;
+}
+
+#info p {
+	font-size: 0.875em;
+	font-family: Georgia,Times,Times New Roman,serif;
+	/*line-height: 1.5em;*/
+	color: #444;
+}
+
+#date{
+	font-size: 0.875em;
+	color: #a1a2a3;
+}
+
+#video {
+	padding-bottom: 0.5em;
+}
+
+/*STEPPER*/
+
+
+button {
+  background-color:#eee;
+  border:1px solid #999;
+  cursor:pointer;
+  color:#444;
+  font-family:Arial;
+  font-size:16px;
+  width: 100px;
+  height: 44px;
+  text-decoration:none;
+}
+
+button:hover {
+  background-color:#f6f6f6;
+}
+
+button:focus {outline:0;}
+
+
+#next{
+  -moz-border-radius: 0px 6px 6px 0px;
+  -webkit-border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 6px 6px 0px;
+}
+
+#last {
+  -moz-border-radius: 6px 0px 0px 6px;
+  -webkit-border-radius: 6px 0px 0px 6px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.inactive {
+  pointer-events:none;
+    background-color:#fff;
+  color:#aaa;
+  border:1px solid #dcdcdc;
+
+}
+
+#buttonContainer {
+  position: relative;
+  /*width: 210px;*/
+  /*margin: 20px auto;*/
+}
+
+#stepDescription{
+  padding: 0 2em 2em 2em;
+}
+
+@media (max-width: 500px) {
+
+  #map {
+    height: 675px;
+  }
+
+  #info {
+    width: 95%;
+    margin: auto;
+  }
+
+}

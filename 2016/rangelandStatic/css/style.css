@@ -1,0 +1,171 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+h3, h4 {
+	color: #414243;
+}
+
+p {
+		font-size: 1.05em !important;
+  	font-family: Georgia,Times,Times New Roman,serif;
+}
+
+.findings {
+	font-size: 1.05em !important;
+	font-family: Georgia,Times,Times New Roman,serif !important;
+
+}
+
+ul {
+	/*font-family: Georgia,Times,Times New Roman,serif;*/
+}
+
+ul li {
+	padding-bottom: 0.5em;
+}
+
+#mapKey {
+	position: absolute;
+	bottom: 0;
+	/*width: 200px;*/
+	padding: 0.5em;
+	border: 1px solid #c1c2c3;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+#mapKey h6 {
+	font-size: 0.875em;
+	color: #777;
+}
+
+.row {
+	padding-top: 2em;
+}
+
+.mapDiv {
+	position: relative;
+	height: 400px;
+	width: 100%;
+	overflow: hidden;
+	cursor:pointer;
+}
+
+.activateLeaflet {
+	position: absolute;
+	border: 1px solid #c1c2c3;
+	padding: 0.5em 1em;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 3px;
+	opacity: 0.7;
+	transition: 0.5s ease;
+}
+
+.activateLeaflet:hover  {
+	opacity: 1;
+}
+
+.activateLeaflet i {
+	position: relative;
+	display: inline;
+	color: #222;
+}
+
+.activateLeaflet h6 {
+	font-size: 1em;
+	/*color: #222;*/
+	position: relative;
+	display: inline;
+	padding-left: 0.25em;
+	pointer-events: none;
+	font-weight: bold;
+	/*transition: 0.5s ease;*/
+}
+
+.stateCover {
+		max-height:100%;
+		max-width:100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		transition: 0.5s ease;
+		opacity: 1
+}
+
+/*.stateCover:hover {
+		opacity: 0.8;
+}*/
+
+.allotmentPopUp {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.80);
+	z-index: 2000;
+}
+
+.close-out{
+	position: relative;
+}
+
+.iFrameContent{
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 600px;
+	border: 1px solid #c1c2c3;
+	border-radius: 3px;
+	z-index: 2001;
+}
+
+.close-out {
+	position: absolute;
+	right:0.75em;
+	top:0.75em;
+	cursor: pointer;
+}
+
+.fa-times {
+	position: absolute;
+	margin: auto;
+}
+
+.fa-circle {
+	color: #414243;
+}
+
+.scroll-fix {
+	overflow: hidden;
+}
+
+.tooltip.top:before, .tooltip:before {
+    display: none;
+}
+
+/*LEAFLET STYLE*/
+
+.leaflet-container {
+    background: #fff;
+}
+
+.leaflet-tile-pane {
+	filter: gray; /* IE6-9 */
+	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+@media only screen and (max-width: 30em){
+	#mapKey {
+		position: relative;
+		bottom: auto;
+		/*width: 200px;*/
+		/*padding: 0.5em;*/
+		border: 0px solid #c1c2c3;
+		/*background-color: rgba(255, 255, 255, 0.9);*/
+	}
+}

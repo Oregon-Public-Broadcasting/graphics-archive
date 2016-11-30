@@ -1,0 +1,62 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+  text-rendering: optimizeLegibility;
+	font-family: "Helvetica Neue",​Helvetica,​Roboto,​Arial,​sans-serif !important;
+	font-weight: 400;
+}
+
+.election_result {
+	border-bottom: 1px solid #e1e2e3;
+}
+
+.right {
+	float: right;
+}
+
+.ion-checkmark-circled {
+  float:left;
+  padding-right: 8px;
+	margin-top: -4px;
+	font-size: 1.125rem;
+}
+
+.h5 {
+    font-size: 1.125rem;
+	}
+
+.caps{
+	text-transform: uppercase;
+	letter-spacing: .06em;
+}
+
+.georgia {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-transform: none;
+    color: black;
+    font-weight: 400;
+}
+
+.votesCast {
+	color: #616263;
+	font-size: 0.75em;
+	padding-top: 0.25em;
+}
+
+p {
+	font-size: 1.125em;
+	color: #333;
+	line-height: 1;
+
+}
+
+.winner {
+	font-weight: bold;
+	background-color: #f1f2f3;
+	padding-top: 0.75em;
+	margin-bottom: 0.5em;
+}

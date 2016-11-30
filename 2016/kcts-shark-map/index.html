@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script> -->
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+  <script type="application/javascript" src="http://origin.kcts9.org/js/sharkdata.js"></script>
+  <!-- <script type="application/javascript" src="http://origin.kcts9.org/js/shark-script.js"></script> -->
+
+
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+
+  <div id="interactive">
+  <!-- <h3>A Day in the Life of a Sixgill</h3> -->
+  <!-- <p>Scientists tagged and tracked the movement of sixgill sharks for several years to discover their habits. The data they collected showed that sixgills like colder, darker water. They tend to swim to lower depths during the day, rising to shallower waters at night.</p> -->
+
+  <!-- <p><em>Dig into the data in the map below to discover where Puget Sound's sixgills spent their time.</em></p> -->
+
+  <div id="map" style="clear:both;width:100%;height:500px;">
+    <div class="reset map-btn">Reset</div>
+    <div class="show-hide map-btn">Show/Hide<br/>Markers</div>
+  </div>
+  <div id="chart" class="chart" style="width:100%;height:300px;"></div>
+
+  <!-- <p style="color:#666;font-size:14px;">Source: National Oceanic & Atmospheric Administration (NOAA) Fisheries</p> -->
+  </div>
+  <!-- <hr/> -->
+
+
+  <script src="js/project.js"></script>
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+  </script>
+
+</body>

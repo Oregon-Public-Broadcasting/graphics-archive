@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/vendor/modernizr.js"></script>
+  <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/foundation.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- SWITCH FROM CDN TO OPB HOST BEFORE YOU PUSH? -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="//cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script>
+
+  <!-- DON'T FORGET YOUR GEOGRAPHY JSON FILES  -->
+  <script src="js/tinyDesk.geojson"></script>
+
+</head>
+
+<body>
+
+<div class="row collapse">
+  <div class="small-12 medium-12 column">
+    <div id="map"></div>
+    <div id="info">
+        <div id="video">
+          <div class="flex-video widescreen">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4OXXpjE5e5E" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      <h4><span id="title"></span></h4>
+      <h6><span id="band"></span></h6>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  </script>
+
+</body>

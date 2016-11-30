@@ -1,0 +1,195 @@
+var oysterData = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Samish Bay",
+        "place": "Samish Bay, WA",
+        "species": "Pacific",
+        "salinity": "Low",
+        "size": "Average",
+        "summary": "Beach-grown oyster from one of Washington State’s sandiest growing regions, contributing to the lovely, frilly shells.",
+        "zoomLevel": "11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4871505,
+          48.5945853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Sea Cow",
+        "place": "Hammersley Inlet, Puget Sound, WA",
+        "species": "Pacific",
+        "salinity": "Moderate",
+        "size": "Small",
+        "summary": "Tide-tumbled by the James gang of Hama Hama oyster fame, but in a completely different body of water from their tumbled Blue Pools, resulting in a sweeter, creamier, less tannic oyster.",
+        "zoomLevel": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.034312,
+          47.207077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Hammersley",
+        "place": "Hammersley Inlet, Puget Sound, WA",
+        "species": "Pacific",
+        "salinity": "Moderate",
+        "size": "Average",
+        "summary": "Beach-grown oyster from the intertidal zone of one of Puget Sound’s shellfish centers. Hammersley Inlet connects Oakland Bay (Kumamoto Central) to the rest of Puget Sound.",
+        "zoomLevel": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0362881,
+          47.2069043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Steamboat",
+        "place": "Totten Inlet, Puget Sound, WA",
+        "species": "Pacific",
+        "salinity": "Low",
+        "size": "Average",
+        "summary": "Beach grown in southern Puget Sound, producing a strong-shelled, earthy-flavored oyster.",
+        "zoomLevel": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.939816,
+          47.186162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Totten Inlet",
+        "place": "Totten Inlet, Puget Sound, WA",
+        "species": "Pacific",
+        "salinity": "Moderate",
+        "size": "Average",
+        "summary": "Grown “single-on-bottom” style, in the firm beaches of Totten Inlet, famed for the richness of its waters, which grow fat, golden oysters very quickly.",
+        "zoomLevel": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.005908,
+          47.14826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Barron Point",
+        "place": "Little Skookum Inlet, Puget Sound, WA",
+        "species": "Pacific",
+        "salinity": "Moderate",
+        "size": "Average",
+        "summary": "Intertidally grown beach oysters farmed on the tidelands where fast-flowing Little Skookum Inlet feeds into Totten Inlet. A lot of freshwater feeding out of Little Skookum results in sweet, musky oysters with solid salinity. Low-density farming leads to oysters with nicely cupped...",
+        "zoomLevel": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0706655,
+          47.1384112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Eld Inlet",
+        "place": "Eld Inlet, Puget Sound, WA",
+        "species": "Pacific",
+        "salinity": "Low",
+        "size": "Small",
+        "summary": "Bag-to-beach oyster from one of the oldest oystering areas in the southernmost reaches of Puget Sound. Pretty shells, creamy meat, and a rich, earthy flavor",
+        "zoomLevel": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9635426,
+          47.0981364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Willapa Bay",
+        "place": "Willapa Bay, OR",
+        "species": "Pacific",
+        "salinity": "Briny",
+        "size": "Average",
+        "summary": "Beach-grown oysters from Washington’s State’s briniest bay. Oysters from Willapa Bay taste more of the sea than other Pacific Northwest bivalves.",
+        "zoomLevel": "10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9887775,
+          46.5395425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Netarts Bay",
+        "place": "Netarts Bay, OR",
+        "species": "Pacific",
+        "salinity": "Briny",
+        "size": "Average",
+        "summary": "The gunmetal gray waters of Netarts Bay and Tillamook Bay, in northern Oregon, are alive with charter fishing boats. Netarts Bay oysters are beach-cultured and taste like it: strong, tongue-coating, slightly metallic in flavor. The meats have a softness and a distinctive black line through the mantle.",
+        "zoomLevel": "12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9483997,
+          45.4028428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oysterName": "Kumamoto",
+        "place": "Yaquina Bay, OR",
+        "species": "Kumamoto",
+        "salinity": "Moderate",
+        "size": "Small",
+        "summary": "Grown off-bottom by the Oregon Oyster Company. These are the usual Kumamotos served at Grand Central Oyster Bar.",
+        "zoomLevel": "13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.0207275,
+          44.6169707
+        ]
+      }
+    }
+  ]
+}

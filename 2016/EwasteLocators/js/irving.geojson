@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "id": "one", "Title": "LCD TV screen", "Date": "6\/23\/2015", "locationName": "Irvine, CA", "Lon": -117.736927, "Lat": 33.665372, "Description": "The LCD TV gets dropped off a TK recycling in Irving Californina on July 23, 2015.", "media": "https:\/\/images.unsplash.com\/photo-1431162020154-5eb22b2456d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b1b59b53305fa422958f72c591f55a8d" }, "geometry": { "type": "Point", "coordinates": [ -117.736927, 33.665372 ] } },
+{ "type": "Feature", "properties": { "id": "two", "Title": "LCD TV screen", "Date": "10\/27\/2015", "locationName": "Industry, CA", "Lon": -117.985000, "Lat": 34.042260, "Description": "Four months later the TV gets shipped to Industry, CA to be TK.", "media": null }, "geometry": { "type": "Point", "coordinates": [ -117.985, 34.04226 ] } },
+{ "type": "Feature", "properties": { "id": "three", "Title": "LCD TV screen", "Date": "11\/4\/2015", "locationName": "Port of Long Beach, CA, United States", "Lon": -118.189160, "Lat": 33.755160, "Description": "After only a week in Industry, CA the TV is moved to the Port of Long BEach where it will sit for a month before being shipped across the Pacific to the Port Of Hong Kong.", "media": null }, "geometry": { "type": "Point", "coordinates": [ -118.18916, 33.75516 ] } },
+{ "type": "Feature", "properties": { "id": "four", "Title": "LCD TV screen", "Date": "12\/8\/2015", "locationName": "Port of Hong Kong", "Lon": 114.113990, "Lat": 22.335030, "Description": "After a shipping journing of TK miles, a month later the TV reaches the Port of Hong Kong – one of the largest shipping ports in the world.", "media": null }, "geometry": { "type": "Point", "coordinates": [ 114.11399, 22.33503 ] } },
+{ "type": "Feature", "properties": { "id": "five", "Title": "LCD TV screen", "Date": "12\/12\/2015", "locationName": "Yuen Long, Hong Kong", "Lon": 114.020101, "Lat": 22.455844, "Description": "A few days later the TV works it's way south to Yuen Long.", "media": null }, "geometry": { "type": "Point", "coordinates": [ 114.020101, 22.455844 ] } }
+]
+}

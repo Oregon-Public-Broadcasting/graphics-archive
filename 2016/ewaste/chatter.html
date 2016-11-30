@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="titleText">
+    <h1>How Your Old Flatscreen Ends Up In Hong Kong</h1>
+    <p style="max-width:36em;">GPS trackers placed in&nbsp;four electronic devices sent signals from recycling centers in the US to landfills in Hong Kong. Are your old&nbsp;electronics being recycled responsibly? Explore each tacker's journey spanning thousands of miles and hundreds of days. Read "<a href="http://www.opb.org/news/series/circuit/" target="_blank">The Circuit</a>" to learn more about ewaste.</p>
+</div>
+div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Beaverton to Hong&nbsp;Kong</h3>
+      <p>A LCD TV screen is dropped off at an electronics recycling center in Beaverton, Oregon. A GPS tracker has been placed inside the TV. It travels for <strong>299 days</strong> and more than <strong>8,700 miles</strong> to a scrapyard in Tam Mei, Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/or35.mp4" type="video/mp4">
+    </video>
+    <img src="img/or35.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="or356028content"></div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Portland to City Fung Kong&nbsp;Tsuen</h3>
+      <p>A LCD TV screen is dropped off at an electronics recycling center in Portland, Oregon. A GPS tracker has been placed inside the TV. It travels for <strong>198 days</strong> and more than <strong>8,700 miles</strong> to Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/or34.mp4" type="video/mp4">
+    </video>
+    <img src="img/or34.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="or349759content"></div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>The Printer that Traveled 13,000&nbsp;Miles</h3>
+      <p>A printer is dropped off in Lawrence, Massachusetts. A GPS tracker has been placed inside the printer. It travels for <strong>131 days</strong> and more than <strong>13,000 miles</strong> to scrapyard in Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/ma35.mp4" type="video/mp4">
+    </video>
+    <img src="img/ma35.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="ma352894content"></div>
+
+<div class="row titleArea">
+  <div class="small-12 medium-7 medium-push-4 column">
+    <div class="titleText">
+      <h3>Irvine to Hong&nbsp;Kong</h3>
+        <p>A LCD TV is dropped in Irvine, California. A GPS tracker has been placed inside the TV. It travels for more than <strong>7,000 miles</strong> over the course of <strong>270 days</strong> to a scrapyard in Hong&nbsp;Kong.</p>
+    </div>
+  </div>
+  <div class="small-12 medium-4 medium-pull-7 end column">
+    <video class="show-for-medium" autoplay loop muted>
+       <source src="img/irvine.mp4" type="video/mp4">
+    </video>
+    <img src="img/irvine.gif" class="show-for-small hide-for-medium">
+  </div>
+</div>
+
+<div id="ca552287content"></div>
+
+<script id="slide" type="text/x-handlebars-template">
+    <div class="row small-collapse medium-uncollapse card">
+      <div class="small-12 medium-4 column">
+        <div class="circle"></div>
+        <h6>{{Date}}</h6>
+        <h4>{{Location}}</h4>
+        <p>{{Description}}</p>
+        {{#if ElapsedDistance}}
+          <h6>Days Elapsed: <strong>{{ElapsedTimeInDays}}</strong></h6>
+          <h6 style="padding-bottom:1em;">Miles Traveled: <strong>{{ElapsedDistance}}</strong></h6>
+        {{/if}}
+      </div>
+      {{#if Lon}}
+        {{#if Lat}}
+          <div class="small-12 medium-8 column">
+            <div class="mapDiv" id="{{id}}" data-lon="{{Lon}}" data-lat="{{Lat}}">
+              <div class="marker"></div>
+            </div>
+          </div>
+        {{/if}}
+      {{/if}}
+  </div>
+</script>
+
+<script type="text/javascript" src="js/handlebars.js"></script>
+<script type="text/javascript" src="js/tabletop.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+
+</body>

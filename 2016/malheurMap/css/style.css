@@ -1,0 +1,91 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+p {
+	font-size: 1.125em;
+	font-family: Georgia,Times,Times New Roman,serif;
+	line-height: 1.5em;
+	color: #444;
+}
+
+#map {
+	height: 700px;
+	width: 100%;
+ }
+
+#info {
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 300px;
+	top: 10;
+	right: 10;
+	padding: 0.125em 0.125em 1em 0.125em ;
+	border: 1px solid #616263;
+}
+
+#info p {
+	font-size: 0.875em;
+	font-family: Georgia,Times,Times New Roman,serif;
+	color: #444;
+	padding: 0 12px;
+}
+
+#info h4 {
+	padding: 0 12px;
+}
+
+#info img {
+	padding-bottom: 12px;
+}
+
+#date{
+	font-size: 0.875em;
+	color: #a1a2a3;
+}
+
+#video {
+	padding-bottom: 0.5em;
+}
+
+#readForMore {
+
+	margin: 0 12px;
+	background-color: #25A66A;
+	padding: 6px 18px;
+	/*width:160px;*/
+	/*height: 44px;*/
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	text-transform: uppercase;
+	color: #f1f2f3;
+	letter-spacing: 2px;
+	font-size: 1em;
+}
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+
+@media (max-width: 500px) {
+
+  #map {
+    height: 240px;
+  }
+
+  #info {
+		position: relative;
+    width: 100%;
+		background-color: rgba(255, 255, 255, 0.9);
+		top: 0;
+		right: 0;
+		padding: 0.5em;
+		border: 0px solid #616263;
+  }
+
+}

@@ -1,0 +1,89 @@
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SWITCH FROM CDN TO OPB HOST BEFORE YOU PUSH? -->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="//cdn.jsdelivr.net/leaflet.esri/1.0.0/esri-leaflet.js"></script>
+  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+  <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/vendor/modernizr.js"></script>
+  <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/foundation.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- DON'T FORGET YOUR GEOGRAPHY JSON FILES  -->
+  <script src="oysterMap.geojson"></script>
+
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+  <div class="startSlide">
+    <div class="row collapse">
+        <p class=" ">Oysters, like wine, take their distinctive flavor from the aquaculture of their home bays. Learn how these delectable marine animals are seeded, grown, and savored for their unique “merior.”</p>
+        <div id="go">Explore</div>
+    </div>
+  </div>
+
+
+  <div class="infoPane hide">
+
+
+    <div class="stepper show-for-small-only">
+      <i class="last ion-chevron-left inactive left"></i>
+      <i class="next ion-chevron-right right"></i>
+    </div>
+
+    <div class="row collapse">
+        <h3 id="oysterName" class="bold"></h3>
+        <h6 id="place"></h6>
+        <p id="summary"></p>
+    </div>
+    <div class="row collapse">
+      <div class="small-3 column">
+        <h6 class="text-right caps">Species</h6>
+      </div>
+      <div class="small-9 column">
+        <h6 id="oysterSpecies"></h6>
+      </div>
+    </div>
+    <div class="row collapse">
+      <div class="small-3 column">
+        <h6 class="text-right caps">Salinity</h6>
+      </div>
+      <div class="small-9 column">
+        <h6 id="oysterSalinity"></h6>
+      </div>
+    </div>
+    <div class="row collapse">
+      <div class="small-3 column">
+        <h6 class="text-right caps">Size</h6>
+      </div>
+      <div class="small-9 column">
+        <h6 id="oysterSize"></h6>
+      </div>
+    </div>
+
+
+  <div class="stepper hide-for-small-only">
+    <i class="last ion-chevron-left inactive left"></i>
+    <i class="next ion-chevron-right right"></i>
+  </div>
+
+  </div>
+
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="js/project.js"></script>
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  </script>
+
+</body>

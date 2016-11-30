@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+  	<meta charset="utf-8">
+  	<title></title>
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/style.css" />
+	<style type="text/css">
+
+  /* Uncomment the following to enable tooltip styles */
+  #tooltip {
+          position: absolute;
+          height: auto;
+          padding: 10px;
+          background-color: white;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+          -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+          pointer-events: none;
+  }
+
+  #tooltip.hidden {
+          display: none;
+  }
+
+  #tooltip p {
+          margin: 0;
+          font-family: sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+  }
+
+	</style>
+
+</head>
+
+<body>
+  <!-- Uncomment the following lines to enable tooltip -->
+  <!-- <div id="tooltip" class="hidden">
+          <p><strong><span id="key"></span></strong></p>
+          <p><span id="value"></span></p>
+  </div> -->
+<div class="legend">
+  <div class="ecological-line"></div><span class="legend-text"> Limit for ecological risk </span>
+  <div class="drinking-line"></div><span class="legend-text"> Limit for drinking water risk </span>
+</div>
+<div id="hydrocarbons">
+<h3>Petroleum hydrocarbons</h3>
+</div>
+<div id="volatiles">
+<h3>Volatile organic compounds</h3>
+</div>
+<div id="semivolatiles">
+<h3>Semi-volatile organic compounds</h3>
+</div>
+<script src="js/project.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+</script>
+</body>

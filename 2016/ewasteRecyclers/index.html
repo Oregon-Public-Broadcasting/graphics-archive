@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  	<meta charset="utf-8">
+  	<title></title>
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/style.css" />
+	<style type="text/css">
+    html, body {
+    	padding: 0;
+    	margin: 0;
+      width:auto !important;
+    	height:auto !important;
+    }
+	</style>
+
+</head>
+
+<body>
+  <div id="title">
+    <h3>Total pounds collected in 2015</h3>
+  </div>
+
+  <div id="chart"></div>
+  <div id="legend">
+    <div class="keyColor" style="background-color: rgb(31, 119, 180)"></div><h6>Oregon</h6>
+    <div class="keyColor" style="background-color: rgb(174, 199, 232)"></div><h6>Washington</h6>
+  </div>
+
+  <!-- Uncomment the following lines to enable tooltip -->
+  <!-- <div id="tooltip" class="hidden">
+          <p><strong><span id="key"></span></strong></p>
+          <p><span id="value"></span></p>
+  </div> -->
+<script src="js/project.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+
+<script>
+var pymChild = new pym.Child();
+</script>
+
+</body>

@@ -1,0 +1,400 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPB &middot;</title>
+
+	<link rel="stylesheet" href="http://cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+	<script charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+	    $('#dataTableDatabase').dataTable( {
+	        "sScrollY": "320px",
+	        "bPaginate": false,
+       		"bInfo": false,
+          "columnDefs": [
+            { "type": "num-fmt", "targets":  [ 1, 2 ] }
+          ],
+       		"oLanguage": {
+         	"sSearch": ""
+			}
+	    });
+
+		$('div.dataTables_filter input').attr('placeholder', 'Search');
+
+	});
+
+
+	</script>
+
+	<style type="text/css">
+
+  		body {
+		    margin: 0;
+	    }
+
+		h2 {
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 600;
+		    text-align: center;
+		    color: #222;
+		}
+
+	    p {
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    color: #222;
+		    font-size: 14px;
+		    margin-left: 4px;
+	    }
+
+	    #dataTableDatabase_filter {
+			float: none;
+			text-align: center;
+	    }
+
+		.dataTables_filter {
+			float: none;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    padding: 1em;
+		}
+
+		input {
+			width: 70%;
+			max-width: 25em;
+			height: 24px;
+		}
+
+		input[type="text"] {
+		    font-size:18px;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 300;
+		    color: #444;
+		    padding-left: .25em;
+		}
+
+		.dataTables_scrollHeadInner {
+			text-align: left;
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 300;
+			background-color: #fff;
+		    border-bottom: 1px solid #ddd;
+		}
+
+		td {
+		    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		    font-weight: 300;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+  <table id="dataTableDatabase" class="stripe" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th class="8th Grade School Name-cell">8th Grade School Name</th>
+          <th class="School Grade Range-cell">School Grade Range</th>
+          <th class="All Students-cell">All Students</th>
+          <th class="Economically Disadvanated  Students-cell">Economically Disadvanated  Students</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="firstRow">
+          <td class="8th Grade School Name-cell">Arleta Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">63%</td>
+          <td class="Economically Disadvanated  Students-cell">58%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Astor Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">63%</td>
+          <td class="Economically Disadvanated  Students-cell">58%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Beach Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">76%</td>
+          <td class="Economically Disadvanated  Students-cell">74%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Beaumont Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">81%</td>
+          <td class="Economically Disadvanated  Students-cell">67%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Beverly Cleary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">82%</td>
+          <td class="Economically Disadvanated  Students-cell">68%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Boise-Eliot Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">60%</td>
+          <td class="Economically Disadvanated  Students-cell">54%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Bridger Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">82%</td>
+          <td class="Economically Disadvanated  Students-cell">85%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Cesar Chavez K-8 School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">66%</td>
+          <td class="Economically Disadvanated  Students-cell">64%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Chief Joseph/Ockley Green School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">57%</td>
+          <td class="Economically Disadvanated  Students-cell">54%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Creative Science School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">85%</td>
+          <td class="Economically Disadvanated  Students-cell">77%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Creston Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">75%</td>
+          <td class="Economically Disadvanated  Students-cell">74%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">da Vinci Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">90%</td>
+          <td class="Economically Disadvanated  Students-cell">82%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Faubion Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">63%</td>
+          <td class="Economically Disadvanated  Students-cell">65%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">George Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">58%</td>
+          <td class="Economically Disadvanated  Students-cell">59%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Gray Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">82%</td>
+          <td class="Economically Disadvanated  Students-cell">67%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Harrison Park School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">74%</td>
+          <td class="Economically Disadvanated  Students-cell">76%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Hosford Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">76%</td>
+          <td class="Economically Disadvanated  Students-cell">66%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Humboldt Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">50%</td>
+          <td class="Economically Disadvanated  Students-cell">47%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Irvington Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">78%</td>
+          <td class="Economically Disadvanated  Students-cell">67%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Jackson Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">86%</td>
+          <td class="Economically Disadvanated  Students-cell">69%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Jefferson High School</td>
+          <td class="School Grade Range-cell">6-12</td>
+          <td class="All Students-cell">68%</td>
+          <td class="Economically Disadvanated  Students-cell">67%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">King Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">58%</td>
+          <td class="Economically Disadvanated  Students-cell">58%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Lane Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">67%</td>
+          <td class="Economically Disadvanated  Students-cell">72%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Laurelhurst Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">88%</td>
+          <td class="Economically Disadvanated  Students-cell">64%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Lee Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">78%</td>
+          <td class="Economically Disadvanated  Students-cell">78%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Lent Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">65%</td>
+          <td class="Economically Disadvanated  Students-cell">71%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Madison High School</td>
+          <td class="School Grade Range-cell">8-12</td>
+          <td class="All Students-cell">54%</td>
+          <td class="Economically Disadvanated  Students-cell">53%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Marysville Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">70%</td>
+          <td class="Economically Disadvanated  Students-cell">66%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Metropolitan Learning Center</td>
+          <td class="School Grade Range-cell">K-12</td>
+          <td class="All Students-cell">82%</td>
+          <td class="Economically Disadvanated  Students-cell">70%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Mt Scott Park Center for Learning</td>
+          <td class="School Grade Range-cell">9-12</td>
+          <td class="All Students-cell">41%</td>
+          <td class="Economically Disadvanated  Students-cell">44%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Mt Tabor Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">88%</td>
+          <td class="Economically Disadvanated  Students-cell">82%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Open Meadow Middle School</td>
+          <td class="School Grade Range-cell">6-9</td>
+          <td class="All Students-cell">19%</td>
+          <td class="Economically Disadvanated  Students-cell">14%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Peninsula Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">58%</td>
+          <td class="Economically Disadvanated  Students-cell">57%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Rigler Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">73%</td>
+          <td class="Economically Disadvanated  Students-cell">70%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Roseway Heights School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">82%</td>
+          <td class="Economically Disadvanated  Students-cell">76%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Sabin Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">56%</td>
+          <td class="Economically Disadvanated  Students-cell">52%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Scott Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">67%</td>
+          <td class="Economically Disadvanated  Students-cell">63%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Self Enhancement, Inc/SEI Academy</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">66%</td>
+          <td class="Economically Disadvanated  Students-cell">68%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Sellwood Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">88%</td>
+          <td class="Economically Disadvanated  Students-cell">78%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Skyline Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">68%</td>
+          <td class="Economically Disadvanated  Students-cell">43%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Sunnyside Environmental School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">87%</td>
+          <td class="Economically Disadvanated  Students-cell">77%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Trillium</td>
+          <td class="School Grade Range-cell">K-12</td>
+          <td class="All Students-cell">63%</td>
+          <td class="Economically Disadvanated  Students-cell">62%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Vernon Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">46%</td>
+          <td class="Economically Disadvanated  Students-cell">45%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Vestal Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">82%</td>
+          <td class="Economically Disadvanated  Students-cell">81%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">West Sylvan Middle School</td>
+          <td class="School Grade Range-cell">6-8</td>
+          <td class="All Students-cell">90%</td>
+          <td class="Economically Disadvanated  Students-cell">73%</td>
+        </tr>
+        <tr>
+          <td class="8th Grade School Name-cell">Winterhaven School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">90%</td>
+          <td class="Economically Disadvanated  Students-cell">87%</td>
+        </tr>
+        <tr class="lastRow">
+          <td class="8th Grade School Name-cell">Woodlawn Elementary School</td>
+          <td class="School Grade Range-cell">K-8</td>
+          <td class="All Students-cell">47%</td>
+          <td class="Economically Disadvanated  Students-cell">52%</td>
+        </tr>
+      </tbody>
+    </table>
+
+<script type="text/javascript">
+  var pymChild = new pym.Child();
+  </script>
+
+
+</body>
+
+</html>

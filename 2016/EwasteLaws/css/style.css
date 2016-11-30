@@ -1,0 +1,71 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+p {
+	font-size: 10px;
+	line-height: 10%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+.info {
+	right: 10em;
+	bottom: 5em;
+  z-index: 99999;
+	color: #333;
+	/*box-shadow: 4px 4px 4px #eee;*/
+
+}
+
+
+.state_w_laws {
+	height: 10px;
+	width: 15px;
+	margin-right: 2px;
+	margin-left: 6px;
+	background-color: steelblue;
+	display: inline-block;
+}
+.state_wo_laws {
+	height: 10px;
+	width: 15px;
+	margin-right: 2px;
+	margin-left: 6px;
+	background-color: #ddd;
+	display: inline-block;
+}
+
+.orange_dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 10px;
+	margin-left: 2px;
+	margin-right: 6px;
+	background-color: orange;
+	display: inline-block;
+}
+
+.state {
+  fill: #ddd;
+  stroke: #fff;
+}
+
+.state53, .state41, .state6, .state9, .state15, .state17, .state18, .state23, .state24, .state26, .state27, .state29, .state34, .state36, .state37, .state40, .state41, .state42, .state44, .state45, .state48, .state49, .state50, .state51, .state53, .state54, .state55 {
+  fill: steelblue;
+}
+
+
+.symbol {
+  fill: #ffb911;
+  fill-opacity: 1;
+  stroke: #ffeab7;
+}
+
+.legend {
+	max-width: 600px;
+	margin:auto;
+}

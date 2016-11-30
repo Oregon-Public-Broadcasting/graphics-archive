@@ -1,0 +1,74 @@
+<head>
+  	<meta charset="utf-8">
+  	<title></title>
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- <p>When looking at <button class="active" name="updateButton" type="button" value="Total" onclick="redrawChart('Total')">overall</button> graduation rates from 2013 across the United States, Oregon is second to the bottom.</p>
+
+  <div id="demographic">Sort by demographic:</div>
+
+  <div id="options">
+    <button name="updateButton" type="button" value="Hispanic" onclick="redrawChart('Hispanic')">Hispanic</button>
+    <button name="updateButton" type="button" value="White" onclick="redrawChart('White')">White</button>
+    <button name="updateButton" type="button" value="Asian / Pacific Islander" onclick="redrawChart('Asian / Pacific Islander')">Asian / Pacific Islander</button>
+    <button name="updateButton" type="button" value="Black" onclick="redrawChart('Black')">Black</button>
+    <button name="updateButton" type="button" value="Economically disadvantaged" onclick="redrawChart('Economically disadvantaged')">Economically Disadvantaged</button>
+    <button name="updateButton" type="button" value="Students with disabilities" onclick="redrawChart('Students with disabilities')">Students With Disabilities</button>
+    <button name="updateButton" type="button" value="Limited English proficiency" onclick="redrawChart('Limited English proficiency')">Limited English Proficiency</button>
+</div> -->
+
+
+  <!-- <div id="expandCollapse" onclick="expand()">+ Show all 50 states</div> -->
+
+  <div id="graphic"></div>
+
+<script src="js/project.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+      $("button").click(function(){
+        $("button").removeClass("active");
+        $(this).addClass('active');
+      });
+ });
+
+function expand(){
+  var svg = d3.select("svg").transition().duration(500);
+
+  if( $( "#expandCollapse" ).hasClass( "expanded" ) ){
+    $("#expandCollapse").removeClass('expanded');
+    $("#expandCollapse").addClass('collapsed');
+    $("#expandCollapse").html('+ Show all 50 states');
+    svg.attr("height", 300);
+    svg.select("#container").attr("transform", "translate(280, -1080)");
+  } else {
+    $("#expandCollapse").addClass('expanded');
+    $("#expandCollapse").removeClass('collapsed');
+    $("#expandCollapse").html('– Show only states at the bottom');
+    svg.attr("height", 1360);
+    svg.select("#container").attr("transform", "translate(280, -20)");
+  }
+
+
+}
+
+
+
+// var pymChild = new pym.Child({ polling: 500 });
+
+
+</script>
+
+
+</body>

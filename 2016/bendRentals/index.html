@@ -1,0 +1,99 @@
+<head>
+  <meta charset="utf-8">
+  <title>Short-term Rentals In Bend</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ADD SHARING INFO -->
+  <meta property="og:title" content="Regulating Vacation Rentals">
+  <meta property="og:description" content="In five years, the number of vacation rental permits in Bend has swelled from 50 to nearly 450.">
+  <meta property="og:url" content="http://opb-news-interactives.s3.amazonaws.com/news/2015/4%20February/bendRentals/index.html">
+  <!-- <meta property="og:image" content="link to image that will show up when shared"> -->
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- SWITCH FROM CDN TO OPB HOST BEFORE YOU PUSH? -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+    <!-- Load JQuery and JQuery UI from CDN -->
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+
+
+    <link rel="stylesheet" href="http://www.opb.org/s/vendor/foundation/app.css?v=2">
+    <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/vendor/modernizr.js"></script>  
+    <script type="text/javascript" src="http://www.opb.org/s/vendor/foundation/js/foundation.min.js"></script> 
+
+
+  <!-- DON'T FORGET YOUR JSON FILES  -->
+
+  <script src="js/bendRentals2007.geojson"></script>
+  <script src="js/bendRentals2008.geojson"></script>
+  <script src="js/bendRentals2009.geojson"></script>
+  <script src="js/bendRentals2010.geojson"></script>
+  <script src="js/bendRentals2011.geojson"></script>
+  <script src="js/bendRentals2012.geojson"></script>
+  <script src="js/bendRentals2013.geojson"></script>
+  <script src="js/bendRentals2014.geojson"></script>
+  <script src="js/bendRentals2015.geojson"></script>
+
+
+</head>
+
+<body>
+
+<!-- <div class="row">
+  <div class="small-12 large-7 end small-centered column">
+    <h3>The Growth Of Short-Term Rentals In&nbsp;Bend </h3>
+    <p>In nine years, the number of vacation rental permits in Bend has swelled from around 10 to more than 500. Each dot represents a vacation rental permit with the city. Use the slider to watch the vacation rentals increase over&nbsp;time.</p>
+  </div>
+</div>
+ -->
+
+<div class="row" style="margin-bottom:1em;">
+
+    <h3 id="yearbox">2007</h3>
+<!-- <div class="small-12 large-7 small-centered column"> -->
+
+<!--     <ul class="small-block-grid-9">
+      <li id="selector2007">2007</li>
+      <li id="selector2008">2008</li>
+      <li id="selector2009">2009</li>
+      <li id="selector2010">2010</li>
+      <li id="selector2011">2011</li>
+      <li id="selector2012">2012</li>
+      <li id="selector2013">2013</li>
+      <li id="selector2014">2014</li>
+      <li id="selector2015">2015</li>
+    </ul>
+ -->
+    <div class="small-2 column" style="text-align:right; color:#888;">2007</div>
+    <div class="small-8 column"><div id="slider-range"></div></div>
+    <div class="small-2 column" style="color:#888;">2015</div>    
+<!-- </div>  -->
+</div>
+
+<div id="mapContainer">
+    <div id="map"></div>
+</div>
+
+<script src="js/map.js"></script>
+
+<script>
+
+// KITCHEN SINK
+
+  // COMMA HACK
+  // function numberWithCommas(x) {
+  //     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  // }
+
+
+</script>
+
+</script>
+
+</body>

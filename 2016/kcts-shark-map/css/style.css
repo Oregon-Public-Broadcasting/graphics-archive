@@ -1,0 +1,37 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+#interactive .map-btn{
+		width: 50px;
+		border-radius: 3px;
+		height: 27px;
+		text-transform: uppercase;
+		position: relative;
+		color: #000;
+		font-size: 12px;
+		left: 7px;
+		font-family: "FuturaPT","Helvetica Neue",Helvetica,Arial,sans-serif;
+		background-color: #fff;
+		padding: 6px;
+		box-shadow: 2px 2px rgba(0,0,0,0.3);
+		cursor: pointer;
+		z-index: 999;
+}
+#interactive .map-btn:hover{
+	 background-color:#F1EEE8;
+}
+#interactive .reset{
+		top: 10px;
+		left: 46px;
+}
+#interactive .show-hide{
+	 top: 20px;
+	 width: 80px;
+	 height: 42px;
+	 left: 46px;
+
+}

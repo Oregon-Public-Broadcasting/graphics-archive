@@ -1,0 +1,59 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+
+      td, th {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight: 300;
+				text-align: left;
+      }
+
+			/*th {
+				height: 44px !important;
+			}*/
+
+      #dataTableDatabase_filter {
+    		float: none;
+    		text-align: center;
+      }
+
+  		.dataTables_filter {
+  			float: none;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    padding: 1em;
+  		}
+
+  		input {
+  			width: 70%;
+  			max-width: 25em;
+  			height: 24px;
+  		}
+
+  		input[type="text"] {
+  	    font-size:18px;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  	    color: #444;
+  	    padding-left: .25em;
+  		}
+
+  		.dataTables_scrollHeadInner {
+  			text-align: left;
+  	    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  	    font-weight: 300;
+  			background-color: #fff;
+  	    border-bottom: 1px solid #ddd;
+  		}
+
+      @media (max-width: 500px) {
+        tr {
+    		    font-size: 0.75em;
+    		}
+        td {
+    		    font-size: 0.875em;
+    		}
+      }

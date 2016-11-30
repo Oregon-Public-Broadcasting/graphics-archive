@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+
+"features": [
+{ "type": "Feature", "properties": { "Date": "5\/17\/2015", "locationName": "Beaverton, OR, United States", "Lat": 45.460159, "Lon": -122.788326, "Location Description": "Tracker #OR356028 (LCD TV screen) - Dropped off at Ecobinary", "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ -122.788326, 45.460159 ] } },
+{ "type": "Feature", "properties": { "Date": "10\/1\/2015", "locationName": "Seattle, WA, United States", "Lat": 47.577749, "Lon": -122.355865, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ -122.355865, 47.577749 ] } },
+{ "type": "Feature", "properties": { "Date": "11\/22\/2015", "locationName": "Port of Hong Kong", "Lat": 22.331720, "Lon": 114.113800, "Location Description": null, "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 114.1138, 22.33172 ] } },
+{ "type": "Feature", "properties": { "Date": "3\/8\/2016", "locationName": "Ngau Hom Sha, Hong Kong", "Lat": 22.450500, "Lon": 113.966660, "Location Description": "(the location we visited with the Total Reclaim logos)", "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 113.96666, 22.4505 ] } },
+{ "type": "Feature", "properties": { "Date": "3\/11\/2016", "locationName": "Shek Wu Wai San Tsuen, Hong Kong", "Lat": 22.485600, "Lon": 114.074690, "Location Description": "Address: Unnamed Road, Tam Mei, Hong Kong", "Location Media": null }, "geometry": { "type": "Point", "coordinates": [ 114.07469, 22.4856 ] } }
+]
+}

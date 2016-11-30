@@ -1,0 +1,123 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h4, h6 {
+	font-weight: normal;
+	-webkit-margin-before: 0.125em;
+	-webkit-margin-before: 0.125em;
+	-webkit-margin-after: 0.125em;
+	color: #414243;
+	margin-before: 0.125em;
+	-margin-before: 0.125em;
+	-webkit-margin-after: 0.125em;
+}
+
+th {
+	font-size: 14px;
+	text-align: left;
+}
+
+td {
+	font-size: 14px;
+}
+
+.state {
+  fill: #f0f0f0;
+  stroke: #fff;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+
+.Clinton {
+	fill:#83BDD3;
+}
+
+.Sanders {
+	fill:#92E09C;
+}
+
+.borders {
+  fill: none;
+  stroke: #888;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+
+.place {
+  fill: #414243;
+}
+
+.place-label {
+  fill: #414243;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  pointer-events: none;
+  font-weight: 500;
+}
+
+#legend {
+	width: 240px;
+	height: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.keyColor{
+  width: 18px;
+  height: 10px;
+  float: left;
+  margin: 4px 6px 4px 10px;
+}
+
+#legend h6 {
+  float: left;
+	font-size: 0.875em;
+	font-weight: normal;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	color: #414243;
+	margin: 0;
+
+}
+
+.leaderLabel {
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#tooltip {
+	position: absolute;
+	z-index: 10;
+	visibility: hidden;
+	background-color: #fff;
+	border: 1px solid #d1d2d3;
+	padding: 6px 6px;
+	font-size: 16px;
+	color: #444;
+	width: 160px;
+	height: 90px;
+	right:50px;
+	bottom:50px;
+}
+
+#tooltip h4 {
+	margin: 3px;
+}
+
+
+@media (min-width: 400px) {
+	/*#map {
+	  margin:30px 0 0 0;
+	}*/
+
+	/*#legend {
+	  margin-bottom: 20 auto;
+	}*/
+
+}

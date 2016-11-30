@@ -1,0 +1,36 @@
+<head>
+  	<meta charset="utf-8">
+  	<title>Earthquake Prep</title>
+  	<meta name="description" content="">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="http://www.opb.org/s/vendor/jquery/jquery-1.7.1.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/colorbrewer.v1.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div>
+    <div class="legendBox" style="background-color: rgb(199, 0, 30);"></div>
+    <p>Not At All Prepared</p>
+    <div class="legendBox" style="background-color: rgb(246, 165, 128);"></div>
+    <p>Not Too Prepared</p>
+    <div class="legendBox" style="background-color: rgb(204, 204, 204);"></div>
+    <p>Don’t Know</p>
+    <div class="legendBox" style="background-color: rgb(146, 198, 219);"></div>
+    <p>Somewhat Prepared</p>
+    <div class="legendBox" style="background-color: rgb(8, 111, 173);"></div>
+    <p>Very Prepared</p>
+  </div>
+
+  <div id="figure"></div>
+
+  <script src="js/project.js"></script>
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+    </script>
+
+</body>
+</html>

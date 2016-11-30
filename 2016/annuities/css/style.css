@@ -1,0 +1,152 @@
+html, body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	padding: 0;
+	margin: 0;
+  width:auto;
+	height:auto;
+}
+
+p {
+		font-size: 1.125em;
+    line-height: 1.5em;
+		color: #555;
+  	font-family: Georgia,Times,Times New Roman,serif;
+}
+
+h1, h2, h3, h4 {
+	font-weight: bold;
+	color: #414243;
+}
+
+li {
+    font-size: 1.125em;
+    line-height: 1.5em;
+  	font-family: Georgia,Times,Times New Roman,serif;
+    padding-bottom: 0.5em;
+}
+
+img {
+  padding: 1em 1em 3em 1em;
+}
+
+.section1 {
+	background-color: #f7f8f9;
+	padding: 4em 0;
+
+}
+
+.section2 {
+	padding: 3em 0;
+	/*margin: 3em 0 1em 0;*/
+	background-color: #aed5cb;
+}
+
+.margin-bottom {
+	margin-bottom: 6em;
+}
+
+.dropParagraph {
+	font-size: 1.25em;
+}
+
+.step {
+	font-family: Georgia,Times,Times New Roman,serif;
+	font-style: italic;
+	color: #717273;
+	padding-top: 1em;
+}
+
+.underline:after {
+  display: block;
+  content: " ";
+  height: 4px;
+  width: 64px;
+  margin: 0.5em auto 1em auto;
+  background-color: #444;
+}
+
+.caps {
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+		color: #313233;
+}
+
+.number {
+	/*font-weight: bold;*/
+	color: white;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	padding-top: 0.05em;
+	 background-color: #333;
+	 border-top-left-radius: 0.75em;
+   border-top-right-radius: 0.75em;
+   border-bottom-right-radius: 0.75em;
+   border-bottom-left-radius: 0.75em;
+	 position: relative;
+	 /*margin: 0.5em auto 1em auto;*/
+}
+
+.borderline {
+	border: 1px solid #eee;
+	padding: 0 1em;
+}
+
+.vertical-padding {
+		padding: 0 0 2em 0;
+}
+
+/*Icons*/
+
+i {
+	color: #222;
+	font-size: 1.25em;
+	margin: 0.125em 0.25em;
+}
+
+.ion-ios-calculator {
+		color: #fff;
+		font-size: 2em;
+		margin: 0 auto;
+		height: 48px;
+		width: 48px;
+		text-align: center;
+		 background-color: #333;
+		 border-top-left-radius: 24px;
+		 border-top-right-radius: 24px;
+		 border-bottom-right-radius: 24px;
+		 border-bottom-left-radius: 24px;
+		 display: inline-block;
+}
+
+
+
+#button{
+	background-color: #f1f2f3;
+	border: solid #444 5px;
+	padding: 1em;
+	color: #444;
+	text-align: center;
+	/*margin-bottom: 4em;*/
+	transition: background-color 0.25s ease;
+
+}
+
+#button:hover {
+	background-color: #444;
+	/*border: solid #fff 5px;*/
+	/*padding: 1em;*/
+	color: #f1f2f3;
+	/*text-align: center;*/
+}
+
+
+@media only screen and (max-width: 40em) {
+
+	img {
+	  width: 80%;
+		margin: 0 10%;
+	}
+
+}

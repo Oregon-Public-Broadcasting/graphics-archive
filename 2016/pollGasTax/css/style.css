@@ -1,0 +1,140 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+p {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.125em;
+  color: #333333;
+	line-height: 1.5em;
+}
+
+/*#graphic {
+	margin-bottom: 20px;
+}*/
+
+/*D3 STYLES*/
+text {
+	font-size: 1.75em;
+	fill:#444;
+}
+
+.state {
+  fill: #444;
+  font-size: 1em;
+}
+/*
+.bar {
+	fill: #5286A1;
+}*/
+
+#expandCollapse{
+	text-align: center;
+	margin: 1em;
+	font-size: 0.875em;
+	color: #444;
+	font-weight: bold;
+	cursor:pointer;
+
+}
+
+#demographic{
+	margin: 1em 0 0.25em;
+	font-size: 0.875em;
+	color: #444;
+	font-weight: bold;
+	cursor:pointer;
+
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #444;
+  shape-rendering: crispEdges;
+}
+
+.x path {
+  display: none;
+}
+
+.y path,
+.y line {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: #e31a1c;
+  stroke-width: 1.5px;
+}
+
+.tick text {
+	font-weight: 400;
+	fill:#444;
+}
+
+.x text {
+	font-size: 1.25em;
+	font-weight: 100;
+	fill:#b1b2b3;
+}
+
+.rank {
+	fill: #888;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+
+.dataNumber {
+    fill: #515253;
+    font-size: 1em;
+}
+
+.axis path, .axis line {
+	stroke: #b1b2b3;
+
+}
+
+
+
+
+button {
+  background-color:#eee;
+  border:1px solid #999;
+  cursor:pointer;
+  color:#444;
+  font-family:Arial;
+  font-size:14px;
+  /*width: 100px;*/
+  /*height: 34px;*/
+  text-decoration:none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px ;
+  border-radius: 6px ;
+  margin: 0.125em auto;
+}
+
+button:hover {
+	background-color:#414243;
+  color:#e1e2e3;
+  border:1px solid #dcdcdc;
+}
+
+button:focus {outline:0;}
+
+.active {
+  pointer-events:none;
+  background-color:#414243;
+  color:#e1e2e3;
+  border:1px solid #dcdcdc;
+
+}

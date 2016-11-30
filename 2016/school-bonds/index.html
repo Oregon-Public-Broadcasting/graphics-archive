@@ -1,0 +1,802 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+  <div class="row collapse" >
+    <div class="small-12 medium-8 medium-centered">
+    <h4>The Oregon Department of Education had a <a href="http://www.opb.org/news/series/election-2016/oregon-election-school-bonds/" target="_blank">grant of $62 million</a> to match any school bond that passed in the state. School districts were prioritized by poverty, application order, and then the rest of schools were put on a waiting&nbsp;list.</h4>
+
+    <h4>Of the nine poverty prioritized schools, five bonds passed — matching $16.9 million and leaving $45.1 million left in the&nbsp;grant.</h4>
+  </br>
+
+  <div class="row collapse topRow" >
+    <div class="small-4 column">
+      <p>District Name</p>
+    </div>
+    <div class="small-3 column">
+      <p class="text-right">Bond Amount</p>
+    </div>
+    <div class="small-3 column">
+      <p class="text-right">OSCIM Grant</p>
+    </div>
+    <div class="small-2 column">
+      <p class="text-center">Passed</p>
+    </div>
+  </div>
+
+
+  <div id="dataTable">
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+          <div class="small-5 column">
+            <p class="cell">Nyssa</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-center vote" id="yesVote">Yes</p>
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Echo</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Adrian</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$945,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$945,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Falls City</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$2,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$2,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Milton‐Freewater Unified</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$12,500,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Centennial</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$85,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$7,095,543</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Jefferson</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$26,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Mapleton</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">South Umpqua</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$44,500,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+
+
+<br/>
+      <h4>Then, districts that submitted a request early but weren&rsquo;t prioritized as high-poverty received a matching grant. Two of six bonds passed and $8 million was matched, leaving $37.1&nbsp;million.</h4>
+      <br/>
+
+      <div class="row collapse topRow">
+        <div class="small-4 column">
+          <p>District Name</p>
+        </div>
+        <div class="small-3 column">
+          <p class="text-right">Bond Amount</p>
+        </div>
+        <div class="small-3 column">
+          <p class="text-right">OSCIM Grant</p>
+        </div>
+        <div class="small-2 column">
+          <p class="text-center">Passed</p>
+        </div>
+      </div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Athena‐Weston</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Siuslaw</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$35,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Yamhill Carlton</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$16,200,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Molalla River</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$75,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Central Linn</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$30,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Corbett</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$18,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+      <br/>
+            <h4>For school districts on the waiting list, if money remained and the district bond measure passed, it would be matched by the grant. The following districts received a share of $27.6&nbsp;million.</h4>
+            <br/>
+
+            <div class="row collapse topRow">
+              <div class="small-4 column">
+                <p>District Name</p>
+              </div>
+              <div class="small-3 column">
+                <p class="text-right">Bond Amount</p>
+              </div>
+              <div class="small-3 column">
+                <p class="text-right">OSCIM Grant</p>
+              </div>
+              <div class="small-2 column">
+                <p class="text-center">Passed</p>
+              </div>
+            </div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Yoncalla</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$8,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+
+            <p class="text-center vote" id="noVote">No</p>
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Gaston</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$9,400,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">McMinnville</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$89,400,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$7,145,433</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">South Lane</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$35,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Hood River County</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$57,200,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,499,478</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+
+          <div class="row collapse" style="font-weight:bold; color:#444;">
+
+
+          <div class="small-5 column">
+            <p class="cell">Junction City</p>
+          </div>
+          <div class="small-2 column">
+            <p class="text-right cell">$11,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-2 column">
+
+            <p class="text-center vote" id="yesVote">Yes</p>
+
+
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+      <div class="row collapse" style="font-weight:bold; color:#444;">
+        <div class="small-5 column">
+          <p class="cell">Sisters</p>
+        </div>
+        <div class="small-2 column">
+          <p class="text-right cell">$10,700,000</p>
+        </div>
+        <div class="small-3 column">
+          <p class="text-right cell">$4,000,000</p>
+        </div>
+        <div class="small-2 column">
+          <p class="text-center vote" id="yesVote">Yes</p>
+        </div>
+      <div>
+
+    </div></div>
+
+
+
+
+
+    <br/>
+          <h4>In all, $52.6 million was matched by the grant – leaving $9.45 million on the table. This money could&rsquo;ve been handed out to those districts on the waiting list if they passed a measure on their ballot. However, they did not submit a bond measure for the&nbsp;ballot.</h4>
+          <br/>
+
+
+                      <div class="row collapse topRow">
+                        <div class="small-3 column">
+                          <p>District Name</p>
+                        </div>
+                        <div class="small-3 column">
+                          <p class="text-right">Bond Amount</p>
+                        </div>
+                        <div class="small-3 column">
+                          <p class="text-right">OSCIM Grant</p>
+                        </div>
+                        <div class="small-3 column">
+                          <p class="text-center">Passed</p>
+                        </div>
+                      </div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+            <div class="small-3 column">
+            <p class="cell">Tillamook</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+
+
+
+            <p class="text-center vote" id="noVoteVote">No Vote</p>
+
+
+          </div>
+        <div>
+
+      </div></div>
+
+
+                <div class="row collapse" style="color:#a1a2a3;">
+
+
+                  <div class="small-3 column">
+                  <p class="cell">Lowell</p>
+                </div>
+                <div class="small-3 column">
+                  <p class="text-right cell">$4,000,000</p>
+                </div>
+                <div class="small-3 column">
+                  <p class="text-right cell">$4,000,000</p>
+                </div>
+                <div class="small-3 column">
+
+
+
+                  <p class="text-center vote" id="noVoteVote">No Vote</p>
+
+
+                </div>
+              <div>
+
+            </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+            <div class="small-3 column">
+            <p class="cell">Rainier</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$2,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$2,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-center vote" id="noVoteVote">No Vote</p>
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+            <div class="small-3 column">
+            <p class="cell">Condon</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$3,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$3,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-center vote" id="noVoteVote">No Vote</p>
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+            <div class="small-3 column">
+            <p class="cell">Nestucca Valley</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$23,168,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$4,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-center vote" id="noVoteVote">No Vote</p>
+          </div>
+        <div>
+
+      </div></div>
+
+          <div class="row collapse" style="color:#a1a2a3;">
+
+
+          <div class="small-3 column">
+            <p class="cell">Arlington</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$3,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-right cell">$3,000,000</p>
+          </div>
+          <div class="small-3 column">
+            <p class="text-center vote" id="noVoteVote">No Vote</p>
+          </div>
+        <div>
+
+      </div></div>
+
+      <br/>
+      <br/>
+
+    </div>
+
+
+          </div>
+        </div>
+<!--
+    <div id="dataTable"></div>
+
+    <script id="dataTemp" type="text/x-handlebars-template">
+      {{#if Yes}}
+        <div class="row collapse"  style="font-weight:bold; color:#444;">
+      {{else}}
+        <div class="row collapse" style="color:#a1a2a3;">
+      {{/if}}
+
+        <div class="small-5 column">
+          <p class="cell">{{DistrictName}}</p>
+        </div>
+        <div class="small-2 column">
+          <p class="text-right cell">{{BondAmount}}</p>
+        </div>
+        <div class="small-3 column">
+          <p class="text-right cell">{{OSCIMGrant}}</p>
+        </div>
+        <div class="small-2 column">
+          {{#if Yes}}
+          <p class="text-center vote" id="yesVote">{{Yes}}</p>
+          {{/if}}
+          {{#if No}}
+          <p class="text-center vote" id="noVote">{{No}}</p>
+          {{/if}}
+          {{#if NoVote}}
+          <p class="text-center vote" id="noVoteVote">{{NoVote}}</p>
+          {{/if}}
+
+        </div>
+      <div>
+
+    </script> -->
+
+
+
+
+
+<script type="text/javascript" src="https://opb-news-interactives.s3.amazonaws.com/lib/tabletop.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/handlebars.js"></script>
+<script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+<script src="../js/project.js"></script>
+<script>
+  var pymChild = new pym.Child();
+</script>
+
+</body>

@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css">
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="//cdn-geoweb.s3.amazonaws.com/esri-leaflet/1.0.0-rc.6/esri-leaflet.js"></script></head>
+  <link rel="stylesheet" href="css/style.css" />
+<body>
+
+<div class="row small-collapse">
+  <div class="small-9 column">
+    <input id="school_search" list="school_choices" type="text" placeholder="Search for a school">
+    <datalist id="school_choices"></datalist>
+  </div>
+  <div class="small-3 column">
+    <input type="submit" value="Search" id="searchButton">
+  </div>
+</div>
+
+<div class="row small-collapse">
+  <div class="small-12 large-6 column">
+    <div id="map"></div>
+  </div>
+  <div class="small-12 large-6 column">
+    <div class="infoBox">
+      <h5 id="schoolName"></h5>
+      <h6 id="schoolDistrict"></h6>
+      <div id="schoolDescription">
+        <p>Find your school by searching in the box above.</p>
+        <p>OPB has collected data from the following school districts and will continue to add data when it's available:</p>
+        <div class="row">
+          <div class="small-6 column">
+            <ul>
+              <li>Beaverton School District</li>
+              <li>Centennial School District</li>
+              <li>David Douglas School District</li>
+              <li>Estacada School District</li>
+              <li>Eugene School District</li>
+              <li>Evergreen Public Schools</li>
+              <li>Forest Grove School District</li>
+              <li>Gladstone Schools</li>
+              <li>Gresham-Barlow School District</li>
+              <li>Hillsboro School District</li>
+              <li>Lake Oswego School District</li>
+            </ul>
+          </div>
+
+          <div class="small-6 column">
+            <ul>
+              <li>North Clackamas School District</li>
+              <li>Oregon City School District</li>
+              <li>Oregon Trail School District</li>
+              <li>Parkrose School District</li>
+              <li>Portland Public Schools</li>
+              <li>Reynolds School District</li>
+              <li>Ridgefield School District</li>
+              <li>Riverdale School District</li>
+              <li>Tigard-Tualatin School District</li>
+              <li>Vancouver Public Schools</li>
+              <li>West Linn-Wilsonville School District</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="schoolMitigation"></div>
+      <div id="schoolNote"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <script>
+  var panorama;
+  function initialize() {
+    panorama = new google.maps.StreetViewPanorama(
+        document.getElementById('street-view'),
+        {
+          position: {lat: 45.5466774, lng: -122.6666701},
+          pov: {heading: 357, pitch: 0},
+          zoom: 1,
+          addressControl: false,
+          linksControl: false,
+          panControl: false,
+          enableCloseButton: false,
+          imageDateControl: false,
+          fullscreenControl: false
+
+        });
+  }
+</script>
+<script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYrVDulMp6GaklW1bgOgBIFi302CX1jcU&callback=initialize">
+</script> -->
+
+  <script src="js/project.js"></script>
+  <script type="text/javascript" src="http://opb-news-interactives.s3.amazonaws.com/lib/pym.js"></script>
+  <script type="text/javascript">
+    var pymChild = new pym.Child();
+
+    var map = L.map('map').setView([44.1, -120.5], 6);
+
+    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://cartodb.com/attributions">CartoDB</a>'
+    }).addTo(map);
+
+    // Disable drag and zoom handlers.
+    map.dragging.disable();
+    map.touchZoom.disable();
+    map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+    map.keyboard.disable();
+
+    // Disable tap handler, if present.
+    if (map.tap) map.tap.disable();
+
+  </script>
+
+</body>
