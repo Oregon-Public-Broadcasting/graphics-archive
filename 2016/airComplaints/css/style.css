@@ -1,0 +1,132 @@
+html, body {
+	padding: 0;
+	margin: 0;
+  width:auto !important;
+	height:auto !important;
+}
+
+/*STEP CONTROLLER*/
+
+#stepper {
+  /*position: absolute;*/
+  /*top: 1em;*/
+  /*right: 1em;*/
+  width: 20%;
+  margin: auto;
+  /* height: 5%;*/
+  /* min-width: 200px;
+  max-width: 400px;*/
+  /*height: 150px;*/
+  /*border: 2px solid #e1e2e3;*/
+  padding: 10px 12px 0 12px;
+  /*-moz-border-radius: 3px;*/
+  /*-webkit-border-radius: 3px;*/
+  /*border-radius: 3px;*/
+  background-color:rgba(255,255,255,.9);
+  /*box-shadow: 1px 1px 1px #ccc;*/
+  z-index: 100;
+}
+
+#buttonContainer {
+  position: relative;
+  /*top: 10px;*/
+  /*right: 10px;*/
+  width: 170px;
+  /*height: 300px;*/
+  /*margin: 10px auto 10px ;*/
+}
+
+button {
+  background-color:#eee !important;
+  border:1px solid #999;
+  cursor:pointer;
+  color:#444 !important;
+  font-family:Arial;
+  font-size:16px;
+  width: 80px;
+  height: 34px;
+  text-decoration:none;
+  text-align: center;
+  padding: 4px 0 0 0;
+  margin-bottom: 0.25em;
+}
+
+button:hover {
+  color: #444;
+  background-color:#f6f6f6;
+}
+
+button:focus {outline:0;}
+
+#collapse-stepper {
+  float: right;
+  cursor: pointer;
+}
+
+#next{
+  -moz-border-radius: 0px 6px 6px 0px;
+  -webkit-border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 6px 6px 0px;
+}
+
+#last {
+  -moz-border-radius: 6px 0px 0px 6px;
+  -webkit-border-radius: 6px 0px 0px 6px;
+  border-radius: 6px 0px 0px 6px;
+}
+
+.inactive {
+  pointer-events:none;
+  background-color:#fff;
+  color:#aaa !important;
+  border:1px solid #dcdcdc;
+  cursor:default;
+
+}
+
+
+.info {
+  padding: 12px 8px;
+  font: 16px/28px Georgia, Serif;
+  /*background: #fff;*/
+  /*background-color: rgba(255,255,255,0.85);*/
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
+  border-radius: 5px;
+  min-width: 250px;
+  max-width: 250px;
+	/*left: 25%;*/
+  height: 300px;
+  z-index: 99999;
+	color: #fff;
+
+}
+
+.info_legend {
+  padding: 12px 8px;
+  font: 16px/28px Georgia, Serif;
+  /*background: #fff;*/
+  /*background-color: rgba(255,255,255,0.85);*/
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
+	border: 2px solid white;
+	/*border-radius: 5px;*/
+  min-width: 150px;
+  max-width: 150px;
+	/*left: 1%;*/
+  height: 50px;
+  z-index: 99999;
+	color: #fff;
+
+}
+
+
+.leaflet-popup-content-wrapper {
+	opacity: .5;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+}
+
+.leaflet-popup-tip-container {
+	opacity: .5;
+
+}
